@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "ORANGE_PI_CM4") (type "KiCad") (uri "${KIPRJMOD}/ORANGE_PI_CM4.kicad_sym") (options "") (descr ""))
+	(lib (name "AK4458VN") (type "KiCad") (uri "${KIPRJMOD}/AK4458VN.kicad_sym") (options "") (descr ""))
+)
