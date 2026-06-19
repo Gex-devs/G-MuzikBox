@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "30d0fc86-2228-4f8d-9cf7-aef3e4b0153a")
-	(paper "A4")
+	(paper "A2")
 	(lib_symbols
 		(symbol "AK4458VN:AK4458VN"
 			(pin_names
@@ -5390,10 +5390,30 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 110.49 242.57) (xy 163.83 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a698d48d-e06d-4875-94b6-a70429d4f340")
+	)
+	(wire
+		(pts
+			(xy 110.49 240.03) (xy 163.83 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb7cd67-d32a-48f7-98dc-9b737bf83aa4")
+	)
 	(symbol
 		(lib_id "ORANGE_PI_CM4:ORANGE_PI_CM4")
-		(at 125.73 97.79 0)
-		(unit 1)
+		(at 283.21 187.96 0)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5401,9 +5421,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "87b8a4a5-013b-4606-97f5-d388f747055b")
+		(uuid "7fcf29d0-bf7c-43f1-802a-871d9b1a0275")
 		(property "Reference" "U1"
-			(at 125.73 27.94 0)
+			(at 283.21 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5413,7 +5433,7 @@
 			)
 		)
 		(property "Value" "ORANGE_PI_CM4"
-			(at 125.73 30.48 0)
+			(at 283.21 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5422,8 +5442,8 @@
 				)
 			)
 		)
-		(property "Footprint" "G-MuzikBox:MODULE_ORANGE_PI_CM4"
-			(at 125.73 97.79 0)
+		(property "Footprint" "ORANGE_PI_CM4:MODULE_ORANGE_PI_CM4"
+			(at 283.21 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5435,7 +5455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 97.79 0)
+			(at 283.21 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5446,7 +5466,7 @@
 			)
 		)
 		(property "Description" "Orange Pi Compute Module 4"
-			(at 125.73 97.79 0)
+			(at 283.21 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5458,7 +5478,7 @@
 			)
 		)
 		(property "MF" "Orange Pi"
-			(at 125.73 97.79 0)
+			(at 283.21 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5470,7 +5490,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5.1mm"
-			(at 125.73 97.79 0)
+			(at 283.21 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5482,7 +5502,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 125.73 97.79 0)
+			(at 283.21 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5494,7 +5514,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 125.73 97.79 0)
+			(at 283.21 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5506,7 +5526,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/Orange%20Pi%20CM4/Orange+Pi/view-part/?ref=eda"
-			(at 125.73 97.79 0)
+			(at 283.21 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5518,7 +5538,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 125.73 97.79 0)
+			(at 283.21 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5530,7 +5550,7 @@
 			)
 		)
 		(property "PARTREV" "v1.2"
-			(at 125.73 97.79 0)
+			(at 283.21 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5542,7 +5562,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/Orange%20Pi%20CM4/Orange+Pi/view-part/?ref=snap"
-			(at 125.73 97.79 0)
+			(at 283.21 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5554,7 +5574,7 @@
 			)
 		)
 		(property "MP" "Orange Pi CM4"
-			(at 125.73 97.79 0)
+			(at 283.21 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5566,7 +5586,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 125.73 97.79 0)
+			(at 283.21 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5578,7 +5598,887 @@
 			)
 		)
 		(property "MANUFACTURER" "Orange Pi"
-			(at 125.73 97.79 0)
+			(at 283.21 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "JP2_73"
+			(uuid "13d92c9f-2a86-45c9-91b4-029a5247d369")
+		)
+		(pin "JP2_74"
+			(uuid "21635d8a-9023-4a66-bd8e-f67a8e4e28fd")
+		)
+		(pin "JP2_80"
+			(uuid "a02c8e7f-b40b-47db-9d3a-84f45c910595")
+		)
+		(pin "JP2_79"
+			(uuid "f3782cf0-7234-4ee6-a58f-6db02a2cf438")
+		)
+		(pin "JP2_78"
+			(uuid "047c27e2-c4eb-4655-908c-f06bee12513b")
+		)
+		(pin "JP2_77"
+			(uuid "332bf1d7-8d6f-4506-bba3-dbfd5f7f07f3")
+		)
+		(pin "JP2_76"
+			(uuid "9b54715d-2f59-4d24-b034-ca01acc0c819")
+		)
+		(pin "JP2_75"
+			(uuid "f17d17fe-4585-4ff7-8a8b-fb7f8fa3f872")
+		)
+		(pin "JP2_59"
+			(uuid "afa80e2f-9561-4c92-95a6-d41ab3716f48")
+		)
+		(pin "JP2_60"
+			(uuid "d53493da-45a7-4d0f-8df7-6136d845896f")
+		)
+		(pin "JP2_61"
+			(uuid "10cc8f20-dec8-452f-9386-0357bc7a3072")
+		)
+		(pin "JP2_66"
+			(uuid "f26336d3-0b09-420d-9aa7-137c59a7263e")
+		)
+		(pin "JP2_62"
+			(uuid "a952aabc-f466-4123-bbd9-ab089031963c")
+		)
+		(pin "JP2_67"
+			(uuid "90e82a1a-7622-410e-8acb-16404a149d36")
+		)
+		(pin "JP2_63"
+			(uuid "7bf1972b-5a43-4aca-bfd1-4c5980c61198")
+		)
+		(pin "JP2_72"
+			(uuid "544dd621-9d0e-4db6-924f-a249a681506b")
+		)
+		(pin "JP2_70"
+			(uuid "ba6a4eb6-0105-48a5-8449-e2b04480d54d")
+		)
+		(pin "JP2_69"
+			(uuid "40f1f580-6ee1-4680-9ca2-3e495ac748ca")
+		)
+		(pin "JP2_64"
+			(uuid "bcfad2aa-4c03-4121-9b88-27949de5dacd")
+		)
+		(pin "JP2_68"
+			(uuid "35b24766-71a9-46bd-bd8d-3d484cdd60bd")
+		)
+		(pin "JP2_71"
+			(uuid "f928de6f-7e2a-4aa5-97aa-26feaa87c5fb")
+		)
+		(pin "JP2_65"
+			(uuid "a12c7166-959a-4c0b-8cf2-03b3a4aed98e")
+		)
+		(pin "JP2_92"
+			(uuid "3127ec58-97d1-49c6-aae8-b92cec8f9ead")
+		)
+		(pin "JP2_91"
+			(uuid "c5cf3af4-0f75-4076-93e6-031def3e2237")
+		)
+		(pin "JP1_26"
+			(uuid "f5f4384c-8f92-4d73-93b5-10fad10a84da")
+		)
+		(pin "JP1_27"
+			(uuid "5a7ba06a-83ef-4449-a60f-09984999198a")
+		)
+		(pin "JP1_29"
+			(uuid "24a1daee-b23e-4bec-a71e-bc3977e4d409")
+		)
+		(pin "JP1_28"
+			(uuid "b8eba0f1-50f1-4daa-8177-3d67a179b91a")
+		)
+		(pin "JP1_61"
+			(uuid "5cb2dec3-e876-4401-9e44-aaa8b75fd0e7")
+		)
+		(pin "JP1_59"
+			(uuid "a4345312-853e-4c62-9db4-dde71b90fd16")
+		)
+		(pin "JP1_60"
+			(uuid "5914d822-927c-40a7-83f6-5bd438081ba0")
+		)
+		(pin "JP1_25"
+			(uuid "f1ad68be-38d7-440a-accd-b48d0b141fff")
+		)
+		(pin "JP1_69"
+			(uuid "5f1403cc-d94a-4e22-938d-aac587a5441a")
+		)
+		(pin "JP1_70"
+			(uuid "cf3dea6c-eef4-4113-8309-d24eda48cfe3")
+		)
+		(pin "JP1_66"
+			(uuid "3f374467-9a7c-4ff5-b010-23e2bfb7f742")
+		)
+		(pin "JP1_67"
+			(uuid "81f1b48b-628e-4df8-a605-f0630fe8adfb")
+		)
+		(pin "JP1_68"
+			(uuid "c35d077b-74ca-4367-a16a-3725b3689cda")
+		)
+		(pin "JP2_3"
+			(uuid "9369f74f-4b0a-46d5-90a7-6ab3b1898dce")
+		)
+		(pin "JP2_1"
+			(uuid "c70001f2-a28a-417a-8274-3b912699c123")
+		)
+		(pin "JP2_2"
+			(uuid "13237303-1cfa-4f7e-acc2-ad80d03b4b48")
+		)
+		(pin "JP2_4"
+			(uuid "319f4ba6-89ee-4ae5-b0e1-0e002db49ccf")
+		)
+		(pin "JP2_90"
+			(uuid "5a493f94-2efa-4c3b-b35a-fdcc874fdcaa")
+		)
+		(pin "JP2_89"
+			(uuid "e17c6345-827d-4910-acf2-768df9e1e37a")
+		)
+		(pin "JP2_88"
+			(uuid "d9c9d0eb-41ef-4c2f-8a6e-da37df2ae5a9")
+		)
+		(pin "JP2_87"
+			(uuid "532d361a-fc7d-414d-b5bb-b30b4822e4db")
+		)
+		(pin "JP1_71"
+			(uuid "0accb2dc-99b2-49c0-8bf2-6eaa25079f16")
+		)
+		(pin "JP1_72"
+			(uuid "e4976c6c-43bd-4cdd-af6b-6cf56bff095e")
+		)
+		(pin "JP1_37"
+			(uuid "f61cc310-b8b6-4c55-a1a9-c6b349c2eea7")
+		)
+		(pin "JP1_36"
+			(uuid "4cca132b-06bc-4965-bc07-d5eac043d60e")
+		)
+		(pin "JP1_41"
+			(uuid "2902992b-e514-4405-ac76-3154186293d0")
+		)
+		(pin "JP1_42"
+			(uuid "fd959b4b-136d-4a05-b592-22c3b4368fc7")
+		)
+		(pin "JP1_38"
+			(uuid "7ee82d09-0047-45ed-a1c8-d286d255391b")
+		)
+		(pin "JP1_39"
+			(uuid "64cd9a5c-ef6d-402a-90c8-bef273c870ae")
+		)
+		(pin "JP1_40"
+			(uuid "d1fc92e1-8430-4741-b316-ff2cef7e80ac")
+		)
+		(pin "JP1_58"
+			(uuid "14adc1b1-bd7d-4473-bef5-86a82afc4941")
+		)
+		(pin "JP1_57"
+			(uuid "91872a65-a892-45dc-9645-e9dc5098831c")
+		)
+		(pin "JP1_43"
+			(uuid "a07ae047-7e89-4811-afe0-8d0795882f2b")
+		)
+		(pin "JP1_44"
+			(uuid "4877c408-f61e-4841-b3c1-8baee7602e99")
+		)
+		(pin "JP1_45"
+			(uuid "77c8873b-8362-4298-a746-c98205ca5edc")
+		)
+		(pin "JP1_46"
+			(uuid "040c3f2e-6f8a-4f25-9e5c-badf74e8a2e1")
+		)
+		(pin "JP1_47"
+			(uuid "1e7a8a61-a1c5-4b0f-ba51-22bd581c330d")
+		)
+		(pin "JP1_48"
+			(uuid "5ca382bb-3820-4751-9c7e-d12b0883a3df")
+		)
+		(pin "JP1_49"
+			(uuid "ccebc347-b3ec-432e-b414-795d3caccba2")
+		)
+		(pin "JP1_50"
+			(uuid "4023058e-1076-4fc1-bbda-fe2fab3f5815")
+		)
+		(pin "JP1_51"
+			(uuid "36d990d1-6f75-49f2-9f91-556cd06a04a2")
+		)
+		(pin "JP1_52"
+			(uuid "2d0907d1-30e3-416a-85ca-8dcaadd348f8")
+		)
+		(pin "JP1_53"
+			(uuid "63998c68-1d33-486a-9110-9c549d3fd053")
+		)
+		(pin "JP1_54"
+			(uuid "f063a8db-a4fb-4ed0-91e3-077827d457de")
+		)
+		(pin "JP1_56"
+			(uuid "e6fe109c-d837-4152-a037-4bb02c2f3ad2")
+		)
+		(pin "JP1_55"
+			(uuid "20e9aa4c-8f12-41f5-a54b-2505130df72c")
+		)
+		(pin "JP2_82"
+			(uuid "f3141178-a3be-438b-89ca-f8fcff32db76")
+		)
+		(pin "JP2_81"
+			(uuid "86bca17a-9784-4259-8ce7-737f081da96d")
+		)
+		(pin "JP2_86"
+			(uuid "ab01995a-0fdd-487d-bc4a-48b21fb07315")
+		)
+		(pin "JP2_85"
+			(uuid "06c79293-df7f-44a0-a50a-6305ec85bc45")
+		)
+		(pin "JP2_83"
+			(uuid "efefe7ae-d41b-4dc8-a686-9bf9ebc080e6")
+		)
+		(pin "JP2_84"
+			(uuid "f05cdb47-81ce-4252-8e16-b166d2a71828")
+		)
+		(pin "JP1_62"
+			(uuid "c8fece29-67a7-4328-adf9-cdab15ec08e4")
+		)
+		(pin "JP1_64"
+			(uuid "4cf40065-cecb-4113-961d-e2d5b6e48c9d")
+		)
+		(pin "JP1_63"
+			(uuid "2995af50-4fee-43fc-8e17-f14ea61e4656")
+		)
+		(pin "JP1_65"
+			(uuid "4ce938d2-b915-4d56-bfc2-3acb52ef5049")
+		)
+		(pin "JP2_54"
+			(uuid "e52b478c-bd58-4830-9822-6f18ba208e91")
+		)
+		(pin "JP2_56"
+			(uuid "e4e7e14b-d472-447b-b7d8-4e78cb4c53b8")
+		)
+		(pin "JP2_53"
+			(uuid "27c1502c-0ac8-40b9-80fd-65fc73e55616")
+		)
+		(pin "JP2_58"
+			(uuid "ef00138b-04c6-425d-b803-37911bf5d3cb")
+		)
+		(pin "JP2_57"
+			(uuid "8fcd3b9d-44c1-4815-8f99-30bb0c3f0a0f")
+		)
+		(pin "JP2_55"
+			(uuid "d0f09a82-6e66-442d-9f02-c9c9a1ade9f1")
+		)
+		(pin "JP1_32"
+			(uuid "647db83d-79a1-4b73-a922-ffd814fdb1ce")
+		)
+		(pin "JP1_30"
+			(uuid "095b5942-0954-418d-b871-5014e23f470a")
+		)
+		(pin "JP1_34"
+			(uuid "49f38840-8b52-41b6-9f88-8bf796f986cb")
+		)
+		(pin "JP1_35"
+			(uuid "7619ff6f-097b-440d-9fc7-b7a0a5fd1096")
+		)
+		(pin "JP1_31"
+			(uuid "69c87c3e-c06e-4bea-bbc9-d3fa362666d4")
+		)
+		(pin "JP1_33"
+			(uuid "f279e2be-f8ad-4fd0-ae09-3ed801ec657b")
+		)
+		(pin "JP1_24"
+			(uuid "8b9fcd65-34bd-4bb8-b7cc-848963eb0bd5")
+		)
+		(pin "JP1_23"
+			(uuid "278b9b8d-de41-49d6-a43f-140573aa6b89")
+		)
+		(pin "JP1_22"
+			(uuid "62aba459-8f5b-46b8-8795-5bc613b274c6")
+		)
+		(pin "JP1_21"
+			(uuid "a5362443-2a61-4522-b1ff-d0304385b3b4")
+		)
+		(pin "JP1_20"
+			(uuid "e741bad3-ccb6-42a7-85a1-5fa67fe0b8f8")
+		)
+		(pin "JP1_19"
+			(uuid "9de48fb3-e9b9-4dfb-a3df-6ad645d2e105")
+		)
+		(pin "JP1_18"
+			(uuid "97271a4b-e4ce-46e6-80f9-e9fe4a8d9ac6")
+		)
+		(pin "JP1_17"
+			(uuid "f4d54048-3db8-4121-b291-770a0b3b59e9")
+		)
+		(pin "JP1_16"
+			(uuid "f4bac6b8-f3d6-4147-90dc-bd672d964e94")
+		)
+		(pin "JP1_15"
+			(uuid "10719b4e-0ec8-4a65-9b72-06530f26d0d9")
+		)
+		(pin "JP1_14"
+			(uuid "9b60e679-4e72-41b8-8511-eb4e323f6126")
+		)
+		(pin "JP1_13"
+			(uuid "086ccfae-1e98-4a9a-b72c-ba6e25ac3a43")
+		)
+		(pin "JP1_12"
+			(uuid "aeb579c9-f414-4768-b103-08e3d3dacf3b")
+		)
+		(pin "JP1_11"
+			(uuid "db08014d-e85c-4ef5-868e-b1c90b8fb7bc")
+		)
+		(pin "JP1_10"
+			(uuid "add0a5da-243b-49db-a707-d68cba365b03")
+		)
+		(pin "JP1_5"
+			(uuid "aa1b19f1-d290-4e37-8e81-7c114f0c0306")
+		)
+		(pin "JP1_9"
+			(uuid "45227e5d-1790-40c6-85ca-81ab2f296194")
+		)
+		(pin "JP1_8"
+			(uuid "34ab42bd-a29c-4ba6-8b74-2d4b1a139bf2")
+		)
+		(pin "JP1_6"
+			(uuid "34904c4d-e09f-4b39-a4e0-010e987347e9")
+		)
+		(pin "JP1_7"
+			(uuid "177d9919-6edf-4382-9d0e-85e61b97961b")
+		)
+		(pin "JP1_4"
+			(uuid "a6257146-5a41-4b67-8479-cd3ae9c03085")
+		)
+		(pin "JP1_3"
+			(uuid "439fa582-54a5-4db1-93c2-b033c67434b5")
+		)
+		(pin "JP1_2"
+			(uuid "074aae4d-6454-4b90-8579-4c3d8b13f1ea")
+		)
+		(pin "JP1_1"
+			(uuid "5c2e6e44-dd7e-4fa1-941a-40421c90310a")
+		)
+		(pin "JP2_42"
+			(uuid "71b4f7a2-d619-4686-93be-b82932b01ab3")
+		)
+		(pin "JP2_43"
+			(uuid "1e133779-933b-4ea6-b25e-94cb777cfd51")
+		)
+		(pin "JP2_44"
+			(uuid "14e2af99-7170-4612-9054-7f587782dd95")
+		)
+		(pin "JP2_45"
+			(uuid "64d062f8-8812-4f22-b1ab-711a52be403f")
+		)
+		(pin "JP2_46"
+			(uuid "b90df866-ee05-4cee-9c2c-0bf174b52360")
+		)
+		(pin "JP2_47"
+			(uuid "0e54185b-a916-485c-ade1-abdbfb41532c")
+		)
+		(pin "JP2_48"
+			(uuid "ffb40a8c-494c-45b2-abe1-3eb45cf669c6")
+		)
+		(pin "JP2_49"
+			(uuid "cbf751ca-63d1-448b-93cf-1618a9efca76")
+		)
+		(pin "JP2_50"
+			(uuid "b3306cbd-d555-4730-af70-971980cdfeae")
+		)
+		(pin "JP2_51"
+			(uuid "6bcdb1c0-5d3d-49df-b955-453610370f3a")
+		)
+		(pin "JP2_52"
+			(uuid "16d46d76-6d4a-43c6-85c0-8678754d06dc")
+		)
+		(pin "JP2_37"
+			(uuid "062c82d2-f05d-482f-b604-dadb8ee9b10c")
+		)
+		(pin "JP2_39"
+			(uuid "64608626-c01b-4ba0-b28b-f4bb64bda739")
+		)
+		(pin "JP2_40"
+			(uuid "9bbbd81b-d9ba-4103-8538-98a4dea16ea0")
+		)
+		(pin "JP2_41"
+			(uuid "8d3bea77-24f2-4ee2-8906-1b69f789f958")
+		)
+		(pin "JP2_38"
+			(uuid "e6446d0c-5269-4b8d-9c90-ddcc03b3aeff")
+		)
+		(pin "JP2_29"
+			(uuid "75f1aa01-b73b-4a81-a367-5435a8fbd1f3")
+		)
+		(pin "JP2_30"
+			(uuid "372313ca-dd12-4168-bf3f-0d5c45b30e98")
+		)
+		(pin "JP2_31"
+			(uuid "29a0324f-e4ef-4feb-919f-1b850dd4b783")
+		)
+		(pin "JP2_32"
+			(uuid "b836517a-a62f-4d16-b74b-0c1920e334e5")
+		)
+		(pin "JP2_33"
+			(uuid "5e8f1a5c-dd43-4940-973e-ab1b3b760329")
+		)
+		(pin "JP2_34"
+			(uuid "f772aad4-33c3-4003-b088-7435c7581611")
+		)
+		(pin "JP2_35"
+			(uuid "644943d8-8421-477e-9c62-9a6146c895e9")
+		)
+		(pin "JP2_36"
+			(uuid "cba40d80-7e55-4e85-9134-877fd6f8f9ec")
+		)
+		(pin "JP2_7"
+			(uuid "39445c16-a80c-488e-8db8-59a4420097ac")
+		)
+		(pin "JP2_6"
+			(uuid "24201610-f54a-4ee8-8772-22ec76355cf0")
+		)
+		(pin "JP2_5"
+			(uuid "143b17fb-c9c7-4bee-9762-d2d1a3c842b5")
+		)
+		(pin "JP2_8"
+			(uuid "3e4fabc3-b19a-4d6f-b375-9ff21b192a02")
+		)
+		(pin "JP2_9"
+			(uuid "a13f31ee-3fa2-468e-b777-b9aebdde110f")
+		)
+		(pin "JP2_10"
+			(uuid "b3538952-ecf8-467e-a37c-c9d030a7b52b")
+		)
+		(pin "JP2_11"
+			(uuid "93433bcf-87ea-4bc0-92ec-17b9176093b6")
+		)
+		(pin "JP2_12"
+			(uuid "29234bdd-730b-488d-87ea-2992a14e296b")
+		)
+		(pin "JP2_13"
+			(uuid "f7b749ef-7c59-4499-8d11-def9bddfe33c")
+		)
+		(pin "JP2_14"
+			(uuid "e515c352-ea99-4d64-a4dd-2750aa826ef6")
+		)
+		(pin "JP2_15"
+			(uuid "313aa5d5-9f1b-4df8-bf8b-0fe96f53a352")
+		)
+		(pin "JP2_16"
+			(uuid "eb839b75-6b44-426a-976c-90669b764641")
+		)
+		(pin "JP2_17"
+			(uuid "78bfe446-df5a-4f15-b559-2f0edb83ac84")
+		)
+		(pin "JP2_18"
+			(uuid "d628618c-761b-421e-83fb-13122baff294")
+		)
+		(pin "JP2_19"
+			(uuid "a182208b-4c30-46a7-bc98-0dff5fd11ea9")
+		)
+		(pin "JP2_20"
+			(uuid "34b89074-223e-4db2-97a0-c3ecbc9cd040")
+		)
+		(pin "JP2_21"
+			(uuid "18b89dfb-f914-4dfd-94f9-6b7c3f6a85ce")
+		)
+		(pin "JP2_22"
+			(uuid "a41a5441-cab9-4611-8c02-64b41ae513ee")
+		)
+		(pin "JP2_23"
+			(uuid "1ec39583-d4f7-46eb-8032-f02185b84b35")
+		)
+		(pin "JP2_24"
+			(uuid "f0f9ef89-404c-475e-b02a-46a166d36ddf")
+		)
+		(pin "JP2_25"
+			(uuid "f404c440-3bbc-4470-812d-dc4c6d12ea2c")
+		)
+		(pin "JP2_26"
+			(uuid "f7a45b64-4ee0-4e11-abd3-365aa6275f65")
+		)
+		(pin "JP2_27"
+			(uuid "79e5c8b3-82a7-4485-8edd-1ead30443b78")
+		)
+		(pin "JP2_28"
+			(uuid "9d0d8693-a5ef-46b3-9cef-86fdd52e3f06")
+		)
+		(pin "JP3_21"
+			(uuid "cdd93d8f-22cb-4e9b-bee2-94daa47c3c86")
+		)
+		(pin "JP3_20"
+			(uuid "cf969163-4623-46ed-ba68-6449eb8f7e40")
+		)
+		(pin "JP3_19"
+			(uuid "f8e2eb3b-53ef-4810-8124-97d3502b85ec")
+		)
+		(pin "JP3_18"
+			(uuid "119018f1-1e10-4728-9300-caa413f5a994")
+		)
+		(pin "JP3_17"
+			(uuid "9256485d-cba9-4e1d-945f-e525bf880569")
+		)
+		(pin "JP3_16"
+			(uuid "bfb93201-bbac-4acb-aaf7-c25b0f39a97a")
+		)
+		(pin "JP3_15"
+			(uuid "3c1aeb0a-4e01-48c1-a86e-a2cf0f1ccd3e")
+		)
+		(pin "JP3_14"
+			(uuid "3995f0e5-953b-4b3f-8120-3f60634bc1ff")
+		)
+		(pin "JP3_23"
+			(uuid "8964c973-7f6d-44e3-b331-ef1b180aa80c")
+		)
+		(pin "JP3_24"
+			(uuid "d81ff0eb-ecce-43da-9fbe-3ea3428571d5")
+		)
+		(pin "JP3_12"
+			(uuid "36eaa8c6-083c-4e1d-a3fa-5fd2448380ba")
+		)
+		(pin "JP3_13"
+			(uuid "6210508a-59d2-4fcc-b231-c7fd4641d389")
+		)
+		(pin "JP3_11"
+			(uuid "39b824ff-a3a1-474d-b4df-4b4d6cd8d5ee")
+		)
+		(pin "JP3_22"
+			(uuid "fc56b9f4-bae6-49a2-bf2a-2916e8e3b1b1")
+		)
+		(pin "JP3_5"
+			(uuid "6ad5dd36-b6a6-4991-bf00-5460abe3cf77")
+		)
+		(pin "JP3_7"
+			(uuid "516c5ad4-75a0-44f6-b350-becba4f9194f")
+		)
+		(pin "JP3_2"
+			(uuid "2d0a1caa-a736-4ea8-ae1d-11e36ba3cf96")
+		)
+		(pin "JP3_3"
+			(uuid "2991e45f-d26f-4f46-98a7-26616242950e")
+		)
+		(pin "JP3_4"
+			(uuid "eafaed4e-6895-44c0-9b9c-020d2504261c")
+		)
+		(pin "JP3_6"
+			(uuid "d3f566e8-ff68-4380-b5af-192d3697324d")
+		)
+		(pin "JP3_8"
+			(uuid "8a4d82a2-322a-4048-85e7-193b7b1abccb")
+		)
+		(pin "JP3_10"
+			(uuid "9027e41b-c615-40f9-af34-c091ed8adf80")
+		)
+		(pin "JP3_9"
+			(uuid "e81ccf02-2d62-4748-b33a-a6bbe962aef5")
+		)
+		(pin "JP2_93"
+			(uuid "7ddcf8c1-5765-43fb-9e4f-c5d010782e33")
+		)
+		(pin "JP3_1"
+			(uuid "094620c6-f826-4908-b551-7e739738ed4b")
+		)
+		(pin "JP2_100"
+			(uuid "7325c079-9b5f-4ad5-a565-b6c818cb5584")
+		)
+		(pin "JP2_99"
+			(uuid "bfc32aff-ca41-4dd3-8cec-0afee78fd132")
+		)
+		(pin "JP2_98"
+			(uuid "da113582-d1c6-4d88-a6c0-f7cfafd50a72")
+		)
+		(pin "JP2_97"
+			(uuid "fe9fe5d4-81aa-4e3d-901c-fae461033afe")
+		)
+		(pin "JP2_96"
+			(uuid "e4eeaffd-2723-4c38-967f-b43e82f3f16e")
+		)
+		(pin "JP2_95"
+			(uuid "b82f01bf-3736-4068-81eb-a328bb4b8486")
+		)
+		(pin "JP2_94"
+			(uuid "d0700e82-9eb1-4dee-bcf7-ddd0cdaa77a3")
+		)
+		(pin "JP1_94"
+			(uuid "a1a229f7-feef-4b76-b836-f04ff5e0c488")
+		)
+		(pin "JP1_95"
+			(uuid "7b694691-12b2-4bcf-aa8a-72283bdd190e")
+		)
+		(pin "JP1_96"
+			(uuid "d15d62a6-fa91-42a7-8c77-1090f03cdea7")
+		)
+		(pin "JP1_97"
+			(uuid "789aa9e3-db06-4a31-9055-c166ea014779")
+		)
+		(pin "JP1_98"
+			(uuid "ebe839aa-8419-4775-98ee-6392b6e50403")
+		)
+		(pin "JP1_99"
+			(uuid "22533f78-9f1a-48b9-bd82-31ad5016f82b")
+		)
+		(pin "JP1_100"
+			(uuid "ab65a46e-9dad-4d19-ad9a-343a78143e32")
+		)
+		(pin "JP1_79"
+			(uuid "e71b5a74-e5f7-480f-ae89-3521811ddd73")
+		)
+		(pin "JP1_80"
+			(uuid "fa8c359d-1132-4188-a071-c7e155da795a")
+		)
+		(pin "JP1_81"
+			(uuid "8126fbf9-3def-4ea5-9647-37c74878652c")
+		)
+		(pin "JP1_82"
+			(uuid "009fd676-5f61-4406-ab9d-e306c5d41c0f")
+		)
+		(pin "JP1_83"
+			(uuid "dd8d2c9c-2a87-415d-81b1-22684939b33c")
+		)
+		(pin "JP1_84"
+			(uuid "20ec5db3-e806-4213-98ac-b0df77ecb0b6")
+		)
+		(pin "JP1_85"
+			(uuid "b5e774e0-acad-43a1-b2e6-95fd38623794")
+		)
+		(pin "JP1_86"
+			(uuid "80bf4f7a-87db-4ffb-b17c-6872f638ec59")
+		)
+		(pin "JP1_87"
+			(uuid "daaf25b7-3ff9-4fac-b0b1-6632e1e876b1")
+		)
+		(pin "JP1_92"
+			(uuid "faf498e6-4ed1-4b3b-8f6f-a2dd7dc7fb1d")
+		)
+		(pin "JP1_88"
+			(uuid "cf1ba74c-8629-403a-8aa9-2cbc0231c5a1")
+		)
+		(pin "JP1_90"
+			(uuid "d86a4cb2-3c68-4a93-a7de-c2ea66386262")
+		)
+		(pin "JP1_73"
+			(uuid "0b7b90da-c67a-4b65-92dd-2f1418dcb7ae")
+		)
+		(pin "JP1_93"
+			(uuid "466284f8-14e2-461a-85cb-ecc27d349a2d")
+		)
+		(pin "JP1_89"
+			(uuid "c309870e-07ae-4448-a324-3429bc6e0d8d")
+		)
+		(pin "JP1_91"
+			(uuid "c0b64443-0d38-4a51-8ec1-e373d142ea6d")
+		)
+		(pin "JP1_78"
+			(uuid "d7e57982-d1fc-480f-ae77-b8b6b7f2afb2")
+		)
+		(pin "JP1_77"
+			(uuid "df26ac74-4bef-497c-90f3-ae72d7c6aab8")
+		)
+		(pin "JP1_76"
+			(uuid "797d0001-8e2f-49f9-a756-4fc0b481ff78")
+		)
+		(pin "JP1_75"
+			(uuid "3da20bdd-41eb-40ae-8d3e-1365558b6b25")
+		)
+		(pin "JP1_74"
+			(uuid "b6c2890b-88a8-42cb-b0a2-62beb08d5ad6")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ORANGE_PI_CM4:ORANGE_PI_CM4")
+		(at 100.33 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87b8a4a5-013b-4606-97f5-d388f747055b")
+		(property "Reference" "U1"
+			(at 100.33 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORANGE_PI_CM4"
+			(at 100.33 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "G-MuzikBox:MODULE_ORANGE_PI_CM4"
+			(at 100.33 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Orange Pi Compute Module 4"
+			(at 100.33 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Orange Pi"
+			(at 100.33 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.1mm"
+			(at 100.33 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Package"
+			(at 100.33 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 100.33 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/Orange%20Pi%20CM4/Orange+Pi/view-part/?ref=eda"
+			(at 100.33 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 100.33 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "v1.2"
+			(at 100.33 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/Orange%20Pi%20CM4/Orange+Pi/view-part/?ref=snap"
+			(at 100.33 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "Orange Pi CM4"
+			(at 100.33 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 100.33 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Orange Pi"
+			(at 100.33 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6272,7 +7172,7 @@
 	)
 	(symbol
 		(lib_id "AK4458VN:AK4458VN")
-		(at 205.74 55.88 0)
+		(at 323.85 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6283,7 +7183,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5882deb-fc8c-40ba-8edf-afe23448005d")
 		(property "Reference" "IC1"
-			(at 250.19 49.8092 0)
+			(at 368.3 70.1292 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6293,7 +7193,7 @@
 			)
 		)
 		(property "Value" "AK4458VN"
-			(at 250.19 52.3492 0)
+			(at 368.3 72.6692 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6303,7 +7203,7 @@
 			)
 		)
 		(property "Footprint" "AK4458VN:QFN50P700X700X100-48N"
-			(at 205.74 55.88 0)
+			(at 323.85 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6315,7 +7215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 55.88 0)
+			(at 323.85 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6326,7 +7226,7 @@
 			)
 		)
 		(property "Description" "DAC, Audio 32 b 768k DSD, I2S 48-QFN (7x7)"
-			(at 205.74 55.88 0)
+			(at 323.85 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6338,7 +7238,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" "AKM"
-			(at 205.74 55.88 0)
+			(at 323.85 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6350,7 +7250,7 @@
 			)
 		)
 		(property "MF" "AKM Semiconductor"
-			(at 205.74 55.88 0)
+			(at 323.85 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6362,7 +7262,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 205.74 55.88 0)
+			(at 323.85 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6374,7 +7274,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 205.74 55.88 0)
+			(at 323.85 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6386,7 +7286,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 205.74 55.88 0)
+			(at 323.85 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6398,7 +7298,7 @@
 			)
 		)
 		(property "Package" "QFN-48 AKM Semiconductor"
-			(at 205.74 55.88 0)
+			(at 323.85 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6410,7 +7310,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/AK4458VN/AKM+Semiconductor/view-part/?ref=eda"
-			(at 205.74 55.88 0)
+			(at 323.85 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6422,7 +7322,7 @@
 			)
 		)
 		(property "HEIGHT" "1mm"
-			(at 205.74 55.88 0)
+			(at 323.85 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6434,7 +7334,7 @@
 			)
 		)
 		(property "MP" "AK4458VN"
-			(at 205.74 55.88 0)
+			(at 323.85 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6446,7 +7346,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AK4458VN/AKM+Semiconductor/view-part/?ref=snap"
-			(at 205.74 55.88 0)
+			(at 323.85 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6458,7 +7358,7 @@
 			)
 		)
 		(property "ARROW_PRICE-STOCK" "https://www.arrow.com/en/products/ak4458vn/asahi-kasei-microdevices-corporation"
-			(at 205.74 55.88 0)
+			(at 323.85 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6470,7 +7370,7 @@
 			)
 		)
 		(property "ARROW_PART_NUMBER" "AK4458VN"
-			(at 205.74 55.88 0)
+			(at 323.85 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6482,7 +7382,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 205.74 55.88 0)
+			(at 323.85 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6494,7 +7394,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "AK4458VN"
-			(at 205.74 55.88 0)
+			(at 323.85 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6654,6 +7554,962 @@
 				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a"
 					(reference "IC1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ORANGE_PI_CM4:ORANGE_PI_CM4")
+		(at 201.93 300.99 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f10709e8-c1d9-441e-ac87-550e0b7dcff0")
+		(property "Reference" "U1"
+			(at 201.93 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORANGE_PI_CM4"
+			(at 201.93 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ORANGE_PI_CM4:MODULE_ORANGE_PI_CM4"
+			(at 201.93 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Orange Pi Compute Module 4"
+			(at 201.93 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Orange Pi"
+			(at 201.93 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.1mm"
+			(at 201.93 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Package"
+			(at 201.93 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 201.93 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/Orange%20Pi%20CM4/Orange+Pi/view-part/?ref=eda"
+			(at 201.93 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 201.93 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "v1.2"
+			(at 201.93 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/Orange%20Pi%20CM4/Orange+Pi/view-part/?ref=snap"
+			(at 201.93 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "Orange Pi CM4"
+			(at 201.93 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 201.93 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Orange Pi"
+			(at 201.93 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "JP2_73"
+			(uuid "13d92c9f-2a86-45c9-91b4-029a5247d369")
+		)
+		(pin "JP2_74"
+			(uuid "21635d8a-9023-4a66-bd8e-f67a8e4e28fd")
+		)
+		(pin "JP2_80"
+			(uuid "a02c8e7f-b40b-47db-9d3a-84f45c910595")
+		)
+		(pin "JP2_79"
+			(uuid "f3782cf0-7234-4ee6-a58f-6db02a2cf438")
+		)
+		(pin "JP2_78"
+			(uuid "047c27e2-c4eb-4655-908c-f06bee12513b")
+		)
+		(pin "JP2_77"
+			(uuid "332bf1d7-8d6f-4506-bba3-dbfd5f7f07f3")
+		)
+		(pin "JP2_76"
+			(uuid "9b54715d-2f59-4d24-b034-ca01acc0c819")
+		)
+		(pin "JP2_75"
+			(uuid "f17d17fe-4585-4ff7-8a8b-fb7f8fa3f872")
+		)
+		(pin "JP2_59"
+			(uuid "afa80e2f-9561-4c92-95a6-d41ab3716f48")
+		)
+		(pin "JP2_60"
+			(uuid "d53493da-45a7-4d0f-8df7-6136d845896f")
+		)
+		(pin "JP2_61"
+			(uuid "10cc8f20-dec8-452f-9386-0357bc7a3072")
+		)
+		(pin "JP2_66"
+			(uuid "f26336d3-0b09-420d-9aa7-137c59a7263e")
+		)
+		(pin "JP2_62"
+			(uuid "a952aabc-f466-4123-bbd9-ab089031963c")
+		)
+		(pin "JP2_67"
+			(uuid "90e82a1a-7622-410e-8acb-16404a149d36")
+		)
+		(pin "JP2_63"
+			(uuid "7bf1972b-5a43-4aca-bfd1-4c5980c61198")
+		)
+		(pin "JP2_72"
+			(uuid "544dd621-9d0e-4db6-924f-a249a681506b")
+		)
+		(pin "JP2_70"
+			(uuid "ba6a4eb6-0105-48a5-8449-e2b04480d54d")
+		)
+		(pin "JP2_69"
+			(uuid "40f1f580-6ee1-4680-9ca2-3e495ac748ca")
+		)
+		(pin "JP2_64"
+			(uuid "bcfad2aa-4c03-4121-9b88-27949de5dacd")
+		)
+		(pin "JP2_68"
+			(uuid "35b24766-71a9-46bd-bd8d-3d484cdd60bd")
+		)
+		(pin "JP2_71"
+			(uuid "f928de6f-7e2a-4aa5-97aa-26feaa87c5fb")
+		)
+		(pin "JP2_65"
+			(uuid "a12c7166-959a-4c0b-8cf2-03b3a4aed98e")
+		)
+		(pin "JP2_92"
+			(uuid "3127ec58-97d1-49c6-aae8-b92cec8f9ead")
+		)
+		(pin "JP2_91"
+			(uuid "c5cf3af4-0f75-4076-93e6-031def3e2237")
+		)
+		(pin "JP1_26"
+			(uuid "f5f4384c-8f92-4d73-93b5-10fad10a84da")
+		)
+		(pin "JP1_27"
+			(uuid "5a7ba06a-83ef-4449-a60f-09984999198a")
+		)
+		(pin "JP1_29"
+			(uuid "24a1daee-b23e-4bec-a71e-bc3977e4d409")
+		)
+		(pin "JP1_28"
+			(uuid "b8eba0f1-50f1-4daa-8177-3d67a179b91a")
+		)
+		(pin "JP1_61"
+			(uuid "5cb2dec3-e876-4401-9e44-aaa8b75fd0e7")
+		)
+		(pin "JP1_59"
+			(uuid "a4345312-853e-4c62-9db4-dde71b90fd16")
+		)
+		(pin "JP1_60"
+			(uuid "5914d822-927c-40a7-83f6-5bd438081ba0")
+		)
+		(pin "JP1_25"
+			(uuid "f1ad68be-38d7-440a-accd-b48d0b141fff")
+		)
+		(pin "JP1_69"
+			(uuid "5f1403cc-d94a-4e22-938d-aac587a5441a")
+		)
+		(pin "JP1_70"
+			(uuid "cf3dea6c-eef4-4113-8309-d24eda48cfe3")
+		)
+		(pin "JP1_66"
+			(uuid "3f374467-9a7c-4ff5-b010-23e2bfb7f742")
+		)
+		(pin "JP1_67"
+			(uuid "81f1b48b-628e-4df8-a605-f0630fe8adfb")
+		)
+		(pin "JP1_68"
+			(uuid "c35d077b-74ca-4367-a16a-3725b3689cda")
+		)
+		(pin "JP2_3"
+			(uuid "9369f74f-4b0a-46d5-90a7-6ab3b1898dce")
+		)
+		(pin "JP2_1"
+			(uuid "c70001f2-a28a-417a-8274-3b912699c123")
+		)
+		(pin "JP2_2"
+			(uuid "13237303-1cfa-4f7e-acc2-ad80d03b4b48")
+		)
+		(pin "JP2_4"
+			(uuid "319f4ba6-89ee-4ae5-b0e1-0e002db49ccf")
+		)
+		(pin "JP2_90"
+			(uuid "5a493f94-2efa-4c3b-b35a-fdcc874fdcaa")
+		)
+		(pin "JP2_89"
+			(uuid "e17c6345-827d-4910-acf2-768df9e1e37a")
+		)
+		(pin "JP2_88"
+			(uuid "d9c9d0eb-41ef-4c2f-8a6e-da37df2ae5a9")
+		)
+		(pin "JP2_87"
+			(uuid "532d361a-fc7d-414d-b5bb-b30b4822e4db")
+		)
+		(pin "JP1_71"
+			(uuid "0accb2dc-99b2-49c0-8bf2-6eaa25079f16")
+		)
+		(pin "JP1_72"
+			(uuid "e4976c6c-43bd-4cdd-af6b-6cf56bff095e")
+		)
+		(pin "JP1_37"
+			(uuid "f61cc310-b8b6-4c55-a1a9-c6b349c2eea7")
+		)
+		(pin "JP1_36"
+			(uuid "4cca132b-06bc-4965-bc07-d5eac043d60e")
+		)
+		(pin "JP1_41"
+			(uuid "2902992b-e514-4405-ac76-3154186293d0")
+		)
+		(pin "JP1_42"
+			(uuid "fd959b4b-136d-4a05-b592-22c3b4368fc7")
+		)
+		(pin "JP1_38"
+			(uuid "7ee82d09-0047-45ed-a1c8-d286d255391b")
+		)
+		(pin "JP1_39"
+			(uuid "64cd9a5c-ef6d-402a-90c8-bef273c870ae")
+		)
+		(pin "JP1_40"
+			(uuid "d1fc92e1-8430-4741-b316-ff2cef7e80ac")
+		)
+		(pin "JP1_58"
+			(uuid "14adc1b1-bd7d-4473-bef5-86a82afc4941")
+		)
+		(pin "JP1_57"
+			(uuid "91872a65-a892-45dc-9645-e9dc5098831c")
+		)
+		(pin "JP1_43"
+			(uuid "a07ae047-7e89-4811-afe0-8d0795882f2b")
+		)
+		(pin "JP1_44"
+			(uuid "4877c408-f61e-4841-b3c1-8baee7602e99")
+		)
+		(pin "JP1_45"
+			(uuid "77c8873b-8362-4298-a746-c98205ca5edc")
+		)
+		(pin "JP1_46"
+			(uuid "040c3f2e-6f8a-4f25-9e5c-badf74e8a2e1")
+		)
+		(pin "JP1_47"
+			(uuid "1e7a8a61-a1c5-4b0f-ba51-22bd581c330d")
+		)
+		(pin "JP1_48"
+			(uuid "5ca382bb-3820-4751-9c7e-d12b0883a3df")
+		)
+		(pin "JP1_49"
+			(uuid "ccebc347-b3ec-432e-b414-795d3caccba2")
+		)
+		(pin "JP1_50"
+			(uuid "4023058e-1076-4fc1-bbda-fe2fab3f5815")
+		)
+		(pin "JP1_51"
+			(uuid "36d990d1-6f75-49f2-9f91-556cd06a04a2")
+		)
+		(pin "JP1_52"
+			(uuid "2d0907d1-30e3-416a-85ca-8dcaadd348f8")
+		)
+		(pin "JP1_53"
+			(uuid "63998c68-1d33-486a-9110-9c549d3fd053")
+		)
+		(pin "JP1_54"
+			(uuid "f063a8db-a4fb-4ed0-91e3-077827d457de")
+		)
+		(pin "JP1_56"
+			(uuid "e6fe109c-d837-4152-a037-4bb02c2f3ad2")
+		)
+		(pin "JP1_55"
+			(uuid "20e9aa4c-8f12-41f5-a54b-2505130df72c")
+		)
+		(pin "JP2_82"
+			(uuid "f3141178-a3be-438b-89ca-f8fcff32db76")
+		)
+		(pin "JP2_81"
+			(uuid "86bca17a-9784-4259-8ce7-737f081da96d")
+		)
+		(pin "JP2_86"
+			(uuid "ab01995a-0fdd-487d-bc4a-48b21fb07315")
+		)
+		(pin "JP2_85"
+			(uuid "06c79293-df7f-44a0-a50a-6305ec85bc45")
+		)
+		(pin "JP2_83"
+			(uuid "efefe7ae-d41b-4dc8-a686-9bf9ebc080e6")
+		)
+		(pin "JP2_84"
+			(uuid "f05cdb47-81ce-4252-8e16-b166d2a71828")
+		)
+		(pin "JP1_62"
+			(uuid "c8fece29-67a7-4328-adf9-cdab15ec08e4")
+		)
+		(pin "JP1_64"
+			(uuid "4cf40065-cecb-4113-961d-e2d5b6e48c9d")
+		)
+		(pin "JP1_63"
+			(uuid "2995af50-4fee-43fc-8e17-f14ea61e4656")
+		)
+		(pin "JP1_65"
+			(uuid "4ce938d2-b915-4d56-bfc2-3acb52ef5049")
+		)
+		(pin "JP2_54"
+			(uuid "e52b478c-bd58-4830-9822-6f18ba208e91")
+		)
+		(pin "JP2_56"
+			(uuid "e4e7e14b-d472-447b-b7d8-4e78cb4c53b8")
+		)
+		(pin "JP2_53"
+			(uuid "27c1502c-0ac8-40b9-80fd-65fc73e55616")
+		)
+		(pin "JP2_58"
+			(uuid "ef00138b-04c6-425d-b803-37911bf5d3cb")
+		)
+		(pin "JP2_57"
+			(uuid "8fcd3b9d-44c1-4815-8f99-30bb0c3f0a0f")
+		)
+		(pin "JP2_55"
+			(uuid "d0f09a82-6e66-442d-9f02-c9c9a1ade9f1")
+		)
+		(pin "JP1_32"
+			(uuid "647db83d-79a1-4b73-a922-ffd814fdb1ce")
+		)
+		(pin "JP1_30"
+			(uuid "095b5942-0954-418d-b871-5014e23f470a")
+		)
+		(pin "JP1_34"
+			(uuid "49f38840-8b52-41b6-9f88-8bf796f986cb")
+		)
+		(pin "JP1_35"
+			(uuid "7619ff6f-097b-440d-9fc7-b7a0a5fd1096")
+		)
+		(pin "JP1_31"
+			(uuid "69c87c3e-c06e-4bea-bbc9-d3fa362666d4")
+		)
+		(pin "JP1_33"
+			(uuid "f279e2be-f8ad-4fd0-ae09-3ed801ec657b")
+		)
+		(pin "JP1_24"
+			(uuid "8b9fcd65-34bd-4bb8-b7cc-848963eb0bd5")
+		)
+		(pin "JP1_23"
+			(uuid "278b9b8d-de41-49d6-a43f-140573aa6b89")
+		)
+		(pin "JP1_22"
+			(uuid "62aba459-8f5b-46b8-8795-5bc613b274c6")
+		)
+		(pin "JP1_21"
+			(uuid "a5362443-2a61-4522-b1ff-d0304385b3b4")
+		)
+		(pin "JP1_20"
+			(uuid "e741bad3-ccb6-42a7-85a1-5fa67fe0b8f8")
+		)
+		(pin "JP1_19"
+			(uuid "9de48fb3-e9b9-4dfb-a3df-6ad645d2e105")
+		)
+		(pin "JP1_18"
+			(uuid "97271a4b-e4ce-46e6-80f9-e9fe4a8d9ac6")
+		)
+		(pin "JP1_17"
+			(uuid "f4d54048-3db8-4121-b291-770a0b3b59e9")
+		)
+		(pin "JP1_16"
+			(uuid "f4bac6b8-f3d6-4147-90dc-bd672d964e94")
+		)
+		(pin "JP1_15"
+			(uuid "10719b4e-0ec8-4a65-9b72-06530f26d0d9")
+		)
+		(pin "JP1_14"
+			(uuid "9b60e679-4e72-41b8-8511-eb4e323f6126")
+		)
+		(pin "JP1_13"
+			(uuid "086ccfae-1e98-4a9a-b72c-ba6e25ac3a43")
+		)
+		(pin "JP1_12"
+			(uuid "aeb579c9-f414-4768-b103-08e3d3dacf3b")
+		)
+		(pin "JP1_11"
+			(uuid "db08014d-e85c-4ef5-868e-b1c90b8fb7bc")
+		)
+		(pin "JP1_10"
+			(uuid "add0a5da-243b-49db-a707-d68cba365b03")
+		)
+		(pin "JP1_5"
+			(uuid "aa1b19f1-d290-4e37-8e81-7c114f0c0306")
+		)
+		(pin "JP1_9"
+			(uuid "45227e5d-1790-40c6-85ca-81ab2f296194")
+		)
+		(pin "JP1_8"
+			(uuid "34ab42bd-a29c-4ba6-8b74-2d4b1a139bf2")
+		)
+		(pin "JP1_6"
+			(uuid "34904c4d-e09f-4b39-a4e0-010e987347e9")
+		)
+		(pin "JP1_7"
+			(uuid "177d9919-6edf-4382-9d0e-85e61b97961b")
+		)
+		(pin "JP1_4"
+			(uuid "a6257146-5a41-4b67-8479-cd3ae9c03085")
+		)
+		(pin "JP1_3"
+			(uuid "439fa582-54a5-4db1-93c2-b033c67434b5")
+		)
+		(pin "JP1_2"
+			(uuid "074aae4d-6454-4b90-8579-4c3d8b13f1ea")
+		)
+		(pin "JP1_1"
+			(uuid "5c2e6e44-dd7e-4fa1-941a-40421c90310a")
+		)
+		(pin "JP2_42"
+			(uuid "71b4f7a2-d619-4686-93be-b82932b01ab3")
+		)
+		(pin "JP2_43"
+			(uuid "1e133779-933b-4ea6-b25e-94cb777cfd51")
+		)
+		(pin "JP2_44"
+			(uuid "14e2af99-7170-4612-9054-7f587782dd95")
+		)
+		(pin "JP2_45"
+			(uuid "64d062f8-8812-4f22-b1ab-711a52be403f")
+		)
+		(pin "JP2_46"
+			(uuid "b90df866-ee05-4cee-9c2c-0bf174b52360")
+		)
+		(pin "JP2_47"
+			(uuid "0e54185b-a916-485c-ade1-abdbfb41532c")
+		)
+		(pin "JP2_48"
+			(uuid "ffb40a8c-494c-45b2-abe1-3eb45cf669c6")
+		)
+		(pin "JP2_49"
+			(uuid "cbf751ca-63d1-448b-93cf-1618a9efca76")
+		)
+		(pin "JP2_50"
+			(uuid "b3306cbd-d555-4730-af70-971980cdfeae")
+		)
+		(pin "JP2_51"
+			(uuid "6bcdb1c0-5d3d-49df-b955-453610370f3a")
+		)
+		(pin "JP2_52"
+			(uuid "16d46d76-6d4a-43c6-85c0-8678754d06dc")
+		)
+		(pin "JP2_37"
+			(uuid "062c82d2-f05d-482f-b604-dadb8ee9b10c")
+		)
+		(pin "JP2_39"
+			(uuid "64608626-c01b-4ba0-b28b-f4bb64bda739")
+		)
+		(pin "JP2_40"
+			(uuid "9bbbd81b-d9ba-4103-8538-98a4dea16ea0")
+		)
+		(pin "JP2_41"
+			(uuid "8d3bea77-24f2-4ee2-8906-1b69f789f958")
+		)
+		(pin "JP2_38"
+			(uuid "e6446d0c-5269-4b8d-9c90-ddcc03b3aeff")
+		)
+		(pin "JP2_29"
+			(uuid "75f1aa01-b73b-4a81-a367-5435a8fbd1f3")
+		)
+		(pin "JP2_30"
+			(uuid "372313ca-dd12-4168-bf3f-0d5c45b30e98")
+		)
+		(pin "JP2_31"
+			(uuid "29a0324f-e4ef-4feb-919f-1b850dd4b783")
+		)
+		(pin "JP2_32"
+			(uuid "b836517a-a62f-4d16-b74b-0c1920e334e5")
+		)
+		(pin "JP2_33"
+			(uuid "5e8f1a5c-dd43-4940-973e-ab1b3b760329")
+		)
+		(pin "JP2_34"
+			(uuid "f772aad4-33c3-4003-b088-7435c7581611")
+		)
+		(pin "JP2_35"
+			(uuid "644943d8-8421-477e-9c62-9a6146c895e9")
+		)
+		(pin "JP2_36"
+			(uuid "cba40d80-7e55-4e85-9134-877fd6f8f9ec")
+		)
+		(pin "JP2_7"
+			(uuid "39445c16-a80c-488e-8db8-59a4420097ac")
+		)
+		(pin "JP2_6"
+			(uuid "24201610-f54a-4ee8-8772-22ec76355cf0")
+		)
+		(pin "JP2_5"
+			(uuid "143b17fb-c9c7-4bee-9762-d2d1a3c842b5")
+		)
+		(pin "JP2_8"
+			(uuid "3e4fabc3-b19a-4d6f-b375-9ff21b192a02")
+		)
+		(pin "JP2_9"
+			(uuid "a13f31ee-3fa2-468e-b777-b9aebdde110f")
+		)
+		(pin "JP2_10"
+			(uuid "b3538952-ecf8-467e-a37c-c9d030a7b52b")
+		)
+		(pin "JP2_11"
+			(uuid "93433bcf-87ea-4bc0-92ec-17b9176093b6")
+		)
+		(pin "JP2_12"
+			(uuid "29234bdd-730b-488d-87ea-2992a14e296b")
+		)
+		(pin "JP2_13"
+			(uuid "f7b749ef-7c59-4499-8d11-def9bddfe33c")
+		)
+		(pin "JP2_14"
+			(uuid "e515c352-ea99-4d64-a4dd-2750aa826ef6")
+		)
+		(pin "JP2_15"
+			(uuid "313aa5d5-9f1b-4df8-bf8b-0fe96f53a352")
+		)
+		(pin "JP2_16"
+			(uuid "eb839b75-6b44-426a-976c-90669b764641")
+		)
+		(pin "JP2_17"
+			(uuid "78bfe446-df5a-4f15-b559-2f0edb83ac84")
+		)
+		(pin "JP2_18"
+			(uuid "d628618c-761b-421e-83fb-13122baff294")
+		)
+		(pin "JP2_19"
+			(uuid "a182208b-4c30-46a7-bc98-0dff5fd11ea9")
+		)
+		(pin "JP2_20"
+			(uuid "34b89074-223e-4db2-97a0-c3ecbc9cd040")
+		)
+		(pin "JP2_21"
+			(uuid "18b89dfb-f914-4dfd-94f9-6b7c3f6a85ce")
+		)
+		(pin "JP2_22"
+			(uuid "a41a5441-cab9-4611-8c02-64b41ae513ee")
+		)
+		(pin "JP2_23"
+			(uuid "1ec39583-d4f7-46eb-8032-f02185b84b35")
+		)
+		(pin "JP2_24"
+			(uuid "f0f9ef89-404c-475e-b02a-46a166d36ddf")
+		)
+		(pin "JP2_25"
+			(uuid "f404c440-3bbc-4470-812d-dc4c6d12ea2c")
+		)
+		(pin "JP2_26"
+			(uuid "f7a45b64-4ee0-4e11-abd3-365aa6275f65")
+		)
+		(pin "JP2_27"
+			(uuid "79e5c8b3-82a7-4485-8edd-1ead30443b78")
+		)
+		(pin "JP2_28"
+			(uuid "9d0d8693-a5ef-46b3-9cef-86fdd52e3f06")
+		)
+		(pin "JP3_21"
+			(uuid "cdd93d8f-22cb-4e9b-bee2-94daa47c3c86")
+		)
+		(pin "JP3_20"
+			(uuid "cf969163-4623-46ed-ba68-6449eb8f7e40")
+		)
+		(pin "JP3_19"
+			(uuid "f8e2eb3b-53ef-4810-8124-97d3502b85ec")
+		)
+		(pin "JP3_18"
+			(uuid "119018f1-1e10-4728-9300-caa413f5a994")
+		)
+		(pin "JP3_17"
+			(uuid "9256485d-cba9-4e1d-945f-e525bf880569")
+		)
+		(pin "JP3_16"
+			(uuid "bfb93201-bbac-4acb-aaf7-c25b0f39a97a")
+		)
+		(pin "JP3_15"
+			(uuid "3c1aeb0a-4e01-48c1-a86e-a2cf0f1ccd3e")
+		)
+		(pin "JP3_14"
+			(uuid "3995f0e5-953b-4b3f-8120-3f60634bc1ff")
+		)
+		(pin "JP3_23"
+			(uuid "8964c973-7f6d-44e3-b331-ef1b180aa80c")
+		)
+		(pin "JP3_24"
+			(uuid "d81ff0eb-ecce-43da-9fbe-3ea3428571d5")
+		)
+		(pin "JP3_12"
+			(uuid "36eaa8c6-083c-4e1d-a3fa-5fd2448380ba")
+		)
+		(pin "JP3_13"
+			(uuid "6210508a-59d2-4fcc-b231-c7fd4641d389")
+		)
+		(pin "JP3_11"
+			(uuid "39b824ff-a3a1-474d-b4df-4b4d6cd8d5ee")
+		)
+		(pin "JP3_22"
+			(uuid "fc56b9f4-bae6-49a2-bf2a-2916e8e3b1b1")
+		)
+		(pin "JP3_5"
+			(uuid "6ad5dd36-b6a6-4991-bf00-5460abe3cf77")
+		)
+		(pin "JP3_7"
+			(uuid "516c5ad4-75a0-44f6-b350-becba4f9194f")
+		)
+		(pin "JP3_2"
+			(uuid "2d0a1caa-a736-4ea8-ae1d-11e36ba3cf96")
+		)
+		(pin "JP3_3"
+			(uuid "2991e45f-d26f-4f46-98a7-26616242950e")
+		)
+		(pin "JP3_4"
+			(uuid "eafaed4e-6895-44c0-9b9c-020d2504261c")
+		)
+		(pin "JP3_6"
+			(uuid "d3f566e8-ff68-4380-b5af-192d3697324d")
+		)
+		(pin "JP3_8"
+			(uuid "8a4d82a2-322a-4048-85e7-193b7b1abccb")
+		)
+		(pin "JP3_10"
+			(uuid "9027e41b-c615-40f9-af34-c091ed8adf80")
+		)
+		(pin "JP3_9"
+			(uuid "e81ccf02-2d62-4748-b33a-a6bbe962aef5")
+		)
+		(pin "JP2_93"
+			(uuid "7ddcf8c1-5765-43fb-9e4f-c5d010782e33")
+		)
+		(pin "JP3_1"
+			(uuid "094620c6-f826-4908-b551-7e739738ed4b")
+		)
+		(pin "JP2_100"
+			(uuid "7325c079-9b5f-4ad5-a565-b6c818cb5584")
+		)
+		(pin "JP2_99"
+			(uuid "bfc32aff-ca41-4dd3-8cec-0afee78fd132")
+		)
+		(pin "JP2_98"
+			(uuid "da113582-d1c6-4d88-a6c0-f7cfafd50a72")
+		)
+		(pin "JP2_97"
+			(uuid "fe9fe5d4-81aa-4e3d-901c-fae461033afe")
+		)
+		(pin "JP2_96"
+			(uuid "e4eeaffd-2723-4c38-967f-b43e82f3f16e")
+		)
+		(pin "JP2_95"
+			(uuid "b82f01bf-3736-4068-81eb-a328bb4b8486")
+		)
+		(pin "JP2_94"
+			(uuid "d0700e82-9eb1-4dee-bcf7-ddd0cdaa77a3")
+		)
+		(pin "JP1_94"
+			(uuid "a1a229f7-feef-4b76-b836-f04ff5e0c488")
+		)
+		(pin "JP1_95"
+			(uuid "7b694691-12b2-4bcf-aa8a-72283bdd190e")
+		)
+		(pin "JP1_96"
+			(uuid "d15d62a6-fa91-42a7-8c77-1090f03cdea7")
+		)
+		(pin "JP1_97"
+			(uuid "789aa9e3-db06-4a31-9055-c166ea014779")
+		)
+		(pin "JP1_98"
+			(uuid "ebe839aa-8419-4775-98ee-6392b6e50403")
+		)
+		(pin "JP1_99"
+			(uuid "22533f78-9f1a-48b9-bd82-31ad5016f82b")
+		)
+		(pin "JP1_100"
+			(uuid "ab65a46e-9dad-4d19-ad9a-343a78143e32")
+		)
+		(pin "JP1_79"
+			(uuid "e71b5a74-e5f7-480f-ae89-3521811ddd73")
+		)
+		(pin "JP1_80"
+			(uuid "fa8c359d-1132-4188-a071-c7e155da795a")
+		)
+		(pin "JP1_81"
+			(uuid "8126fbf9-3def-4ea5-9647-37c74878652c")
+		)
+		(pin "JP1_82"
+			(uuid "009fd676-5f61-4406-ab9d-e306c5d41c0f")
+		)
+		(pin "JP1_83"
+			(uuid "dd8d2c9c-2a87-415d-81b1-22684939b33c")
+		)
+		(pin "JP1_84"
+			(uuid "20ec5db3-e806-4213-98ac-b0df77ecb0b6")
+		)
+		(pin "JP1_85"
+			(uuid "b5e774e0-acad-43a1-b2e6-95fd38623794")
+		)
+		(pin "JP1_86"
+			(uuid "80bf4f7a-87db-4ffb-b17c-6872f638ec59")
+		)
+		(pin "JP1_87"
+			(uuid "daaf25b7-3ff9-4fac-b0b1-6632e1e876b1")
+		)
+		(pin "JP1_92"
+			(uuid "faf498e6-4ed1-4b3b-8f6f-a2dd7dc7fb1d")
+		)
+		(pin "JP1_88"
+			(uuid "cf1ba74c-8629-403a-8aa9-2cbc0231c5a1")
+		)
+		(pin "JP1_90"
+			(uuid "d86a4cb2-3c68-4a93-a7de-c2ea66386262")
+		)
+		(pin "JP1_73"
+			(uuid "0b7b90da-c67a-4b65-92dd-2f1418dcb7ae")
+		)
+		(pin "JP1_93"
+			(uuid "466284f8-14e2-461a-85cb-ecc27d349a2d")
+		)
+		(pin "JP1_89"
+			(uuid "c309870e-07ae-4448-a324-3429bc6e0d8d")
+		)
+		(pin "JP1_91"
+			(uuid "c0b64443-0d38-4a51-8ec1-e373d142ea6d")
+		)
+		(pin "JP1_78"
+			(uuid "d7e57982-d1fc-480f-ae77-b8b6b7f2afb2")
+		)
+		(pin "JP1_77"
+			(uuid "df26ac74-4bef-497c-90f3-ae72d7c6aab8")
+		)
+		(pin "JP1_76"
+			(uuid "797d0001-8e2f-49f9-a756-4fc0b481ff78")
+		)
+		(pin "JP1_75"
+			(uuid "3da20bdd-41eb-40ae-8d3e-1365558b6b25")
+		)
+		(pin "JP1_74"
+			(uuid "b6c2890b-88a8-42cb-b0a2-62beb08d5ad6")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 228.6)
+		(size 13.97 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 185 251 255 1)
+		)
+		(uuid "426e5dc4-5931-4ba5-8a7c-1c336af8f455")
+		(property "Sheetname" "USB"
+			(at 96.52 227.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 96.52 248.2346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_5V" input
+			(at 110.49 237.49 0)
+			(uuid "91ab4299-f9d1-4fa1-acef-f9670cd93b86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DM" input
+			(at 110.49 240.03 0)
+			(uuid "bccb5698-d874-44a4-bc58-f0808ef41a96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" input
+			(at 110.49 242.57 0)
+			(uuid "4e698e3f-9c25-46d6-9399-b62437fa614b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a"
+					(page "2")
 				)
 			)
 		)

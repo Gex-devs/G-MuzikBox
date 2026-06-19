@@ -632,13 +632,17 @@
         "uuid": "30d0fc86-2228-4f8d-9cf7-aef3e4b0153a"
       }
     ],
-    "used_designators": "U1",
+    "used_designators": "R1-2,#PWR1-2,J1,U1",
     "variants": []
   },
   "sheets": [
     [
       "30d0fc86-2228-4f8d-9cf7-aef3e4b0153a",
       "G-MuzikBox"
+    ],
+    [
+      "426e5dc4-5931-4ba5-8a7c-1c336af8f455",
+      "USB"
     ]
   ],
   "text_variables": {},
