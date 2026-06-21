@@ -1,0 +1,9815 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "794a7d12-ecb0-40e0-8e6e-7df8a1cc3f04")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_1_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDA"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GNDA"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GNDA_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDA_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 209.55 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "002e4d38-6a57-43be-a3ae-975914863f13")
+	)
+	(junction
+		(at 139.7 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03441621-d5c5-48d2-862a-cbfd406d6579")
+	)
+	(junction
+		(at 210.82 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "093a0956-b70d-4955-a350-e4d4a33bcb09")
+	)
+	(junction
+		(at 114.3 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d468a62-4eab-431c-ad5b-87d895bc8fff")
+	)
+	(junction
+		(at 210.82 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f61375e-050b-4833-a2dd-9b460bc1da6c")
+	)
+	(junction
+		(at 116.84 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15493de3-b975-4631-8d68-6f3787e9c121")
+	)
+	(junction
+		(at 116.84 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d57268a-a183-4204-bf29-aeee255c3883")
+	)
+	(junction
+		(at 210.82 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f0148e0-1604-4b9c-92f8-1dd5927f8e01")
+	)
+	(junction
+		(at 210.82 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20d038dc-cc5b-49c3-87fb-b50ae98f180b")
+	)
+	(junction
+		(at 139.7 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b59563e-b3cc-4685-bcc1-6b76f10997d5")
+	)
+	(junction
+		(at 209.55 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e45b053-f8b7-4274-ba30-ce8ef6256816")
+	)
+	(junction
+		(at 116.84 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34f5c2d7-305a-42e3-8711-22c1b77aaa93")
+	)
+	(junction
+		(at 210.82 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e6e2ae0-3157-4bee-9093-a7f4ddf4c471")
+	)
+	(junction
+		(at 114.3 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a3f5db9-73e9-4edf-8a0f-d76710b14dd4")
+	)
+	(junction
+		(at 114.3 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e29328d-8fb8-40e5-84a2-a6714d4cb1a4")
+	)
+	(junction
+		(at 114.3 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70a0985d-82a2-4876-b12e-13f9b48e27d6")
+	)
+	(junction
+		(at 229.87 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "743941e2-bc97-4455-8cd1-b359773f657d")
+	)
+	(junction
+		(at 137.16 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7788fbf2-2231-40f0-b531-f2b435ddba29")
+	)
+	(junction
+		(at 229.87 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77e6e6eb-00ff-45fd-a69c-c3e12384e52a")
+	)
+	(junction
+		(at 231.14 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c9fb2f9-34bd-4f7b-b0e9-c5169f9eec27")
+	)
+	(junction
+		(at 137.16 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d0f930d-36bd-440e-9be3-306159351000")
+	)
+	(junction
+		(at 209.55 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "819ca623-91b6-4078-88d0-6b7b649fd5ec")
+	)
+	(junction
+		(at 134.62 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84dc7465-e985-4611-9077-904aafff5a9c")
+	)
+	(junction
+		(at 116.84 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fa52097-710c-4017-a86b-b6c5f3cffa66")
+	)
+	(junction
+		(at 233.68 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98d094cd-c7b3-40cf-b503-09cef0534893")
+	)
+	(junction
+		(at 209.55 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99d4d302-1831-46ae-80d5-c44b138fe259")
+	)
+	(junction
+		(at 134.62 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a78d2d8-6142-4bd6-a401-7451922b9e8b")
+	)
+	(junction
+		(at 114.3 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4bdd0e5-bfaa-4b8d-ac11-6c93fc0f015d")
+	)
+	(junction
+		(at 116.84 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad76de79-1446-4c94-9362-2a23acd7a6ac")
+	)
+	(junction
+		(at 114.3 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b234fab0-a3c3-4eae-9101-c9264d5abb66")
+	)
+	(junction
+		(at 137.16 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd6ffca4-c6d2-4af4-b44e-d16685d1ea59")
+	)
+	(junction
+		(at 232.41 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c58921f6-5071-4eb1-b6fc-125b2a347123")
+	)
+	(junction
+		(at 209.55 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c984e095-6f11-4128-9d3d-69218d4aa90c")
+	)
+	(junction
+		(at 116.84 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d92d202b-c1ee-4cfb-8e36-22248d859371")
+	)
+	(junction
+		(at 210.82 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dac991e4-6755-4d88-8094-36e91719c4e9")
+	)
+	(junction
+		(at 232.41 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd8c9f5e-fbb6-4ba2-be27-11d396408b11")
+	)
+	(junction
+		(at 231.14 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e498b7a7-4116-43ce-92eb-7a4dd1986278")
+	)
+	(junction
+		(at 137.16 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9830192-1013-41a2-b313-e3ce0e350247")
+	)
+	(junction
+		(at 233.68 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcabcf35-6768-4b9d-8e04-e8d08d67fd3d")
+	)
+	(junction
+		(at 209.55 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd9248bf-42a5-4e1e-9438-1a5c7d02aecf")
+	)
+	(wire
+		(pts
+			(xy 210.82 92.71) (xy 204.47 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b81dee-36e1-402b-a56b-15536f8f773d")
+	)
+	(wire
+		(pts
+			(xy 114.3 48.26) (xy 123.19 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "060ce2c6-b94f-4341-85f9-8b908e9b7244")
+	)
+	(wire
+		(pts
+			(xy 116.84 97.79) (xy 116.84 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08006415-5d64-442f-b1d5-f4d1308606ff")
+	)
+	(wire
+		(pts
+			(xy 227.33 100.33) (xy 233.68 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "083f2b34-ab27-46ac-bc75-c22e5e1c22f0")
+	)
+	(wire
+		(pts
+			(xy 247.65 200.66) (xy 236.22 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "093948e2-a187-495e-81d8-8ca59b8b992a")
+	)
+	(wire
+		(pts
+			(xy 130.81 156.21) (xy 137.16 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09b7bbd4-6e12-4582-826b-a51b5f7c9e10")
+	)
+	(wire
+		(pts
+			(xy 147.32 156.21) (xy 151.13 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a658c09-6b35-4449-b535-c7e0be6510d2")
+	)
+	(wire
+		(pts
+			(xy 210.82 100.33) (xy 219.71 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a709474-0419-4db7-8216-84c97ef751fd")
+	)
+	(wire
+		(pts
+			(xy 210.82 100.33) (xy 210.82 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b71dede-d2fc-432b-a71f-f1123eb00c16")
+	)
+	(wire
+		(pts
+			(xy 229.87 59.69) (xy 226.06 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e64064b-15c5-4446-a128-71cb1de828ef")
+	)
+	(wire
+		(pts
+			(xy 233.68 208.28) (xy 236.22 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef30485-f41a-49bc-8d32-835d0e47a7fe")
+	)
+	(wire
+		(pts
+			(xy 116.84 111.76) (xy 116.84 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f69626d-b35f-4a7d-a7af-52b7ab06905b")
+	)
+	(wire
+		(pts
+			(xy 246.38 156.21) (xy 246.38 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e70f85-231a-4236-817e-ca4bf9f1c588")
+	)
+	(wire
+		(pts
+			(xy 232.41 48.26) (xy 234.95 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d587d8-7a56-4416-b817-9bb17efa99bd")
+	)
+	(wire
+		(pts
+			(xy 203.2 59.69) (xy 209.55 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "141b3753-cd4b-40e7-8ab0-0e7258616c45")
+	)
+	(wire
+		(pts
+			(xy 226.06 48.26) (xy 232.41 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a596bb-7a5f-41cc-90be-9751dc1c025e")
+	)
+	(wire
+		(pts
+			(xy 137.16 107.95) (xy 133.35 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17482543-d7d6-4298-8058-bf59d6169845")
+	)
+	(wire
+		(pts
+			(xy 229.87 167.64) (xy 246.38 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17a7a78e-749b-4163-9308-c88518ac59c6")
+	)
+	(wire
+		(pts
+			(xy 137.16 162.56) (xy 151.13 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17fecc14-f7ed-40c5-bcb1-42cab5c92013")
+	)
+	(wire
+		(pts
+			(xy 242.57 48.26) (xy 246.38 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c754db1-8aae-4f55-b65c-5b39d13a8bd7")
+	)
+	(wire
+		(pts
+			(xy 139.7 96.52) (xy 142.24 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca4e450-f809-430a-9bce-576c09090a8b")
+	)
+	(wire
+		(pts
+			(xy 243.84 208.28) (xy 247.65 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0e74de-0b1c-4096-9441-5e2592f6473c")
+	)
+	(wire
+		(pts
+			(xy 116.84 215.9) (xy 116.84 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21ff1868-5785-4b50-8c7c-6ea66185aec0")
+	)
+	(wire
+		(pts
+			(xy 209.55 167.64) (xy 218.44 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "221de02d-3984-48ab-b11c-27055d0f6a63")
+	)
+	(wire
+		(pts
+			(xy 149.86 96.52) (xy 153.67 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f3041a-da86-4d6c-a2e8-259ca92eb303")
+	)
+	(wire
+		(pts
+			(xy 114.3 148.59) (xy 107.95 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26c6a4df-4a60-4787-bc1d-08251190af0a")
+	)
+	(wire
+		(pts
+			(xy 114.3 40.64) (xy 107.95 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "270a2df7-911c-4e6a-ba66-ed8570aa42e5")
+	)
+	(wire
+		(pts
+			(xy 114.3 171.45) (xy 114.3 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29784048-ee48-43b9-b354-176273bba548")
+	)
+	(wire
+		(pts
+			(xy 210.82 208.28) (xy 219.71 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e968cd-23f6-4ca3-9d3a-08c2237b56c1")
+	)
+	(wire
+		(pts
+			(xy 231.14 115.57) (xy 231.14 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a525096-2e6e-4413-859d-d844cf225559")
+	)
+	(wire
+		(pts
+			(xy 233.68 106.68) (xy 247.65 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da1ab9b-0391-47ab-8ba8-465eb758e0d7")
+	)
+	(wire
+		(pts
+			(xy 116.84 107.95) (xy 125.73 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "300b6699-6de3-496d-9c05-81e90a6d9c4b")
+	)
+	(wire
+		(pts
+			(xy 233.68 100.33) (xy 233.68 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32c32b92-3cc1-4629-9863-ff53c3be4c55")
+	)
+	(wire
+		(pts
+			(xy 246.38 148.59) (xy 234.95 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3323a273-17fa-4ed8-a759-ee795060496b")
+	)
+	(wire
+		(pts
+			(xy 114.3 167.64) (xy 114.3 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "342b5414-fafa-42a4-a3ca-8241a1e66868")
+	)
+	(wire
+		(pts
+			(xy 203.2 167.64) (xy 209.55 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3535d79e-b7c5-4c3d-89f4-672826876919")
+	)
+	(wire
+		(pts
+			(xy 134.62 171.45) (xy 134.62 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3835d34d-da06-45c9-85cc-e5af925a186a")
+	)
+	(wire
+		(pts
+			(xy 137.16 48.26) (xy 139.7 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a194123-ff6e-4f66-a253-4449bb3ecb3f")
+	)
+	(wire
+		(pts
+			(xy 210.82 111.76) (xy 219.71 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c420893-5d76-4b07-99a8-7bba9c58ef04")
+	)
+	(wire
+		(pts
+			(xy 243.84 100.33) (xy 247.65 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c43a926-1c93-45a2-a7f4-75eb433ccde4")
+	)
+	(wire
+		(pts
+			(xy 137.16 54.61) (xy 151.13 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cde8116-ae30-4f0f-acbc-bce4f9072425")
+	)
+	(wire
+		(pts
+			(xy 209.55 148.59) (xy 227.33 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40274c34-7e42-474a-b5a6-a4485715a69d")
+	)
+	(wire
+		(pts
+			(xy 209.55 148.59) (xy 203.2 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41559f55-046a-4ee4-bac6-712739e1d8b1")
+	)
+	(wire
+		(pts
+			(xy 116.84 204.47) (xy 116.84 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45219ee3-a1e9-435a-b315-080c6aa263a8")
+	)
+	(wire
+		(pts
+			(xy 210.82 101.6) (xy 210.82 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "470b9965-e5d5-4c0c-b49f-a34f5bab1993")
+	)
+	(wire
+		(pts
+			(xy 137.16 111.76) (xy 137.16 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "486b9349-89e5-4138-ba0c-28504a4ca85d")
+	)
+	(wire
+		(pts
+			(xy 107.95 167.64) (xy 114.3 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48df5cd1-5daa-40b3-80a2-15a92b669fb7")
+	)
+	(wire
+		(pts
+			(xy 209.55 49.53) (xy 209.55 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ba03911-6096-4683-8818-873c03b78c88")
+	)
+	(wire
+		(pts
+			(xy 231.14 219.71) (xy 227.33 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c74ae27-92a6-4c95-aea3-9f037ec55eaa")
+	)
+	(wire
+		(pts
+			(xy 210.82 209.55) (xy 210.82 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e936a17-7c17-4291-a9ca-8765fe7736f5")
+	)
+	(wire
+		(pts
+			(xy 114.3 40.64) (xy 132.08 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f20873c-d6c2-45de-8f4c-4a26b2218c27")
+	)
+	(wire
+		(pts
+			(xy 229.87 59.69) (xy 246.38 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5169988f-2a86-4548-8007-de24f96c3912")
+	)
+	(wire
+		(pts
+			(xy 151.13 40.64) (xy 139.7 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "557e90c9-b059-4131-8324-644764564a44")
+	)
+	(wire
+		(pts
+			(xy 114.3 48.26) (xy 114.3 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55802188-05a5-4943-b1c5-e12f2afa7433")
+	)
+	(wire
+		(pts
+			(xy 134.62 63.5) (xy 134.62 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e0d18f-1380-4e3a-86a1-f4fb04a84102")
+	)
+	(wire
+		(pts
+			(xy 204.47 219.71) (xy 210.82 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "572d130f-09b3-4b34-a95c-e6ba5130b5a0")
+	)
+	(wire
+		(pts
+			(xy 116.84 215.9) (xy 125.73 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b9acc7e-9f3a-4c88-89ba-b22e41aaac10")
+	)
+	(wire
+		(pts
+			(xy 137.16 156.21) (xy 137.16 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c50d298-24c4-4196-a142-4ab43306d4bd")
+	)
+	(wire
+		(pts
+			(xy 139.7 204.47) (xy 139.7 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb9e0b9-e252-4b5a-88e4-6a65d9a9ab31")
+	)
+	(wire
+		(pts
+			(xy 114.3 157.48) (xy 114.3 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cf324bc-993d-4227-8540-e34c25fd6511")
+	)
+	(wire
+		(pts
+			(xy 209.55 48.26) (xy 218.44 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d9fbad7-f990-4176-a041-64962518be60")
+	)
+	(wire
+		(pts
+			(xy 210.82 208.28) (xy 210.82 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "603a076b-2bbd-43c5-87fd-c6817715eb1c")
+	)
+	(wire
+		(pts
+			(xy 153.67 196.85) (xy 142.24 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "648e2ea4-4a7f-4f8a-8ccb-0e25ba4b85f5")
+	)
+	(wire
+		(pts
+			(xy 139.7 96.52) (xy 139.7 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "656f0946-c5cf-4c7c-9017-49df76e504f8")
+	)
+	(wire
+		(pts
+			(xy 114.3 59.69) (xy 123.19 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6578ce2a-edc9-4263-b3ed-748c3442ccde")
+	)
+	(wire
+		(pts
+			(xy 247.65 100.33) (xy 247.65 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b02b3a-3428-41b1-8abe-4f02d30b8887")
+	)
+	(wire
+		(pts
+			(xy 210.82 219.71) (xy 219.71 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67f47059-d7c8-4ebd-b03d-af91d3b23135")
+	)
+	(wire
+		(pts
+			(xy 137.16 215.9) (xy 133.35 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a604a4f-fb7d-4b4d-b427-b92a5e583cc4")
+	)
+	(wire
+		(pts
+			(xy 151.13 148.59) (xy 139.7 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ad9f9f2-1cbe-4dd5-bc07-a38b4272a006")
+	)
+	(wire
+		(pts
+			(xy 114.3 148.59) (xy 132.08 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d7fe0e3-17d6-4209-80cf-fe4397616a6a")
+	)
+	(wire
+		(pts
+			(xy 116.84 88.9) (xy 134.62 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fb9bf63-e299-4a99-9708-02cc12b02f3a")
+	)
+	(wire
+		(pts
+			(xy 209.55 40.64) (xy 203.2 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ffdeff7-af9f-4640-b68e-16d73c56a445")
+	)
+	(wire
+		(pts
+			(xy 209.55 59.69) (xy 209.55 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "700c8ecf-821b-474b-aa4c-29bf2ae22a50")
+	)
+	(wire
+		(pts
+			(xy 209.55 156.21) (xy 209.55 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "701a67cf-aba5-4898-b66b-7025d617a82a")
+	)
+	(wire
+		(pts
+			(xy 233.68 100.33) (xy 236.22 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7384caaa-bb8e-4421-a78a-83377575b906")
+	)
+	(wire
+		(pts
+			(xy 114.3 63.5) (xy 114.3 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74a4afda-4ea7-440e-8013-cffeee1f1410")
+	)
+	(wire
+		(pts
+			(xy 130.81 48.26) (xy 137.16 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7550b820-60ac-43af-8db4-0dcfb5f59de9")
+	)
+	(wire
+		(pts
+			(xy 137.16 215.9) (xy 153.67 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76ccac46-abe7-4d8c-95f0-c0fe3b0770c9")
+	)
+	(wire
+		(pts
+			(xy 137.16 48.26) (xy 137.16 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78552c6a-4d02-4400-8d6b-02b83985d9ab")
+	)
+	(wire
+		(pts
+			(xy 247.65 92.71) (xy 236.22 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e81c16-f129-4dad-9c5b-c8a3ec1cad90")
+	)
+	(wire
+		(pts
+			(xy 137.16 219.71) (xy 137.16 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c526d62-b4b4-4a7d-8bf7-91ce536214de")
+	)
+	(wire
+		(pts
+			(xy 153.67 88.9) (xy 142.24 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ebe4d21-c69a-4892-9720-5d31a4ab424c")
+	)
+	(wire
+		(pts
+			(xy 231.14 111.76) (xy 247.65 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec6a3c6-3ff3-476b-8dcf-3f736b6f5b8d")
+	)
+	(wire
+		(pts
+			(xy 153.67 96.52) (xy 153.67 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "843bb8d9-bfcd-4d3b-85da-e84703de4758")
+	)
+	(wire
+		(pts
+			(xy 209.55 40.64) (xy 227.33 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a05269-7ed2-4dbe-89c1-0cece907e9a2")
+	)
+	(wire
+		(pts
+			(xy 231.14 223.52) (xy 231.14 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d3fc75-3f76-4212-96e6-5a58d20c6802")
+	)
+	(wire
+		(pts
+			(xy 227.33 208.28) (xy 233.68 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d722e1-3352-4625-8ff1-5eedf973337b")
+	)
+	(wire
+		(pts
+			(xy 232.41 54.61) (xy 246.38 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cceee9a-4aed-4725-a5f9-4fe312e7b77a")
+	)
+	(wire
+		(pts
+			(xy 149.86 204.47) (xy 153.67 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e7e7cf7-377f-4d13-bcfa-dd39a66ea6e3")
+	)
+	(wire
+		(pts
+			(xy 209.55 63.5) (xy 209.55 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902413f7-5a0d-4117-b91c-28506349b829")
+	)
+	(wire
+		(pts
+			(xy 134.62 59.69) (xy 130.81 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91217a7d-9ea3-475a-ab8a-158a000aa01f")
+	)
+	(wire
+		(pts
+			(xy 107.95 59.69) (xy 114.3 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9447adba-197e-4233-b2b0-0bd84e12b0f0")
+	)
+	(wire
+		(pts
+			(xy 232.41 156.21) (xy 232.41 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94921307-6020-47e7-92af-0871626ce5df")
+	)
+	(wire
+		(pts
+			(xy 134.62 167.64) (xy 130.81 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97354684-5253-4c55-b556-3d34fe31dbe7")
+	)
+	(wire
+		(pts
+			(xy 116.84 96.52) (xy 116.84 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "976278f7-9b7d-4aa9-a39a-c2c9de3c1607")
+	)
+	(wire
+		(pts
+			(xy 232.41 48.26) (xy 232.41 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9970807c-47e5-4398-a586-985c298ddeba")
+	)
+	(wire
+		(pts
+			(xy 226.06 156.21) (xy 232.41 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aa4eb98-4d47-48b9-808a-070c71fbbe43")
+	)
+	(wire
+		(pts
+			(xy 229.87 63.5) (xy 229.87 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d292604-5ce8-4c10-afe3-9bd2dfd8699d")
+	)
+	(wire
+		(pts
+			(xy 114.3 49.53) (xy 114.3 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a01c5269-8500-4cf8-ac56-28a82fc7c743")
+	)
+	(wire
+		(pts
+			(xy 229.87 171.45) (xy 229.87 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27de536-37c3-4e18-9b14-31b9ab9402f9")
+	)
+	(wire
+		(pts
+			(xy 114.3 59.69) (xy 114.3 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4240142-5604-4833-ae62-3e9738cc85b2")
+	)
+	(wire
+		(pts
+			(xy 233.68 214.63) (xy 247.65 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a618e2cc-e0a0-4fef-a521-0702f51ef57d")
+	)
+	(wire
+		(pts
+			(xy 229.87 167.64) (xy 226.06 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a74f958e-f9f1-4767-8dc0-6c87f2436e98")
+	)
+	(wire
+		(pts
+			(xy 242.57 156.21) (xy 246.38 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8398489-2c77-48e1-85e4-bbbafae97093")
+	)
+	(wire
+		(pts
+			(xy 232.41 162.56) (xy 246.38 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9bc182c-8410-474b-80ad-0e4901512c75")
+	)
+	(wire
+		(pts
+			(xy 151.13 48.26) (xy 151.13 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e90476-a264-4c56-8d92-2a246e1b5905")
+	)
+	(wire
+		(pts
+			(xy 114.3 167.64) (xy 123.19 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab265c66-47a7-4d3d-82d4-964a4188d2aa")
+	)
+	(wire
+		(pts
+			(xy 209.55 167.64) (xy 209.55 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad063d71-d334-4a63-84f7-3219d1d3f1ba")
+	)
+	(wire
+		(pts
+			(xy 137.16 107.95) (xy 153.67 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae0c27ba-2633-4caa-8fb0-79bb73c8aea1")
+	)
+	(wire
+		(pts
+			(xy 232.41 156.21) (xy 234.95 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af769874-da80-48f5-958b-ef9b3182cc36")
+	)
+	(wire
+		(pts
+			(xy 133.35 96.52) (xy 139.7 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45af11c-231b-4e94-9c64-8c2a8f10f604")
+	)
+	(wire
+		(pts
+			(xy 210.82 200.66) (xy 204.47 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92fc03c-e2ef-4d23-b645-2dc28b58328d")
+	)
+	(wire
+		(pts
+			(xy 139.7 210.82) (xy 153.67 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb0a3b19-a828-49c5-b773-67a127ff491b")
+	)
+	(wire
+		(pts
+			(xy 151.13 156.21) (xy 151.13 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1cfb95c-de61-4834-989e-d8481ce7d67b")
+	)
+	(wire
+		(pts
+			(xy 139.7 102.87) (xy 153.67 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c33888e7-a405-4341-9031-887127a0534d")
+	)
+	(wire
+		(pts
+			(xy 210.82 111.76) (xy 210.82 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b07188-d448-4be2-aedf-5638c727d66c")
+	)
+	(wire
+		(pts
+			(xy 210.82 219.71) (xy 210.82 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c74dac36-ffd3-4006-a48b-18dde272ced4")
+	)
+	(wire
+		(pts
+			(xy 110.49 215.9) (xy 116.84 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7aa092d-1684-43a4-93c8-87a10d8fceae")
+	)
+	(wire
+		(pts
+			(xy 139.7 204.47) (xy 142.24 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8847487-5c98-424f-8e4c-4615c941582e")
+	)
+	(wire
+		(pts
+			(xy 246.38 48.26) (xy 246.38 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c88acf70-764f-49d4-a0f8-cb34191e0830")
+	)
+	(wire
+		(pts
+			(xy 114.3 156.21) (xy 123.19 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8fcb278-d910-4bd5-a962-d2fc430ce61b")
+	)
+	(wire
+		(pts
+			(xy 137.16 156.21) (xy 139.7 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce251afc-d76f-4b45-aeb9-dd08d65e9b93")
+	)
+	(wire
+		(pts
+			(xy 134.62 167.64) (xy 151.13 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf88bebd-7d67-43fd-a751-d0ca97504a8b")
+	)
+	(wire
+		(pts
+			(xy 110.49 107.95) (xy 116.84 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d27a195b-ebb1-443b-a143-b5dc967a513c")
+	)
+	(wire
+		(pts
+			(xy 116.84 205.74) (xy 116.84 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d389282e-c5bb-462b-8fba-de741041b219")
+	)
+	(wire
+		(pts
+			(xy 233.68 208.28) (xy 233.68 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47ca754-1e05-49f1-99c4-8be7969119e9")
+	)
+	(wire
+		(pts
+			(xy 210.82 200.66) (xy 228.6 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da0bf99c-855e-478e-87d8-8780396e3c93")
+	)
+	(wire
+		(pts
+			(xy 210.82 92.71) (xy 228.6 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc90f695-0c4f-43f5-9192-fe435523e2d7")
+	)
+	(wire
+		(pts
+			(xy 116.84 107.95) (xy 116.84 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df231b11-decd-4d7e-898d-80e7912fecc6")
+	)
+	(wire
+		(pts
+			(xy 114.3 156.21) (xy 114.3 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa88bb0-9ef7-4cd8-8c11-2fab48c9fb0c")
+	)
+	(wire
+		(pts
+			(xy 116.84 88.9) (xy 110.49 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e24405a1-a086-41b5-ab54-6ef07bef0dbd")
+	)
+	(wire
+		(pts
+			(xy 231.14 219.71) (xy 247.65 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e377c371-9666-44ce-b32a-6a99fa97c43b")
+	)
+	(wire
+		(pts
+			(xy 209.55 48.26) (xy 209.55 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4439287-7d8b-438a-97d6-1b3ac9aba0bb")
+	)
+	(wire
+		(pts
+			(xy 116.84 219.71) (xy 116.84 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a06b55-e1be-4425-b569-feb206486c0f")
+	)
+	(wire
+		(pts
+			(xy 247.65 208.28) (xy 247.65 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e714d6f8-4567-49e9-97df-872e2866e3f3")
+	)
+	(wire
+		(pts
+			(xy 134.62 59.69) (xy 151.13 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e894907d-6394-491c-9c8b-36dee8eca4e8")
+	)
+	(wire
+		(pts
+			(xy 209.55 157.48) (xy 209.55 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba5607a-9eb4-49b4-a646-4c7a5b776b4b")
+	)
+	(wire
+		(pts
+			(xy 147.32 48.26) (xy 151.13 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec163aa0-d144-4c4f-a0bd-9e3422eb6939")
+	)
+	(wire
+		(pts
+			(xy 209.55 156.21) (xy 218.44 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec5a8e9e-3901-4656-9a78-6b92c16e75b3")
+	)
+	(wire
+		(pts
+			(xy 116.84 204.47) (xy 125.73 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edaf34d8-b96b-440f-9925-626ea9df01a5")
+	)
+	(wire
+		(pts
+			(xy 231.14 111.76) (xy 227.33 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef5ffa64-41d5-4e18-95a4-d08f07bf6f7b")
+	)
+	(wire
+		(pts
+			(xy 133.35 204.47) (xy 139.7 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2a3831b-223f-49ab-afa8-eb7d4c887d70")
+	)
+	(wire
+		(pts
+			(xy 153.67 204.47) (xy 153.67 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3eb513c-f7a4-476f-beaf-c8f14df984ff")
+	)
+	(wire
+		(pts
+			(xy 210.82 115.57) (xy 210.82 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f212e8-a2e5-4fa2-a77c-5ecb372f7e4e")
+	)
+	(wire
+		(pts
+			(xy 116.84 196.85) (xy 134.62 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a61606-dd97-421e-a5c3-0421f10b4ec9")
+	)
+	(wire
+		(pts
+			(xy 116.84 96.52) (xy 125.73 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7baebe5-ea2f-45e9-a732-4989fa77baf0")
+	)
+	(wire
+		(pts
+			(xy 209.55 59.69) (xy 218.44 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c41a76-3804-45a9-8ccc-664707969671")
+	)
+	(wire
+		(pts
+			(xy 116.84 196.85) (xy 110.49 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8713e69-4d9a-4ac8-a039-8529fde2b051")
+	)
+	(wire
+		(pts
+			(xy 210.82 223.52) (xy 210.82 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8dee01f-6000-4a19-a6f4-2267b0efc9d6")
+	)
+	(wire
+		(pts
+			(xy 209.55 171.45) (xy 209.55 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f97f8501-c157-4289-b43f-e18b0755ce08")
+	)
+	(wire
+		(pts
+			(xy 204.47 111.76) (xy 210.82 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fafe28ed-1893-48b9-8ee3-d2a7d570d466")
+	)
+	(wire
+		(pts
+			(xy 246.38 40.64) (xy 234.95 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe78ecc-ed46-461e-98fd-d90cab4a222c")
+	)
+	(hierarchical_label "AOUT7+"
+		(shape input)
+		(at 195.58 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02967654-7ba7-49ad-b735-81854aba29bc")
+	)
+	(hierarchical_label "AOUT7-"
+		(shape input)
+		(at 195.58 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a6bd50f-9782-42b4-8f03-5615bfbc1be8")
+	)
+	(hierarchical_label "AFOUT4-"
+		(shape output)
+		(at 247.65 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f9bf4c7-791c-4e5c-b7ac-bdeb654d138c")
+	)
+	(hierarchical_label "ROUT4-"
+		(shape input)
+		(at 100.33 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10d89734-efea-41b8-83ce-a16232a887e5")
+	)
+	(hierarchical_label "AOUT5+"
+		(shape input)
+		(at 100.33 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1103886d-afdd-43e6-8da5-d460661b0ad8")
+	)
+	(hierarchical_label "AFOUT6-"
+		(shape output)
+		(at 153.67 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16d18164-0177-4272-9e71-2dda915271f9")
+	)
+	(hierarchical_label "AFOUT4+"
+		(shape output)
+		(at 247.65 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16edb64b-a5b9-4543-9dc8-b75be7b60cef")
+	)
+	(hierarchical_label "OPIN3"
+		(shape input)
+		(at 246.38 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17eb24ec-3ac8-4746-b07a-2a2644d845d2")
+	)
+	(hierarchical_label "AFOUT5+"
+		(shape output)
+		(at 151.13 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18b55714-6ebf-4906-afe9-4ef45e0217fd")
+	)
+	(hierarchical_label "OPIN2"
+		(shape input)
+		(at 153.67 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "218491d9-6491-4b17-8b2d-c527e1779a31")
+	)
+	(hierarchical_label "AFOUT7+"
+		(shape output)
+		(at 246.38 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2273e6d7-c830-4525-a601-609b2a2376e9")
+	)
+	(hierarchical_label "OPIN4"
+		(shape input)
+		(at 247.65 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2dea2c2a-5ef1-42c0-b458-8296ca4c0121")
+	)
+	(hierarchical_label "OPIN6"
+		(shape input)
+		(at 153.67 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ff78e32-dc9b-4404-b547-6bcabca0fc42")
+	)
+	(hierarchical_label "AFOUT5-"
+		(shape output)
+		(at 151.13 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "41631be1-2e8b-4a2e-a46a-05ca0d328b30")
+	)
+	(hierarchical_label "AOUT5-"
+		(shape input)
+		(at 100.33 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44e18ae8-2dff-48fe-90ac-e00be87e4fd1")
+	)
+	(hierarchical_label "AOUT1+"
+		(shape input)
+		(at 100.33 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5244e352-d065-4e39-b91b-de540f7d0747")
+	)
+	(hierarchical_label "AFOUT2-"
+		(shape output)
+		(at 153.67 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "528937a0-d4b8-4fdb-b295-22bbd46894a6")
+	)
+	(hierarchical_label "AOUT8-"
+		(shape input)
+		(at 196.85 200.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56147975-2270-49ec-b9b4-1fdd103337f5")
+	)
+	(hierarchical_label "AFOUT2+"
+		(shape output)
+		(at 153.67 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "58e7fecb-6b85-45da-99b7-f0fa48f5be55")
+	)
+	(hierarchical_label "AOUT2+"
+		(shape input)
+		(at 102.87 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "604290e3-dfd7-4c59-9b8f-186c1f6a77b1")
+	)
+	(hierarchical_label "AOUT6+"
+		(shape input)
+		(at 102.87 215.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6be951a3-7676-46a3-9566-b5e6411503cf")
+	)
+	(hierarchical_label "AOUT2-"
+		(shape input)
+		(at 102.87 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f712af9-d340-4bc3-9c5c-0ff7a5be7731")
+	)
+	(hierarchical_label "AFOUT3+"
+		(shape output)
+		(at 246.38 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7432363e-88d2-41f6-9bb1-7651877bd74a")
+	)
+	(hierarchical_label "AFOUT1+"
+		(shape output)
+		(at 151.13 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "768e6b5d-58fd-4433-a263-bdf7ac583428")
+	)
+	(hierarchical_label "AOUT3-"
+		(shape input)
+		(at 195.58 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80608958-7eb3-4ff6-9e96-38d8c45437b5")
+	)
+	(hierarchical_label "OPIN8"
+		(shape input)
+		(at 247.65 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "807ae0d2-e34f-45c6-86db-e693654fb593")
+	)
+	(hierarchical_label "OPIN1"
+		(shape input)
+		(at 151.13 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82cbe6d3-7cbc-4124-9098-d8900127f384")
+	)
+	(hierarchical_label "AOUT8+"
+		(shape input)
+		(at 196.85 219.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a7589cb-3c6a-4ea7-9932-d162034aea36")
+	)
+	(hierarchical_label "AFOUT8-"
+		(shape output)
+		(at 247.65 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9486eda0-ddca-43d3-808d-e7046812ac6f")
+	)
+	(hierarchical_label "AFOUT7-"
+		(shape output)
+		(at 246.38 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a95a4309-004d-437d-a8b2-28630219052e")
+	)
+	(hierarchical_label "AOUT3+"
+		(shape input)
+		(at 195.58 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "acb8a487-3cf9-4b25-b981-84c910cb650b")
+	)
+	(hierarchical_label "AOUT4-"
+		(shape input)
+		(at 196.85 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3a24d09-cdef-40dd-83ca-a287221fba5d")
+	)
+	(hierarchical_label "AOUT4+"
+		(shape input)
+		(at 196.85 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b492ed1e-27f7-4231-839a-08876c84556f")
+	)
+	(hierarchical_label "AFOUT1-"
+		(shape output)
+		(at 151.13 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c668b0e5-9e35-47d4-9555-9c84c1da945b")
+	)
+	(hierarchical_label "AFOUT6+"
+		(shape output)
+		(at 153.67 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd4acc78-bd97-4786-925d-52924dbf1596")
+	)
+	(hierarchical_label "AFOUT3-"
+		(shape output)
+		(at 246.38 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc21dba4-cbef-4b5f-806d-4fe57961c1b1")
+	)
+	(hierarchical_label "AFOUT8+"
+		(shape output)
+		(at 247.65 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e784f2d9-367d-4ca1-a5be-577b84b4453c")
+	)
+	(hierarchical_label "AOUT6-"
+		(shape input)
+		(at 102.87 196.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8b166d9-ee76-4547-992f-a96704c37938")
+	)
+	(hierarchical_label "OPIN7"
+		(shape input)
+		(at 246.38 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec3ea184-2d9a-450f-a95d-c8b4ff518270")
+	)
+	(hierarchical_label "OPIN5"
+		(shape input)
+		(at 151.13 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2620afc-e550-4b0b-8650-a7c4e6da8d45")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 200.66 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "004b5b5a-8c7e-45e0-9b54-05d551eeb972")
+		(property "Reference" "R41"
+			(at 200.66 194.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.9k"
+			(at 200.66 196.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 202.438 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ceac9a6a-d2c6-41df-97f0-2c7106d0da32")
+		)
+		(pin "2"
+			(uuid "aa2f15e6-a289-4067-82a6-f3bc639fd61d")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 232.41 200.66 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01d9b41a-90cc-4646-94ea-8a2571f7824f")
+		(property "Reference" "R50"
+			(at 232.41 194.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 232.41 196.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 202.438 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 232.41 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a839271-46e6-4e10-b747-81c221b96b99")
+		)
+		(pin "2"
+			(uuid "2eec0ef9-833b-4fcb-a7a3-a7c85408dfed")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 231.14 227.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "061656d8-2c7a-4617-8c5d-74900e48dab5")
+		(property "Reference" "C33"
+			(at 234.95 226.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470pF"
+			(at 234.95 228.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.1052 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 231.14 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "77db11f9-ddc2-4320-8a30-68136d6adef8")
+		)
+		(pin "1"
+			(uuid "c0bb52fc-23b6-4b53-bf2b-32755a5a15d3")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 199.39 148.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0963c74a-2b16-4761-8bdb-2c0ecda4021d")
+		(property "Reference" "R39"
+			(at 199.39 142.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.9k"
+			(at 199.39 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 150.368 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 199.39 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca41eaba-2ad6-4812-a30f-2083df40c288")
+		)
+		(pin "2"
+			(uuid "1eccdde4-1057-407d-a448-4d6aa7903baa")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 156.21 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "098c56aa-3333-4dc3-aba6-0092272b7d13")
+		(property "Reference" "R33"
+			(at 127 150.622 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 127 153.162 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 157.988 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3693de30-f3c6-454d-b81d-71168a51ee35")
+		)
+		(pin "2"
+			(uuid "2d606976-2701-4abd-afdd-94f809295782")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 148.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e0760b0-0f15-4615-bf2d-7ae6395d60ea")
+		(property "Reference" "R37"
+			(at 135.89 142.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 135.89 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 150.368 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65ca7183-2c3c-4f4d-99ad-5acb18a35edd")
+		)
+		(pin "2"
+			(uuid "e6a79edb-5166-4ed2-bbf8-e450e2e704c2")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 222.25 167.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "104e122d-43fd-4373-8f65-7a12a81b1279")
+		(property "Reference" "R46"
+			(at 222.25 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 222.25 163.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 169.418 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 222.25 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2831eb3-18f6-4fa8-82ab-7476d112372e")
+		)
+		(pin "2"
+			(uuid "7368bf1b-e15f-48d0-b3bc-08404043fb93")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 134.62 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "141c9616-914f-4c13-b1b9-2de10ce1d3ff")
+		(property "Reference" "#PWR012"
+			(at 134.62 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 134.62 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 134.62 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a555df54-b407-4692-beed-8a23c21cae77")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 129.54 215.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17fac765-87b4-4b77-9e94-793643b2990b")
+		(property "Reference" "R36"
+			(at 129.54 209.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 129.54 212.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 217.678 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f77852a8-c89e-4b23-b0c8-716bcfcbcb33")
+		)
+		(pin "2"
+			(uuid "6ebc22c5-3be0-494c-b6ab-917044fadd35")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 209.55 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a81e458-5af9-4395-935b-5599b3572bab")
+		(property "Reference" "R17"
+			(at 212.09 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 212.09 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.772 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 209.55 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "660e1a42-c6b6-43cf-b860-655d53cc3d3c")
+		)
+		(pin "2"
+			(uuid "7c9fa2fd-1d92-4f34-b0c5-e849ea774ccb")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 209.55 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e8bf672-515b-4493-9541-7a7791c180a6")
+		(property "Reference" "#PWR023"
+			(at 209.55 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 209.55 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 209.55 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "daed2d3b-db40-47b5-9507-0460bdc62687")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 229.87 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e97213e-4cc1-43aa-8a08-8d563f130bbd")
+		(property "Reference" "#PWR016"
+			(at 229.87 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 229.87 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 229.87 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e82ab51a-268e-4a0b-aa74-8e47c5a1655d")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 231.14 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "232f7fb2-9a5e-4aa5-b8cd-46c28ef4183c")
+		(property "Reference" "R20"
+			(at 231.14 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 231.14 36.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 42.418 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 231.14 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a2530db-4ead-4893-bf62-f30b35120eed")
+		)
+		(pin "2"
+			(uuid "6275f27b-8656-40c1-a7b5-cc2402487bfb")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 229.87 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24421cd1-27d7-457c-88c8-10fada58fe28")
+		(property "Reference" "C32"
+			(at 233.68 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470pF"
+			(at 233.68 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 230.8352 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 229.87 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2283c6ec-de10-4dea-a778-1a414468f8b5")
+		)
+		(pin "1"
+			(uuid "285ec1ea-383b-4410-b5f0-e4b56dac73fe")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 210.82 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f59dde6-530f-4065-92a4-b31f47fd7208")
+		(property "Reference" "R23"
+			(at 213.36 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 213.36 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.042 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 210.82 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b73697f-ddcf-44fb-ba9d-9d690a3246f4")
+		)
+		(pin "2"
+			(uuid "0ede2fd2-1b1f-49a6-8866-7d648b81091c")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 222.25 156.21 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2fb686f2-732a-4733-b724-e389ab848de3")
+		(property "Reference" "R45"
+			(at 222.25 150.622 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 222.25 153.162 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 157.988 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 222.25 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c232350-4a15-49cc-a711-d559eee585e5")
+		)
+		(pin "2"
+			(uuid "cef08724-5937-4b68-a19a-f6bb6a9a8618")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31ebd867-b662-4c8b-ad4a-290eb2d9f143")
+		(property "Reference" "R10"
+			(at 106.68 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.9k"
+			(at 106.68 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 109.728 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6f79e63-a340-43be-b237-73c84b0c3568")
+		)
+		(pin "2"
+			(uuid "647a5168-2fb0-4801-9979-00ddf4277355")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 114.3 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35fcf3b6-1ad8-440d-9ba4-3cc1dcdb8ed5")
+		(property "Reference" "C3"
+			(at 118.11 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.9nF"
+			(at 118.11 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.2652 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 114.3 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f9f38639-274f-4437-9874-58bafe62acb6")
+		)
+		(pin "1"
+			(uuid "8de079fe-406e-48dc-9b94-2ea251471420")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "393891ee-ebf9-48bc-b66e-99277eb2fe1b")
+		(property "Reference" "R9"
+			(at 106.68 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.9k"
+			(at 106.68 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 90.678 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d0d9c97-26f3-451c-87f7-d56a5a351d2b")
+		)
+		(pin "2"
+			(uuid "4f20ffc0-236f-45ee-bd58-6636f7df38e0")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 138.43 196.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a01ccdb-ce35-4695-b786-ba516f6cab9a")
+		(property "Reference" "R38"
+			(at 138.43 190.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 138.43 193.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 198.628 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 138.43 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97b6129c-dd19-4910-aa58-5e79c16f4bff")
+		)
+		(pin "2"
+			(uuid "e53863fc-28e8-429a-babf-b084a6fca7fe")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 210.82 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a2c1db9-26b5-48dd-8624-0265f38c7054")
+		(property "Reference" "C21"
+			(at 214.63 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.9nF"
+			(at 214.63 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 211.7852 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 210.82 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "382cb04f-7a68-404d-a09f-039570f59f18")
+		)
+		(pin "1"
+			(uuid "e68947a0-6a4c-468e-9c68-543106a662d9")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c1aeeba-d13c-4746-a793-a18c3ddd0b4b")
+		(property "Reference" "R22"
+			(at 200.66 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.9k"
+			(at 200.66 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 113.538 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d844d88-48df-47b6-b742-699fbaae4666")
+		)
+		(pin "2"
+			(uuid "1902ee69-2bdb-44c2-b856-9d403a5d12cc")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 127 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48b88e9b-5b2d-42c4-93cb-aa39a3156de6")
+		(property "Reference" "R8"
+			(at 127 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 127 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 61.468 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8300a07-cb27-4476-acf9-2798f1d51573")
+		)
+		(pin "2"
+			(uuid "a56d8fc1-16ae-42bb-bce7-764a241b7ad7")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 48.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b538522-2863-4781-bf15-8ba0a1e457bf")
+		(property "Reference" "R7"
+			(at 127 42.672 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 127 45.212 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 50.038 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8fed6e0-d1c9-4cf1-a8f1-8158765656ac")
+		)
+		(pin "2"
+			(uuid "7f42c2b0-9dbc-43d2-8230-ae9a00813139")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 196.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cba21c3-87f3-40d2-8683-83c437455af3")
+		(property "Reference" "R29"
+			(at 106.68 190.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.9k"
+			(at 106.68 193.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 198.628 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51f156fe-32b6-4761-85c9-176092b22d25")
+		)
+		(pin "2"
+			(uuid "8a347b1e-f5e0-4411-916c-542ec3ef74b1")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 240.03 100.33 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "567dcd11-4157-462d-a9d8-8ae04c8d3099")
+		(property "Reference" "C23"
+			(at 240.03 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470pF"
+			(at 240.03 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 99.3648 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 240.03 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5a38bccb-af78-4c48-8c66-82bbaf31d1de")
+		)
+		(pin "1"
+			(uuid "d52b107f-c539-475e-8ae7-55fb482c2fdd")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 229.87 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e593636-53d7-4da7-98da-29c1f8efd1fb")
+		(property "Reference" "#PWR025"
+			(at 229.87 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 229.87 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 229.87 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03f0af5e-eb25-411c-905b-110f6c6d1a2e")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 127 167.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "623dfe32-13e1-409e-849e-303e8c48279b")
+		(property "Reference" "R34"
+			(at 127 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 127 163.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 169.418 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d6a4cf0-5b9f-47e6-8e9b-31c2c1cdfeb2")
+		)
+		(pin "2"
+			(uuid "c80a4c8b-877d-4167-b330-47832be7705f")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 209.55 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "692363d0-63c8-4d02-ace7-572c58358b7b")
+		(property "Reference" "#PWR015"
+			(at 209.55 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 209.55 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 209.55 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "635c5a3b-b3eb-47cb-8ff1-34ebb857e3c9")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 223.52 208.28 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "69303c1a-deb1-460b-bea7-22fbbd51e5fa")
+		(property "Reference" "R47"
+			(at 223.52 202.692 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 223.52 205.232 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 210.058 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 223.52 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ee42133-c475-4a22-b7db-f871fb5c4daf")
+		)
+		(pin "2"
+			(uuid "ddef700a-75bf-43bd-bb5d-15d229b06561")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 199.39 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b0cb2fd-2f00-4c0c-9f4d-67c4d4da04f9")
+		(property "Reference" "R15"
+			(at 199.39 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.9k"
+			(at 199.39 36.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 42.418 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 199.39 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b3d5acf-aaaf-4737-8944-e5da45ab9ac2")
+		)
+		(pin "2"
+			(uuid "c415372b-e710-41e5-883c-01cf26efbae3")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 137.16 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dfcee73-a1a4-466d-bd75-58c49efbde02")
+		(property "Reference" "#PWR014"
+			(at 137.16 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 137.16 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 137.16 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7f1c444-ae24-4667-a03a-1dff3a25a237")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 209.55 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6effc8ec-f142-4f0c-9d98-126d0ef318ee")
+		(property "Reference" "C18"
+			(at 213.36 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.9nF"
+			(at 213.36 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.5152 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 209.55 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "47948659-08fb-4773-81ae-abb7198bfc8e")
+		)
+		(pin "1"
+			(uuid "d5b2c20b-a8e8-4101-a1e3-cfc10d8f3896")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 104.14 167.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "753acc14-8b4d-4549-997f-c8d01cc017a6")
+		(property "Reference" "R28"
+			(at 104.14 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.9k"
+			(at 104.14 163.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 169.418 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 104.14 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3443c6c4-4137-4a72-a004-a480231821cb")
+		)
+		(pin "2"
+			(uuid "fe30767b-c377-4dae-86f7-472d366c1f8e")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 116.84 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75d362ff-6710-47b8-acdc-b078c8fa5990")
+		(property "Reference" "R11"
+			(at 119.38 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 119.38 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.062 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 116.84 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "939605c1-d23f-48f2-9efb-2562cf81168f")
+		)
+		(pin "2"
+			(uuid "e8b49dc6-885b-4411-b25c-efc45bf0c350")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 222.25 48.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "796b96f5-ca49-4dfd-8e9f-e97695a57b07")
+		(property "Reference" "R18"
+			(at 222.25 42.672 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 222.25 45.212 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 50.038 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 222.25 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "228e61b7-3da0-4703-a046-75e1ebc93884")
+		)
+		(pin "2"
+			(uuid "e30d27e4-f66b-4d49-910e-7272a1ee4895")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 114.3 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8260e971-4d23-4ea9-9bb4-7092a0930472")
+		(property "Reference" "C24"
+			(at 118.11 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.9nF"
+			(at 118.11 162.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.2652 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 114.3 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d923f2ff-bc94-46c2-b1bf-d49232ebbe8c")
+		)
+		(pin "1"
+			(uuid "a2b1b0ea-72a9-4645-8b14-991ec3bff1aa")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 116.84 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83827821-5d79-409b-bdbe-ce7e44e67a63")
+		(property "Reference" "R32"
+			(at 119.38 222.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 119.38 224.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.062 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 116.84 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dfe752dc-bc2f-480e-a374-b1716edf9ea0")
+		)
+		(pin "2"
+			(uuid "6a21e4c6-bcfe-48bb-a247-5667be100594")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 199.39 167.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86230631-7db2-4a28-92ee-7c670042d0ae")
+		(property "Reference" "R40"
+			(at 199.39 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.9k"
+			(at 199.39 163.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 169.418 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 199.39 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8c1274f-5180-480f-8236-1a814b93496f")
+		)
+		(pin "2"
+			(uuid "561838b2-b93d-40f7-8c3c-ee6ed444fa60")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 116.84 227.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86d4d4cc-d534-43c2-8788-79d3761d7ef7")
+		(property "Reference" "#PWR020"
+			(at 116.84 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 116.84 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 116.84 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f76235c-3c7e-41fb-b288-2d619267d02c")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 137.16 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c00822a-b0d6-41fb-83be-d6dfdd84254c")
+		(property "Reference" "C16"
+			(at 140.97 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470pF"
+			(at 140.97 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.1252 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 137.16 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ba79b8bc-4366-4e24-bff5-2793740f2812")
+		)
+		(pin "1"
+			(uuid "02652d73-4b3c-4db0-a8bd-3fd389451f8c")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 199.39 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d6395fc-1ce8-4a71-a6b6-924ae20ea1ea")
+		(property "Reference" "R16"
+			(at 199.39 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.9k"
+			(at 199.39 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 61.468 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 199.39 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fedc5444-9112-4cba-9546-8d23437cf71a")
+		)
+		(pin "2"
+			(uuid "7548c935-0342-425c-846e-78394c77ca93")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 143.51 48.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "947e97c7-b4cb-4ef0-b469-267a69bb93ac")
+		(property "Reference" "C14"
+			(at 143.51 40.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470pF"
+			(at 143.51 43.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 47.2948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 143.51 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e39a81e3-d916-40c1-a424-884ce9ccb250")
+		)
+		(pin "1"
+			(uuid "865c1876-03af-49d0-a31e-d2385ec68a0b")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 210.82 213.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "957c2abc-2f8e-4b87-b45d-50816300eace")
+		(property "Reference" "C31"
+			(at 214.63 212.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.9nF"
+			(at 214.63 214.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 211.7852 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 210.82 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a4ac7f51-aba9-4c0e-98bc-458d581bfe97")
+		)
+		(pin "1"
+			(uuid "08375f9c-fc35-47ea-855e-dd0d5270e45a")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 116.84 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "984f079f-3f53-463d-985c-76049cfd7715")
+		(property "Reference" "C15"
+			(at 120.65 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.9nF"
+			(at 120.65 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 117.8052 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 116.84 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4412a405-0ad6-4985-b8c8-0aaac147e7e8")
+		)
+		(pin "1"
+			(uuid "65a60126-20e9-4b89-8cb8-f3bd6ac6a875")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 114.3 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "998cb8ec-c1d7-4ceb-a395-58f5ae107af3")
+		(property "Reference" "R5"
+			(at 116.84 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 116.84 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 112.522 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52caedf2-5380-447f-9dd2-85580f480093")
+		)
+		(pin "2"
+			(uuid "f99ee040-95ba-4495-8e61-330854b29174")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 104.14 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a96d8fb-b50c-4824-80cc-8e1dbb4e5d73")
+		(property "Reference" "R4"
+			(at 104.14 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.9k"
+			(at 104.14 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 61.468 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 104.14 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "723de1b1-a37c-4cde-8f6e-58b17146da08")
+		)
+		(pin "2"
+			(uuid "e7e3ba73-2c78-4521-a769-f09dce5e2402")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 231.14 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ad4b9b8-71c9-4eb3-beef-adac362b69d4")
+		(property "Reference" "C22"
+			(at 234.95 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470pF"
+			(at 234.95 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.1052 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 231.14 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d99d1214-4020-490e-b27b-5947c720099d")
+		)
+		(pin "1"
+			(uuid "3761e886-67a5-4430-ba02-063a15c69e0f")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 232.41 92.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b1b2caf-2137-40eb-b9e1-40813d489672")
+		(property "Reference" "R26"
+			(at 232.41 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 232.41 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 94.488 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d61c3125-0e10-4d32-b420-e6336693502a")
+		)
+		(pin "2"
+			(uuid "ce598a74-ddc1-469e-a1ca-757f1415d65b")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 209.55 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b2ea822-557e-4988-87a9-80a3dce1134c")
+		(property "Reference" "R43"
+			(at 212.09 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 212.09 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.772 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 209.55 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6250b55c-d32b-4c4c-835c-b650632446cf")
+		)
+		(pin "2"
+			(uuid "8edd3ddb-1fa6-4421-b63a-3590ac39b691")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 223.52 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dbb9ac4-de61-42ae-8fbf-8bc52a24e90d")
+		(property "Reference" "R25"
+			(at 223.52 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 223.52 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 113.538 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 223.52 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "363b0342-fd53-4ab6-9fd1-1ba96251b577")
+		)
+		(pin "2"
+			(uuid "9dd17e75-63e3-4e8a-998b-9efde016a0a7")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 209.55 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a36fec1b-50b7-4a51-8484-ed391ab0aa94")
+		(property "Reference" "C30"
+			(at 213.36 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.9nF"
+			(at 213.36 162.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.5152 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 209.55 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cad718db-bd13-4662-8240-da46262b6737")
+		)
+		(pin "1"
+			(uuid "13df46b1-e1a3-449d-a091-2eab4012845e")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 231.14 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6a126b5-b5f1-44c1-ad81-ff754613473f")
+		(property "Reference" "#PWR018"
+			(at 231.14 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 231.14 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 231.14 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a775b36-8091-4b86-a9cf-eb1d4fe7252c")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 215.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab3e5f4f-4f8f-4cab-8f94-7c380298f1fb")
+		(property "Reference" "R30"
+			(at 106.68 209.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.9k"
+			(at 106.68 212.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 217.678 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8e07b67-3b30-4fa6-8064-0e7684403e8a")
+		)
+		(pin "2"
+			(uuid "6c456073-ec57-40a0-9d57-daaec57e135e")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 210.82 231.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aed8fff1-2fb9-43d8-af87-37337b0918b3")
+		(property "Reference" "#PWR024"
+			(at 210.82 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 210.82 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 210.82 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b564bf4a-4268-483b-90d0-9ca84a84d62d")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 238.76 48.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b088ff89-84fe-49a7-90be-8eb542d575ef")
+		(property "Reference" "C20"
+			(at 238.76 40.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470pF"
+			(at 238.76 43.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 47.2948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 238.76 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bee149a5-f618-482f-9bc7-4c4c91aebca6")
+		)
+		(pin "1"
+			(uuid "84540834-4b88-459e-ba75-8a1b186370d1")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 114.3 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b565b71b-5149-465d-a1f0-e57ecf48ef59")
+		(property "Reference" "R31"
+			(at 116.84 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 116.84 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 112.522 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "149c458e-9540-4f51-93e1-e226ed1ca824")
+		)
+		(pin "2"
+			(uuid "a3a84f73-6aad-4d88-aea3-95e048c64c2d")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 231.14 231.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b58ece6e-dd64-4f37-89e8-dbe3f17b5425")
+		(property "Reference" "#PWR026"
+			(at 231.14 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 231.14 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 231.14 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08a73688-b438-4515-becd-2a5674456129")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 143.51 156.21 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b66d1be7-e47b-417c-9dc1-5224d1296012")
+		(property "Reference" "C28"
+			(at 143.51 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470pF"
+			(at 143.51 151.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 155.2448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 143.51 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a26affa3-8a49-4731-b4de-06570f7814c9")
+		)
+		(pin "1"
+			(uuid "4f76ac65-da61-4e0a-ace6-45db6340e4af")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 231.14 148.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba3d93a0-9588-4e17-a215-1df294e68709")
+		(property "Reference" "R49"
+			(at 231.14 142.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 231.14 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 150.368 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 231.14 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d8207e1-b826-44c4-9a95-7a7654ff8cee")
+		)
+		(pin "2"
+			(uuid "cf317f0e-c9a6-4457-a1fb-e98f10f3b80c")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 114.3 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb69ce93-1d86-4dd6-b892-7c3c0943fcd4")
+		(property "Reference" "#PWR019"
+			(at 114.3 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 114.3 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 114.3 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be04c9f5-9612-4b07-a44e-56a71e3b946e")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 222.25 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c19f694d-ac04-468c-af3c-8ee064adde72")
+		(property "Reference" "R19"
+			(at 222.25 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 222.25 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 61.468 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 222.25 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e78ad3a-37aa-42a2-ba63-d8bd570161a6")
+		)
+		(pin "2"
+			(uuid "eb120b9f-ad04-49c9-8625-d3c6e92fc878")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 138.43 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c377167f-4455-47b3-9592-7a2c88b881ad")
+		(property "Reference" "R14"
+			(at 138.43 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 138.43 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 90.678 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 138.43 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a45ebbfb-72c3-470a-a0a6-bc53ab4f8721")
+		)
+		(pin "2"
+			(uuid "24a62779-21be-4eee-b08a-7cffb863010a")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 223.52 100.33 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c5f2a3c5-9bb0-499e-b3b5-e14ab0fb5f85")
+		(property "Reference" "R24"
+			(at 223.52 94.742 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 223.52 97.282 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 102.108 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 223.52 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a8542b5-f98c-4461-8fcb-2d51746d80da")
+		)
+		(pin "2"
+			(uuid "522c6fbd-3685-4867-893d-8570bb5fb4cb")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 240.03 208.28 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c709a0c2-69ba-46a8-8382-40667e8dca90")
+		(property "Reference" "C35"
+			(at 240.03 200.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470pF"
+			(at 240.03 203.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 207.3148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 240.03 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4efd4510-95d0-41e5-9b56-69409233f2df")
+		)
+		(pin "1"
+			(uuid "612ae97c-4993-4c13-915d-1b70066972d9")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 134.62 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c86d0712-dfec-4211-a758-a0e2f60ace82")
+		(property "Reference" "#PWR021"
+			(at 134.62 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 134.62 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 134.62 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb4bbeb9-4573-4418-8fa5-51e6075fe625")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 229.87 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca152ddd-084f-4fd8-bc75-0772beca7b5b")
+		(property "Reference" "C19"
+			(at 233.68 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470pF"
+			(at 233.68 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 230.8352 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 229.87 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7ba36e82-fc46-4e1e-9b32-c1c1a20eddc9")
+		)
+		(pin "1"
+			(uuid "3c763be6-362d-4465-9d42-9ef347b84129")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 92.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca461869-ab82-46c2-b948-a9a72ade6de1")
+		(property "Reference" "R21"
+			(at 200.66 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.9k"
+			(at 200.66 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 94.488 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db4bf310-5352-4c88-867b-f13cae598e4e")
+		)
+		(pin "2"
+			(uuid "b3306977-0396-47ae-9b25-82688319d737")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 104.14 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "caafdaae-9a31-4bcc-bcc5-20b5556bc849")
+		(property "Reference" "R3"
+			(at 104.14 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.9k"
+			(at 104.14 36.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 42.418 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 104.14 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ee950f8-ff94-4fd3-a67e-4bf2f0fd33f2")
+		)
+		(pin "2"
+			(uuid "20285ad0-f212-4428-946b-b4a63058386c")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 116.84 209.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cae3f0c3-9a08-460d-ba2a-1e611bb43961")
+		(property "Reference" "C25"
+			(at 120.65 208.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.9nF"
+			(at 120.65 210.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 117.8052 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 116.84 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1e104f3e-e77e-46ee-84d2-ff0767f859cb")
+		)
+		(pin "1"
+			(uuid "ff6cd4fc-7019-4104-a47c-605c74a19fd2")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 137.16 227.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb41966a-3c49-4d68-a4d9-26928ebacad5")
+		(property "Reference" "#PWR022"
+			(at 137.16 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 137.16 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 137.16 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "701b9054-1e04-4bfc-8d9c-599575551ac8")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 129.54 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc229eed-3ef4-4691-b7a4-e0e54d9b95ef")
+		(property "Reference" "R13"
+			(at 129.54 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 129.54 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 109.728 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "774bdba0-e7c7-47e3-82d0-ed13fd4bcccf")
+		)
+		(pin "2"
+			(uuid "50846ac1-cf89-48e6-b9f3-2d4f24c3544a")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 219.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d06c8b4f-1b4b-409c-85d3-5d448575e396")
+		(property "Reference" "R42"
+			(at 200.66 213.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.9k"
+			(at 200.66 215.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 221.488 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd534878-45e8-4b20-aabc-45b7e8e6ba51")
+		)
+		(pin "2"
+			(uuid "f7f8b576-b8c8-48fe-af91-f6e80fac25c2")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d2dea5bb-79ed-4652-994f-9a2580c84d92")
+		(property "Reference" "R12"
+			(at 129.54 90.932 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 129.54 93.472 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 98.298 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e946a3ab-ae37-4e6b-8853-58daa5b7c0ad")
+		)
+		(pin "2"
+			(uuid "8b476a24-1455-4746-bf9e-ce16c648f108")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 146.05 204.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d53beab3-26dd-4d5a-9f68-31d6cde1d425")
+		(property "Reference" "C29"
+			(at 146.05 196.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470pF"
+			(at 146.05 199.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 203.5048 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 146.05 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4a417a09-5380-42b9-874f-429cef7c63f2")
+		)
+		(pin "1"
+			(uuid "7de39b8d-b6fd-46f5-9951-c418428740a7")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 137.16 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db7bde69-083f-4d86-9acd-5af5d6e22cc5")
+		(property "Reference" "C27"
+			(at 140.97 222.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470pF"
+			(at 140.97 224.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.1252 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 137.16 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7e80aa9a-0175-4388-8a87-dd3af3e0a53d")
+		)
+		(pin "1"
+			(uuid "f2275163-7226-49d4-a1b2-d4e3a1673c0f")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 146.05 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1a106de-9d06-483c-bd36-469d1f02aa6c")
+		(property "Reference" "C17"
+			(at 146.05 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470pF"
+			(at 146.05 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 95.5548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 146.05 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "41f09a9d-e3dd-4211-b7d3-f3cc293e0cf0")
+		)
+		(pin "1"
+			(uuid "c67730b1-1f57-4862-bf4c-68be985d530b")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 114.3 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6e70802-7737-4eda-ac45-664ed3d720c1")
+		(property "Reference" "#PWR011"
+			(at 114.3 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 114.3 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 114.3 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1d2ae80-12dd-4793-8788-cbec13e1424f")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 238.76 156.21 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e850538e-07de-46c2-be3b-98bb5e7e0932")
+		(property "Reference" "C34"
+			(at 238.76 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470pF"
+			(at 238.76 151.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 155.2448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 238.76 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "92da3381-c78e-4fca-95c7-86ff51dff048")
+		)
+		(pin "1"
+			(uuid "e063c6ca-c8f3-4c4b-ae2c-8c6b54b72571")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 204.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eceab0ba-e0e5-4281-a857-f77dc324b89f")
+		(property "Reference" "R35"
+			(at 129.54 198.882 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 129.54 201.422 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 206.248 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e06e8c9-0a83-4fc4-9386-ee3f6bed197e")
+		)
+		(pin "2"
+			(uuid "16644375-689a-4cef-80a6-31b5c61c3fa5")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 134.62 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1626da0-b1ea-4f97-990b-d9dcac1ddacc")
+		(property "Reference" "C26"
+			(at 138.43 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470pF"
+			(at 138.43 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.5852 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 134.62 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "df249c78-7245-4357-91ea-f9f34ced4cdc")
+		)
+		(pin "1"
+			(uuid "8d5b02ba-8a42-4ab0-85c5-edbb68855a3a")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 210.82 227.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f25ef706-8068-4273-a0b2-4793842bf57a")
+		(property "Reference" "R44"
+			(at 213.36 226.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 213.36 228.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.042 227.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 210.82 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d92d021d-5955-4e70-aa7e-54e67fac304c")
+		)
+		(pin "2"
+			(uuid "b61c34a0-1325-4706-814a-ae93b1cf053c")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 104.14 148.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f31a22d0-888b-47a1-9aa4-f660257a2421")
+		(property "Reference" "R27"
+			(at 104.14 142.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.9k"
+			(at 104.14 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 150.368 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 104.14 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60d02e87-73cd-41af-b2e7-7e8f883c85f2")
+		)
+		(pin "2"
+			(uuid "19969301-dd91-4c12-98d0-dc32128b7a0d")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 223.52 219.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3365e64-d1d3-47d8-85d4-9fb125aa8edd")
+		(property "Reference" "R48"
+			(at 223.52 213.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 223.52 215.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 221.488 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 223.52 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bd1e593-00ac-4834-ab94-1557c31060f2")
+		)
+		(pin "2"
+			(uuid "f2cdc863-1138-4758-ae7e-97aab31d89a4")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4b14d9e-a360-4305-be61-1ab015570aea")
+		(property "Reference" "R6"
+			(at 135.89 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 135.89 36.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 42.418 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b05c871c-0e85-4537-ac8f-2d68351d36cd")
+		)
+		(pin "2"
+			(uuid "3a9354df-5141-4ef0-8b9e-61f051046c9d")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 134.62 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9b3d7b8-abbe-4877-8815-4d32fe72a1c7")
+		(property "Reference" "C4"
+			(at 138.43 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470pF"
+			(at 138.43 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.5852 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 134.62 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1428136d-b086-4fb5-91e7-af5c1c547ac8")
+		)
+		(pin "1"
+			(uuid "89b19633-42d9-4e5b-810e-05fad704edfe")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 210.82 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd58798b-3678-4e12-8306-9df38139cebb")
+		(property "Reference" "#PWR017"
+			(at 210.82 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 210.82 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 210.82 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f47060a-0f32-49c7-a9fc-cd10436dafae")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 116.84 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe34d7ab-37a6-4059-8d56-ec7033d6ff3c")
+		(property "Reference" "#PWR013"
+			(at 116.84 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 116.84 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 116.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "487698c1-dccc-47a1-853e-c4d43685a0dd")
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a/c02044be-2d71-4628-ad62-c5e3c99c4d1b/31b359f7-5fb2-404d-8841-056f18e6c792"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

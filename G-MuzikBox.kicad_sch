@@ -5,1119 +5,6 @@
 	(uuid "30d0fc86-2228-4f8d-9cf7-aef3e4b0153a")
 	(paper "A2")
 	(lib_symbols
-		(symbol "AK4458VN:AK4458VN"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "IC"
-				(at 39.37 17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "AK4458VN"
-				(at 39.37 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "AK4458VN:QFN50P700X700X100-48N"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "DAC, Audio 32 b 768k DSD, I2S 48-QFN (7x7)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER_NAME" "AKM"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MF" "AKM Semiconductor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MOUSER_PRICE-STOCK" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MOUSER_PART_NUMBER" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Package" "QFN-48 AKM Semiconductor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/AK4458VN/AKM+Semiconductor/view-part/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "HEIGHT" "1mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "AK4458VN"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/AK4458VN/AKM+Semiconductor/view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "ARROW_PRICE-STOCK" "https://www.arrow.com/en/products/ak4458vn/asahi-kasei-microdevices-corporation"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "ARROW_PART_NUMBER" "AK4458VN"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER_PART_NUMBER" "AK4458VN"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "AK4458VN_0_0"
-				(rectangle
-					(start 5.08 -53.34)
-					(end 38.1 12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at 0 0 0)
-					(length 5.08)
-					(name "MCLK"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "BICK/DCLK"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "LRCK"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "SDTI1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "SDTI2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "SDTI3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -15.24 0)
-					(length 5.08)
-					(name "SDTI4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -17.78 0)
-					(length 5.08)
-					(name "DSDR3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -20.32 0)
-					(length 5.08)
-					(name "DSDL4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -22.86 0)
-					(length 5.08)
-					(name "DSDR4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -25.4 0)
-					(length 5.08)
-					(name "DZF/SMUTE"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -27.94 0)
-					(length 5.08)
-					(name "CAD1/DCHAIN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 -58.42 90)
-					(length 5.08)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -58.42 90)
-					(length 5.08)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -58.42 90)
-					(length 5.08)
-					(name "CAD0-I2C/CSN/DIF"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -58.42 90)
-					(length 5.08)
-					(name "PS/CAD0-SPI"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 -58.42 90)
-					(length 5.08)
-					(name "I2C"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 -58.42 90)
-					(length 5.08)
-					(name "OUTL1+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 22.86 -58.42 90)
-					(length 5.08)
-					(name "OUTL1-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -58.42 90)
-					(length 5.08)
-					(name "VREFL1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 27.94 -58.42 90)
-					(length 5.08)
-					(name "VREFH1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 30.48 -58.42 90)
-					(length 5.08)
-					(name "OUTR1-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 33.02 -58.42 90)
-					(length 5.08)
-					(name "OUTR1+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 35.56 -58.42 90)
-					(length 5.08)
-					(name "OUTL2+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 43.18 -27.94 180)
-					(length 5.08)
-					(name "OUTL2-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 43.18 -25.4 180)
-					(length 5.08)
-					(name "VREFL2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 43.18 -22.86 180)
-					(length 5.08)
-					(name "VREFH2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 43.18 -20.32 180)
-					(length 5.08)
-					(name "OUTR2-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 43.18 -17.78 180)
-					(length 5.08)
-					(name "OUTR2+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 43.18 -15.24 180)
-					(length 5.08)
-					(name "AVSS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 43.18 -12.7 180)
-					(length 5.08)
-					(name "AVDD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 43.18 -10.16 180)
-					(length 5.08)
-					(name "OUTL3+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 43.18 -7.62 180)
-					(length 5.08)
-					(name "OUTL3-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 43.18 -5.08 180)
-					(length 5.08)
-					(name "VREFH3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 43.18 -2.54 180)
-					(length 5.08)
-					(name "VREFL3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 43.18 0 180)
-					(length 5.08)
-					(name "OUTR3-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 35.56 17.78 270)
-					(length 5.08)
-					(name "OUTR3+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 33.02 17.78 270)
-					(length 5.08)
-					(name "OUTL4+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 30.48 17.78 270)
-					(length 5.08)
-					(name "OUTL4-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 27.94 17.78 270)
-					(length 5.08)
-					(name "VREFH4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 17.78 270)
-					(length 5.08)
-					(name "VREFL4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 22.86 17.78 270)
-					(length 5.08)
-					(name "OUTR4-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 17.78 270)
-					(length 5.08)
-					(name "OUTR4+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 17.78 270)
-					(length 5.08)
-					(name "LDOE"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "44"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 17.78 270)
-					(length 5.08)
-					(name "TVDD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 17.78 270)
-					(length 5.08)
-					(name "DVSS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "46"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 17.78 270)
-					(length 5.08)
-					(name "VDD18"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 17.78 270)
-					(length 5.08)
-					(name "PDN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "48"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ORANGE_PI_CM4:ORANGE_PI_CM4"
 			(pin_names
 				(offset 1.016)
@@ -5392,6 +4279,26 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 266.7) (xy 392.43 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63282421-3d48-45b7-b541-a625971d6c14")
+	)
+	(wire
+		(pts
+			(xy 358.14 264.16) (xy 392.43 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7700e566-8cf0-4e32-b218-42ea5fe4e47b")
+	)
+	(wire
+		(pts
 			(xy 110.49 242.57) (xy 163.83 242.57)
 		)
 		(stroke
@@ -5410,9 +4317,225 @@
 		)
 		(uuid "efb7cd67-d32a-48f7-98dc-9b737bf83aa4")
 	)
+	(global_label "I2S_SDO"
+		(shape input)
+		(at 392.43 241.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0898d2c0-0cf1-4e0c-b41c-f4c2d5230809")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 381.6434 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2S_SDO"
+		(shape input)
+		(at 281.94 226.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d9a0517-348a-4f65-a0f0-84e37ac5f0ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.1534 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2S_SDI"
+		(shape input)
+		(at 281.94 228.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e06e4b7-9313-431a-8ce6-9463f869d3e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.8791 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2S_SCLK"
+		(shape input)
+		(at 392.43 245.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b311154-bbeb-4bbf-87a3-1988d1be8e07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 380.6758 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2S_LRCK"
+		(shape input)
+		(at 358.14 226.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c2ce512-0dd1-469c-a9d9-0f99b76e006c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 369.9547 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2S_MCLK"
+		(shape input)
+		(at 392.43 252.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "942c7737-d52a-4753-8c01-5de174302c76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 380.4339 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2S_MCLK"
+		(shape input)
+		(at 358.14 256.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4f7c460-0fb8-42e8-a03a-154f99aee0ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 370.1361 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2S_SCLK"
+		(shape input)
+		(at 281.94 256.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d54f5e69-3f9d-4e34-a084-dede6b83fda0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.1858 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2S_LRCK"
+		(shape input)
+		(at 392.43 248.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e399bd19-45dc-443b-b8a4-4aef2f1c9edd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 380.6153 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(symbol
 		(lib_id "ORANGE_PI_CM4:ORANGE_PI_CM4")
-		(at 283.21 187.96 0)
+		(at 196.85 138.43 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5423,7 +4546,7 @@
 		(fields_autoplaced yes)
 		(uuid "7fcf29d0-bf7c-43f1-802a-871d9b1a0275")
 		(property "Reference" "U1"
-			(at 283.21 165.1 0)
+			(at 196.85 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5433,7 +4556,7 @@
 			)
 		)
 		(property "Value" "ORANGE_PI_CM4"
-			(at 283.21 167.64 0)
+			(at 196.85 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5443,7 +4566,7 @@
 			)
 		)
 		(property "Footprint" "ORANGE_PI_CM4:MODULE_ORANGE_PI_CM4"
-			(at 283.21 187.96 0)
+			(at 196.85 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5455,7 +4578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 187.96 0)
+			(at 196.85 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5466,7 +4589,7 @@
 			)
 		)
 		(property "Description" "Orange Pi Compute Module 4"
-			(at 283.21 187.96 0)
+			(at 196.85 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5478,7 +4601,7 @@
 			)
 		)
 		(property "MF" "Orange Pi"
-			(at 283.21 187.96 0)
+			(at 196.85 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5490,7 +4613,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5.1mm"
-			(at 283.21 187.96 0)
+			(at 196.85 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5502,7 +4625,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 283.21 187.96 0)
+			(at 196.85 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5514,7 +4637,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 283.21 187.96 0)
+			(at 196.85 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5526,7 +4649,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/Orange%20Pi%20CM4/Orange+Pi/view-part/?ref=eda"
-			(at 283.21 187.96 0)
+			(at 196.85 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5538,7 +4661,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 283.21 187.96 0)
+			(at 196.85 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5550,7 +4673,7 @@
 			)
 		)
 		(property "PARTREV" "v1.2"
-			(at 283.21 187.96 0)
+			(at 196.85 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5562,7 +4685,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/Orange%20Pi%20CM4/Orange+Pi/view-part/?ref=snap"
-			(at 283.21 187.96 0)
+			(at 196.85 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5574,7 +4697,7 @@
 			)
 		)
 		(property "MP" "Orange Pi CM4"
-			(at 283.21 187.96 0)
+			(at 196.85 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5586,7 +4709,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 283.21 187.96 0)
+			(at 196.85 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5598,7 +4721,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Orange Pi"
-			(at 283.21 187.96 0)
+			(at 196.85 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6292,7 +5415,7 @@
 	)
 	(symbol
 		(lib_id "ORANGE_PI_CM4:ORANGE_PI_CM4")
-		(at 100.33 95.25 0)
+		(at 320.04 259.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6303,7 +5426,7 @@
 		(fields_autoplaced yes)
 		(uuid "87b8a4a5-013b-4606-97f5-d388f747055b")
 		(property "Reference" "U1"
-			(at 100.33 25.4 0)
+			(at 320.04 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6313,7 +5436,7 @@
 			)
 		)
 		(property "Value" "ORANGE_PI_CM4"
-			(at 100.33 27.94 0)
+			(at 320.04 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6323,7 +5446,7 @@
 			)
 		)
 		(property "Footprint" "G-MuzikBox:MODULE_ORANGE_PI_CM4"
-			(at 100.33 95.25 0)
+			(at 320.04 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6335,7 +5458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 95.25 0)
+			(at 320.04 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6346,7 +5469,7 @@
 			)
 		)
 		(property "Description" "Orange Pi Compute Module 4"
-			(at 100.33 95.25 0)
+			(at 320.04 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6358,7 +5481,7 @@
 			)
 		)
 		(property "MF" "Orange Pi"
-			(at 100.33 95.25 0)
+			(at 320.04 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6370,7 +5493,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5.1mm"
-			(at 100.33 95.25 0)
+			(at 320.04 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6382,7 +5505,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 100.33 95.25 0)
+			(at 320.04 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6394,7 +5517,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 100.33 95.25 0)
+			(at 320.04 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6406,7 +5529,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/Orange%20Pi%20CM4/Orange+Pi/view-part/?ref=eda"
-			(at 100.33 95.25 0)
+			(at 320.04 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6418,7 +5541,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 100.33 95.25 0)
+			(at 320.04 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6430,7 +5553,7 @@
 			)
 		)
 		(property "PARTREV" "v1.2"
-			(at 100.33 95.25 0)
+			(at 320.04 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6442,7 +5565,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/Orange%20Pi%20CM4/Orange+Pi/view-part/?ref=snap"
-			(at 100.33 95.25 0)
+			(at 320.04 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6454,7 +5577,7 @@
 			)
 		)
 		(property "MP" "Orange Pi CM4"
-			(at 100.33 95.25 0)
+			(at 320.04 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6466,7 +5589,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 100.33 95.25 0)
+			(at 320.04 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6478,7 +5601,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Orange Pi"
-			(at 100.33 95.25 0)
+			(at 320.04 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7171,394 +6294,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AK4458VN:AK4458VN")
-		(at 323.85 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5882deb-fc8c-40ba-8edf-afe23448005d")
-		(property "Reference" "IC1"
-			(at 368.3 70.1292 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AK4458VN"
-			(at 368.3 72.6692 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AK4458VN:QFN50P700X700X100-48N"
-			(at 323.85 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 323.85 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DAC, Audio 32 b 768k DSD, I2S 48-QFN (7x7)"
-			(at 323.85 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER_NAME" "AKM"
-			(at 323.85 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "AKM Semiconductor"
-			(at 323.85 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MOUSER_PRICE-STOCK" ""
-			(at 323.85 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" ""
-			(at 323.85 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 323.85 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "QFN-48 AKM Semiconductor"
-			(at 323.85 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/AK4458VN/AKM+Semiconductor/view-part/?ref=eda"
-			(at 323.85 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "HEIGHT" "1mm"
-			(at 323.85 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "AK4458VN"
-			(at 323.85 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AK4458VN/AKM+Semiconductor/view-part/?ref=snap"
-			(at 323.85 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "ARROW_PRICE-STOCK" "https://www.arrow.com/en/products/ak4458vn/asahi-kasei-microdevices-corporation"
-			(at 323.85 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "ARROW_PART_NUMBER" "AK4458VN"
-			(at 323.85 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 323.85 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "AK4458VN"
-			(at 323.85 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "46"
-			(uuid "3be841f0-cc8d-4031-ac34-e0d28e9f2b56")
-		)
-		(pin "34"
-			(uuid "83bb7ed2-d2c4-47f0-a607-016f7148d5a2")
-		)
-		(pin "48"
-			(uuid "081160ba-182d-4953-b879-53a77b66d697")
-		)
-		(pin "44"
-			(uuid "a71b1a72-5c6c-4936-a8d6-71db616f37e7")
-		)
-		(pin "37"
-			(uuid "fbbdd076-34c5-49c7-834f-4e0b0b9f8cfb")
-		)
-		(pin "35"
-			(uuid "df884653-0f49-4ca0-8bf2-87995e0e675d")
-		)
-		(pin "22"
-			(uuid "e7fe3fd0-c616-43b3-84b4-a51d5f979b01")
-		)
-		(pin "25"
-			(uuid "abc21206-36ae-44cd-9eb8-d6a6f73a9047")
-		)
-		(pin "26"
-			(uuid "70dd93b0-80d1-44d2-a726-52ff812a4dc9")
-		)
-		(pin "27"
-			(uuid "64745ea3-3888-4f5b-a546-a25d6d13da50")
-		)
-		(pin "28"
-			(uuid "5b003199-ada5-409d-800e-026407968700")
-		)
-		(pin "32"
-			(uuid "1c7e362a-35ee-4b6d-a5b8-2a54000644b0")
-		)
-		(pin "30"
-			(uuid "9594c954-9737-4794-a5a9-846d1f95840a")
-		)
-		(pin "33"
-			(uuid "2727b4fb-6ee1-4cb3-a218-5df1a49cf5f9")
-		)
-		(pin "42"
-			(uuid "8ae83985-3e65-4424-b79f-1e64b65af5ca")
-		)
-		(pin "31"
-			(uuid "bcec2431-8d15-4fa2-b453-28869d3bfdd0")
-		)
-		(pin "18"
-			(uuid "4885dfe5-a16d-4276-bbf3-556ed7e77d44")
-		)
-		(pin "17"
-			(uuid "8fa393be-20df-4f2e-ba68-85a0bf645f96")
-		)
-		(pin "36"
-			(uuid "2a56943c-690c-4378-bb5f-5fb513ba095c")
-		)
-		(pin "39"
-			(uuid "c3bef430-7b69-4d33-bf36-45bdee1c89f1")
-		)
-		(pin "21"
-			(uuid "5f33a64c-7449-4d05-8598-831c4d85e450")
-		)
-		(pin "19"
-			(uuid "224fe4e8-2eab-4e86-b6a2-110472e8c97f")
-		)
-		(pin "24"
-			(uuid "a2548a1b-f208-47a7-a104-3d77f76594bd")
-		)
-		(pin "29"
-			(uuid "49d8a369-55c3-4def-9846-30da36e19c48")
-		)
-		(pin "47"
-			(uuid "0875a74c-e1af-4030-8d12-fe9fa3d37cd8")
-		)
-		(pin "40"
-			(uuid "9bb8063b-983f-4219-a5d0-cc60a5bb26f9")
-		)
-		(pin "38"
-			(uuid "253a9710-2774-47f2-90a4-5d0f1ef276ef")
-		)
-		(pin "23"
-			(uuid "32457b1c-ab6e-4ddb-8c9a-441fa9ff9c92")
-		)
-		(pin "20"
-			(uuid "5c3d9717-d54d-4ba1-af50-d7229f47be20")
-		)
-		(pin "43"
-			(uuid "1734f6ab-7d8d-474f-ad92-5044f7a43cc4")
-		)
-		(pin "41"
-			(uuid "6b907936-8d6d-4b3a-a105-0c7a7f31a8b1")
-		)
-		(pin "45"
-			(uuid "b5b0c9d6-755d-4828-8865-8d93b52cc28e")
-		)
-		(pin "6"
-			(uuid "4b61ec59-d88c-4479-ada9-fb176a12722f")
-		)
-		(pin "5"
-			(uuid "7647c6a1-c7df-408e-ac90-b614f4c41cd9")
-		)
-		(pin "16"
-			(uuid "a409475b-ccd2-42e9-8eb2-347f723b000e")
-		)
-		(pin "4"
-			(uuid "f6349107-ca7a-4ea4-8fd6-58885f2ca464")
-		)
-		(pin "3"
-			(uuid "1878d14e-acfc-4059-afa8-9ccabced5b77")
-		)
-		(pin "2"
-			(uuid "732e60cd-4091-4b1c-9c47-c09a78f60f90")
-		)
-		(pin "1"
-			(uuid "6a14f2a3-1185-4baf-bee7-58e7147816bf")
-		)
-		(pin "15"
-			(uuid "654d95c9-2d92-47d7-bc78-266c3a99260c")
-		)
-		(pin "14"
-			(uuid "11715ad8-e75d-4413-87fb-b35ae0998d9b")
-		)
-		(pin "13"
-			(uuid "9695cd7d-be5b-47bd-94f1-7c681e7c5205")
-		)
-		(pin "12"
-			(uuid "571e1b10-f580-42b1-93ba-c3d47a43c638")
-		)
-		(pin "11"
-			(uuid "73e78ac8-b806-43d2-ab46-5e3b80edfe63")
-		)
-		(pin "10"
-			(uuid "59310a37-0336-4b47-878c-8d45b90bf57b")
-		)
-		(pin "9"
-			(uuid "8557660a-3ec2-4b54-beeb-5bda2fc08eb7")
-		)
-		(pin "8"
-			(uuid "73f946b0-1d1d-4531-943c-465ee9686d35")
-		)
-		(pin "7"
-			(uuid "52ea9c08-c153-4cbe-b129-7340ff0b9648")
-		)
-		(instances
-			(project "G-MuzikBox"
-				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a"
-					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ORANGE_PI_CM4:ORANGE_PI_CM4")
 		(at 201.93 300.99 0)
 		(unit 2)
@@ -7758,676 +6493,676 @@
 			)
 		)
 		(pin "JP2_73"
-			(uuid "13d92c9f-2a86-45c9-91b4-029a5247d369")
+			(uuid "13d92c9f-2a86-45c9-91b4-029a5247d36a")
 		)
 		(pin "JP2_74"
-			(uuid "21635d8a-9023-4a66-bd8e-f67a8e4e28fd")
+			(uuid "21635d8a-9023-4a66-bd8e-f67a8e4e28fe")
 		)
 		(pin "JP2_80"
-			(uuid "a02c8e7f-b40b-47db-9d3a-84f45c910595")
+			(uuid "a02c8e7f-b40b-47db-9d3a-84f45c910596")
 		)
 		(pin "JP2_79"
-			(uuid "f3782cf0-7234-4ee6-a58f-6db02a2cf438")
+			(uuid "f3782cf0-7234-4ee6-a58f-6db02a2cf439")
 		)
 		(pin "JP2_78"
-			(uuid "047c27e2-c4eb-4655-908c-f06bee12513b")
+			(uuid "047c27e2-c4eb-4655-908c-f06bee12513c")
 		)
 		(pin "JP2_77"
-			(uuid "332bf1d7-8d6f-4506-bba3-dbfd5f7f07f3")
+			(uuid "332bf1d7-8d6f-4506-bba3-dbfd5f7f07f4")
 		)
 		(pin "JP2_76"
-			(uuid "9b54715d-2f59-4d24-b034-ca01acc0c819")
+			(uuid "9b54715d-2f59-4d24-b034-ca01acc0c81a")
 		)
 		(pin "JP2_75"
-			(uuid "f17d17fe-4585-4ff7-8a8b-fb7f8fa3f872")
+			(uuid "f17d17fe-4585-4ff7-8a8b-fb7f8fa3f873")
 		)
 		(pin "JP2_59"
-			(uuid "afa80e2f-9561-4c92-95a6-d41ab3716f48")
+			(uuid "afa80e2f-9561-4c92-95a6-d41ab3716f49")
 		)
 		(pin "JP2_60"
-			(uuid "d53493da-45a7-4d0f-8df7-6136d845896f")
+			(uuid "d53493da-45a7-4d0f-8df7-6136d8458970")
 		)
 		(pin "JP2_61"
-			(uuid "10cc8f20-dec8-452f-9386-0357bc7a3072")
+			(uuid "10cc8f20-dec8-452f-9386-0357bc7a3073")
 		)
 		(pin "JP2_66"
-			(uuid "f26336d3-0b09-420d-9aa7-137c59a7263e")
+			(uuid "f26336d3-0b09-420d-9aa7-137c59a7263f")
 		)
 		(pin "JP2_62"
-			(uuid "a952aabc-f466-4123-bbd9-ab089031963c")
+			(uuid "a952aabc-f466-4123-bbd9-ab089031963d")
 		)
 		(pin "JP2_67"
-			(uuid "90e82a1a-7622-410e-8acb-16404a149d36")
+			(uuid "90e82a1a-7622-410e-8acb-16404a149d37")
 		)
 		(pin "JP2_63"
-			(uuid "7bf1972b-5a43-4aca-bfd1-4c5980c61198")
+			(uuid "7bf1972b-5a43-4aca-bfd1-4c5980c61199")
 		)
 		(pin "JP2_72"
-			(uuid "544dd621-9d0e-4db6-924f-a249a681506b")
+			(uuid "544dd621-9d0e-4db6-924f-a249a681506c")
 		)
 		(pin "JP2_70"
-			(uuid "ba6a4eb6-0105-48a5-8449-e2b04480d54d")
+			(uuid "ba6a4eb6-0105-48a5-8449-e2b04480d54e")
 		)
 		(pin "JP2_69"
-			(uuid "40f1f580-6ee1-4680-9ca2-3e495ac748ca")
+			(uuid "40f1f580-6ee1-4680-9ca2-3e495ac748cb")
 		)
 		(pin "JP2_64"
-			(uuid "bcfad2aa-4c03-4121-9b88-27949de5dacd")
+			(uuid "bcfad2aa-4c03-4121-9b88-27949de5dace")
 		)
 		(pin "JP2_68"
-			(uuid "35b24766-71a9-46bd-bd8d-3d484cdd60bd")
+			(uuid "35b24766-71a9-46bd-bd8d-3d484cdd60be")
 		)
 		(pin "JP2_71"
-			(uuid "f928de6f-7e2a-4aa5-97aa-26feaa87c5fb")
+			(uuid "f928de6f-7e2a-4aa5-97aa-26feaa87c5fc")
 		)
 		(pin "JP2_65"
-			(uuid "a12c7166-959a-4c0b-8cf2-03b3a4aed98e")
+			(uuid "a12c7166-959a-4c0b-8cf2-03b3a4aed98f")
 		)
 		(pin "JP2_92"
-			(uuid "3127ec58-97d1-49c6-aae8-b92cec8f9ead")
+			(uuid "3127ec58-97d1-49c6-aae8-b92cec8f9eae")
 		)
 		(pin "JP2_91"
-			(uuid "c5cf3af4-0f75-4076-93e6-031def3e2237")
+			(uuid "c5cf3af4-0f75-4076-93e6-031def3e2238")
 		)
 		(pin "JP1_26"
-			(uuid "f5f4384c-8f92-4d73-93b5-10fad10a84da")
+			(uuid "f5f4384c-8f92-4d73-93b5-10fad10a84db")
 		)
 		(pin "JP1_27"
-			(uuid "5a7ba06a-83ef-4449-a60f-09984999198a")
+			(uuid "5a7ba06a-83ef-4449-a60f-09984999198b")
 		)
 		(pin "JP1_29"
-			(uuid "24a1daee-b23e-4bec-a71e-bc3977e4d409")
+			(uuid "24a1daee-b23e-4bec-a71e-bc3977e4d40a")
 		)
 		(pin "JP1_28"
-			(uuid "b8eba0f1-50f1-4daa-8177-3d67a179b91a")
+			(uuid "b8eba0f1-50f1-4daa-8177-3d67a179b91b")
 		)
 		(pin "JP1_61"
-			(uuid "5cb2dec3-e876-4401-9e44-aaa8b75fd0e7")
+			(uuid "5cb2dec3-e876-4401-9e44-aaa8b75fd0e8")
 		)
 		(pin "JP1_59"
-			(uuid "a4345312-853e-4c62-9db4-dde71b90fd16")
+			(uuid "a4345312-853e-4c62-9db4-dde71b90fd17")
 		)
 		(pin "JP1_60"
-			(uuid "5914d822-927c-40a7-83f6-5bd438081ba0")
+			(uuid "5914d822-927c-40a7-83f6-5bd438081ba1")
 		)
 		(pin "JP1_25"
-			(uuid "f1ad68be-38d7-440a-accd-b48d0b141fff")
+			(uuid "f1ad68be-38d7-440a-accd-b48d0b142000")
 		)
 		(pin "JP1_69"
-			(uuid "5f1403cc-d94a-4e22-938d-aac587a5441a")
+			(uuid "5f1403cc-d94a-4e22-938d-aac587a5441b")
 		)
 		(pin "JP1_70"
-			(uuid "cf3dea6c-eef4-4113-8309-d24eda48cfe3")
+			(uuid "cf3dea6c-eef4-4113-8309-d24eda48cfe4")
 		)
 		(pin "JP1_66"
-			(uuid "3f374467-9a7c-4ff5-b010-23e2bfb7f742")
+			(uuid "3f374467-9a7c-4ff5-b010-23e2bfb7f743")
 		)
 		(pin "JP1_67"
-			(uuid "81f1b48b-628e-4df8-a605-f0630fe8adfb")
+			(uuid "81f1b48b-628e-4df8-a605-f0630fe8adfc")
 		)
 		(pin "JP1_68"
-			(uuid "c35d077b-74ca-4367-a16a-3725b3689cda")
+			(uuid "c35d077b-74ca-4367-a16a-3725b3689cdb")
 		)
 		(pin "JP2_3"
-			(uuid "9369f74f-4b0a-46d5-90a7-6ab3b1898dce")
+			(uuid "9369f74f-4b0a-46d5-90a7-6ab3b1898dcf")
 		)
 		(pin "JP2_1"
-			(uuid "c70001f2-a28a-417a-8274-3b912699c123")
+			(uuid "c70001f2-a28a-417a-8274-3b912699c124")
 		)
 		(pin "JP2_2"
-			(uuid "13237303-1cfa-4f7e-acc2-ad80d03b4b48")
+			(uuid "13237303-1cfa-4f7e-acc2-ad80d03b4b49")
 		)
 		(pin "JP2_4"
-			(uuid "319f4ba6-89ee-4ae5-b0e1-0e002db49ccf")
+			(uuid "319f4ba6-89ee-4ae5-b0e1-0e002db49cd0")
 		)
 		(pin "JP2_90"
-			(uuid "5a493f94-2efa-4c3b-b35a-fdcc874fdcaa")
+			(uuid "5a493f94-2efa-4c3b-b35a-fdcc874fdcab")
 		)
 		(pin "JP2_89"
-			(uuid "e17c6345-827d-4910-acf2-768df9e1e37a")
+			(uuid "e17c6345-827d-4910-acf2-768df9e1e37b")
 		)
 		(pin "JP2_88"
-			(uuid "d9c9d0eb-41ef-4c2f-8a6e-da37df2ae5a9")
+			(uuid "d9c9d0eb-41ef-4c2f-8a6e-da37df2ae5aa")
 		)
 		(pin "JP2_87"
-			(uuid "532d361a-fc7d-414d-b5bb-b30b4822e4db")
+			(uuid "532d361a-fc7d-414d-b5bb-b30b4822e4dc")
 		)
 		(pin "JP1_71"
-			(uuid "0accb2dc-99b2-49c0-8bf2-6eaa25079f16")
+			(uuid "0accb2dc-99b2-49c0-8bf2-6eaa25079f17")
 		)
 		(pin "JP1_72"
-			(uuid "e4976c6c-43bd-4cdd-af6b-6cf56bff095e")
+			(uuid "e4976c6c-43bd-4cdd-af6b-6cf56bff095f")
 		)
 		(pin "JP1_37"
-			(uuid "f61cc310-b8b6-4c55-a1a9-c6b349c2eea7")
+			(uuid "f61cc310-b8b6-4c55-a1a9-c6b349c2eea8")
 		)
 		(pin "JP1_36"
-			(uuid "4cca132b-06bc-4965-bc07-d5eac043d60e")
+			(uuid "4cca132b-06bc-4965-bc07-d5eac043d60f")
 		)
 		(pin "JP1_41"
-			(uuid "2902992b-e514-4405-ac76-3154186293d0")
+			(uuid "2902992b-e514-4405-ac76-3154186293d1")
 		)
 		(pin "JP1_42"
-			(uuid "fd959b4b-136d-4a05-b592-22c3b4368fc7")
+			(uuid "fd959b4b-136d-4a05-b592-22c3b4368fc8")
 		)
 		(pin "JP1_38"
-			(uuid "7ee82d09-0047-45ed-a1c8-d286d255391b")
+			(uuid "7ee82d09-0047-45ed-a1c8-d286d255391c")
 		)
 		(pin "JP1_39"
-			(uuid "64cd9a5c-ef6d-402a-90c8-bef273c870ae")
+			(uuid "64cd9a5c-ef6d-402a-90c8-bef273c870af")
 		)
 		(pin "JP1_40"
-			(uuid "d1fc92e1-8430-4741-b316-ff2cef7e80ac")
+			(uuid "d1fc92e1-8430-4741-b316-ff2cef7e80ad")
 		)
 		(pin "JP1_58"
-			(uuid "14adc1b1-bd7d-4473-bef5-86a82afc4941")
+			(uuid "14adc1b1-bd7d-4473-bef5-86a82afc4942")
 		)
 		(pin "JP1_57"
-			(uuid "91872a65-a892-45dc-9645-e9dc5098831c")
+			(uuid "91872a65-a892-45dc-9645-e9dc5098831d")
 		)
 		(pin "JP1_43"
-			(uuid "a07ae047-7e89-4811-afe0-8d0795882f2b")
+			(uuid "a07ae047-7e89-4811-afe0-8d0795882f2c")
 		)
 		(pin "JP1_44"
-			(uuid "4877c408-f61e-4841-b3c1-8baee7602e99")
+			(uuid "4877c408-f61e-4841-b3c1-8baee7602e9a")
 		)
 		(pin "JP1_45"
-			(uuid "77c8873b-8362-4298-a746-c98205ca5edc")
+			(uuid "77c8873b-8362-4298-a746-c98205ca5edd")
 		)
 		(pin "JP1_46"
-			(uuid "040c3f2e-6f8a-4f25-9e5c-badf74e8a2e1")
+			(uuid "040c3f2e-6f8a-4f25-9e5c-badf74e8a2e2")
 		)
 		(pin "JP1_47"
-			(uuid "1e7a8a61-a1c5-4b0f-ba51-22bd581c330d")
+			(uuid "1e7a8a61-a1c5-4b0f-ba51-22bd581c330e")
 		)
 		(pin "JP1_48"
-			(uuid "5ca382bb-3820-4751-9c7e-d12b0883a3df")
+			(uuid "5ca382bb-3820-4751-9c7e-d12b0883a3e0")
 		)
 		(pin "JP1_49"
-			(uuid "ccebc347-b3ec-432e-b414-795d3caccba2")
+			(uuid "ccebc347-b3ec-432e-b414-795d3caccba3")
 		)
 		(pin "JP1_50"
-			(uuid "4023058e-1076-4fc1-bbda-fe2fab3f5815")
+			(uuid "4023058e-1076-4fc1-bbda-fe2fab3f5816")
 		)
 		(pin "JP1_51"
-			(uuid "36d990d1-6f75-49f2-9f91-556cd06a04a2")
+			(uuid "36d990d1-6f75-49f2-9f91-556cd06a04a3")
 		)
 		(pin "JP1_52"
-			(uuid "2d0907d1-30e3-416a-85ca-8dcaadd348f8")
+			(uuid "2d0907d1-30e3-416a-85ca-8dcaadd348f9")
 		)
 		(pin "JP1_53"
-			(uuid "63998c68-1d33-486a-9110-9c549d3fd053")
+			(uuid "63998c68-1d33-486a-9110-9c549d3fd054")
 		)
 		(pin "JP1_54"
-			(uuid "f063a8db-a4fb-4ed0-91e3-077827d457de")
+			(uuid "f063a8db-a4fb-4ed0-91e3-077827d457df")
 		)
 		(pin "JP1_56"
-			(uuid "e6fe109c-d837-4152-a037-4bb02c2f3ad2")
+			(uuid "e6fe109c-d837-4152-a037-4bb02c2f3ad3")
 		)
 		(pin "JP1_55"
-			(uuid "20e9aa4c-8f12-41f5-a54b-2505130df72c")
+			(uuid "20e9aa4c-8f12-41f5-a54b-2505130df72d")
 		)
 		(pin "JP2_82"
-			(uuid "f3141178-a3be-438b-89ca-f8fcff32db76")
+			(uuid "f3141178-a3be-438b-89ca-f8fcff32db77")
 		)
 		(pin "JP2_81"
-			(uuid "86bca17a-9784-4259-8ce7-737f081da96d")
+			(uuid "86bca17a-9784-4259-8ce7-737f081da96e")
 		)
 		(pin "JP2_86"
-			(uuid "ab01995a-0fdd-487d-bc4a-48b21fb07315")
+			(uuid "ab01995a-0fdd-487d-bc4a-48b21fb07316")
 		)
 		(pin "JP2_85"
-			(uuid "06c79293-df7f-44a0-a50a-6305ec85bc45")
+			(uuid "06c79293-df7f-44a0-a50a-6305ec85bc46")
 		)
 		(pin "JP2_83"
-			(uuid "efefe7ae-d41b-4dc8-a686-9bf9ebc080e6")
+			(uuid "efefe7ae-d41b-4dc8-a686-9bf9ebc080e7")
 		)
 		(pin "JP2_84"
-			(uuid "f05cdb47-81ce-4252-8e16-b166d2a71828")
+			(uuid "f05cdb47-81ce-4252-8e16-b166d2a71829")
 		)
 		(pin "JP1_62"
-			(uuid "c8fece29-67a7-4328-adf9-cdab15ec08e4")
+			(uuid "c8fece29-67a7-4328-adf9-cdab15ec08e5")
 		)
 		(pin "JP1_64"
-			(uuid "4cf40065-cecb-4113-961d-e2d5b6e48c9d")
+			(uuid "4cf40065-cecb-4113-961d-e2d5b6e48c9e")
 		)
 		(pin "JP1_63"
-			(uuid "2995af50-4fee-43fc-8e17-f14ea61e4656")
+			(uuid "2995af50-4fee-43fc-8e17-f14ea61e4657")
 		)
 		(pin "JP1_65"
-			(uuid "4ce938d2-b915-4d56-bfc2-3acb52ef5049")
+			(uuid "4ce938d2-b915-4d56-bfc2-3acb52ef504a")
 		)
 		(pin "JP2_54"
-			(uuid "e52b478c-bd58-4830-9822-6f18ba208e91")
+			(uuid "e52b478c-bd58-4830-9822-6f18ba208e92")
 		)
 		(pin "JP2_56"
-			(uuid "e4e7e14b-d472-447b-b7d8-4e78cb4c53b8")
+			(uuid "e4e7e14b-d472-447b-b7d8-4e78cb4c53b9")
 		)
 		(pin "JP2_53"
-			(uuid "27c1502c-0ac8-40b9-80fd-65fc73e55616")
+			(uuid "27c1502c-0ac8-40b9-80fd-65fc73e55617")
 		)
 		(pin "JP2_58"
-			(uuid "ef00138b-04c6-425d-b803-37911bf5d3cb")
+			(uuid "ef00138b-04c6-425d-b803-37911bf5d3cc")
 		)
 		(pin "JP2_57"
-			(uuid "8fcd3b9d-44c1-4815-8f99-30bb0c3f0a0f")
+			(uuid "8fcd3b9d-44c1-4815-8f99-30bb0c3f0a10")
 		)
 		(pin "JP2_55"
-			(uuid "d0f09a82-6e66-442d-9f02-c9c9a1ade9f1")
+			(uuid "d0f09a82-6e66-442d-9f02-c9c9a1ade9f2")
 		)
 		(pin "JP1_32"
-			(uuid "647db83d-79a1-4b73-a922-ffd814fdb1ce")
+			(uuid "647db83d-79a1-4b73-a922-ffd814fdb1cf")
 		)
 		(pin "JP1_30"
-			(uuid "095b5942-0954-418d-b871-5014e23f470a")
+			(uuid "095b5942-0954-418d-b871-5014e23f470b")
 		)
 		(pin "JP1_34"
-			(uuid "49f38840-8b52-41b6-9f88-8bf796f986cb")
+			(uuid "49f38840-8b52-41b6-9f88-8bf796f986cc")
 		)
 		(pin "JP1_35"
-			(uuid "7619ff6f-097b-440d-9fc7-b7a0a5fd1096")
+			(uuid "7619ff6f-097b-440d-9fc7-b7a0a5fd1097")
 		)
 		(pin "JP1_31"
-			(uuid "69c87c3e-c06e-4bea-bbc9-d3fa362666d4")
+			(uuid "69c87c3e-c06e-4bea-bbc9-d3fa362666d5")
 		)
 		(pin "JP1_33"
-			(uuid "f279e2be-f8ad-4fd0-ae09-3ed801ec657b")
+			(uuid "f279e2be-f8ad-4fd0-ae09-3ed801ec657c")
 		)
 		(pin "JP1_24"
-			(uuid "8b9fcd65-34bd-4bb8-b7cc-848963eb0bd5")
+			(uuid "8b9fcd65-34bd-4bb8-b7cc-848963eb0bd6")
 		)
 		(pin "JP1_23"
-			(uuid "278b9b8d-de41-49d6-a43f-140573aa6b89")
+			(uuid "278b9b8d-de41-49d6-a43f-140573aa6b8a")
 		)
 		(pin "JP1_22"
-			(uuid "62aba459-8f5b-46b8-8795-5bc613b274c6")
+			(uuid "62aba459-8f5b-46b8-8795-5bc613b274c7")
 		)
 		(pin "JP1_21"
-			(uuid "a5362443-2a61-4522-b1ff-d0304385b3b4")
+			(uuid "a5362443-2a61-4522-b1ff-d0304385b3b5")
 		)
 		(pin "JP1_20"
-			(uuid "e741bad3-ccb6-42a7-85a1-5fa67fe0b8f8")
+			(uuid "e741bad3-ccb6-42a7-85a1-5fa67fe0b8f9")
 		)
 		(pin "JP1_19"
-			(uuid "9de48fb3-e9b9-4dfb-a3df-6ad645d2e105")
+			(uuid "9de48fb3-e9b9-4dfb-a3df-6ad645d2e106")
 		)
 		(pin "JP1_18"
-			(uuid "97271a4b-e4ce-46e6-80f9-e9fe4a8d9ac6")
+			(uuid "97271a4b-e4ce-46e6-80f9-e9fe4a8d9ac7")
 		)
 		(pin "JP1_17"
-			(uuid "f4d54048-3db8-4121-b291-770a0b3b59e9")
+			(uuid "f4d54048-3db8-4121-b291-770a0b3b59ea")
 		)
 		(pin "JP1_16"
-			(uuid "f4bac6b8-f3d6-4147-90dc-bd672d964e94")
+			(uuid "f4bac6b8-f3d6-4147-90dc-bd672d964e95")
 		)
 		(pin "JP1_15"
-			(uuid "10719b4e-0ec8-4a65-9b72-06530f26d0d9")
+			(uuid "10719b4e-0ec8-4a65-9b72-06530f26d0da")
 		)
 		(pin "JP1_14"
-			(uuid "9b60e679-4e72-41b8-8511-eb4e323f6126")
+			(uuid "9b60e679-4e72-41b8-8511-eb4e323f6127")
 		)
 		(pin "JP1_13"
-			(uuid "086ccfae-1e98-4a9a-b72c-ba6e25ac3a43")
+			(uuid "086ccfae-1e98-4a9a-b72c-ba6e25ac3a44")
 		)
 		(pin "JP1_12"
-			(uuid "aeb579c9-f414-4768-b103-08e3d3dacf3b")
+			(uuid "aeb579c9-f414-4768-b103-08e3d3dacf3c")
 		)
 		(pin "JP1_11"
-			(uuid "db08014d-e85c-4ef5-868e-b1c90b8fb7bc")
+			(uuid "db08014d-e85c-4ef5-868e-b1c90b8fb7bd")
 		)
 		(pin "JP1_10"
-			(uuid "add0a5da-243b-49db-a707-d68cba365b03")
+			(uuid "add0a5da-243b-49db-a707-d68cba365b04")
 		)
 		(pin "JP1_5"
-			(uuid "aa1b19f1-d290-4e37-8e81-7c114f0c0306")
+			(uuid "aa1b19f1-d290-4e37-8e81-7c114f0c0307")
 		)
 		(pin "JP1_9"
-			(uuid "45227e5d-1790-40c6-85ca-81ab2f296194")
+			(uuid "45227e5d-1790-40c6-85ca-81ab2f296195")
 		)
 		(pin "JP1_8"
-			(uuid "34ab42bd-a29c-4ba6-8b74-2d4b1a139bf2")
+			(uuid "34ab42bd-a29c-4ba6-8b74-2d4b1a139bf3")
 		)
 		(pin "JP1_6"
-			(uuid "34904c4d-e09f-4b39-a4e0-010e987347e9")
+			(uuid "34904c4d-e09f-4b39-a4e0-010e987347ea")
 		)
 		(pin "JP1_7"
-			(uuid "177d9919-6edf-4382-9d0e-85e61b97961b")
+			(uuid "177d9919-6edf-4382-9d0e-85e61b97961c")
 		)
 		(pin "JP1_4"
-			(uuid "a6257146-5a41-4b67-8479-cd3ae9c03085")
+			(uuid "a6257146-5a41-4b67-8479-cd3ae9c03086")
 		)
 		(pin "JP1_3"
-			(uuid "439fa582-54a5-4db1-93c2-b033c67434b5")
+			(uuid "439fa582-54a5-4db1-93c2-b033c67434b6")
 		)
 		(pin "JP1_2"
-			(uuid "074aae4d-6454-4b90-8579-4c3d8b13f1ea")
+			(uuid "074aae4d-6454-4b90-8579-4c3d8b13f1eb")
 		)
 		(pin "JP1_1"
-			(uuid "5c2e6e44-dd7e-4fa1-941a-40421c90310a")
+			(uuid "5c2e6e44-dd7e-4fa1-941a-40421c90310b")
 		)
 		(pin "JP2_42"
-			(uuid "71b4f7a2-d619-4686-93be-b82932b01ab3")
+			(uuid "71b4f7a2-d619-4686-93be-b82932b01ab4")
 		)
 		(pin "JP2_43"
-			(uuid "1e133779-933b-4ea6-b25e-94cb777cfd51")
+			(uuid "1e133779-933b-4ea6-b25e-94cb777cfd52")
 		)
 		(pin "JP2_44"
-			(uuid "14e2af99-7170-4612-9054-7f587782dd95")
+			(uuid "14e2af99-7170-4612-9054-7f587782dd96")
 		)
 		(pin "JP2_45"
-			(uuid "64d062f8-8812-4f22-b1ab-711a52be403f")
+			(uuid "64d062f8-8812-4f22-b1ab-711a52be4040")
 		)
 		(pin "JP2_46"
-			(uuid "b90df866-ee05-4cee-9c2c-0bf174b52360")
+			(uuid "b90df866-ee05-4cee-9c2c-0bf174b52361")
 		)
 		(pin "JP2_47"
-			(uuid "0e54185b-a916-485c-ade1-abdbfb41532c")
+			(uuid "0e54185b-a916-485c-ade1-abdbfb41532d")
 		)
 		(pin "JP2_48"
-			(uuid "ffb40a8c-494c-45b2-abe1-3eb45cf669c6")
+			(uuid "ffb40a8c-494c-45b2-abe1-3eb45cf669c7")
 		)
 		(pin "JP2_49"
-			(uuid "cbf751ca-63d1-448b-93cf-1618a9efca76")
+			(uuid "cbf751ca-63d1-448b-93cf-1618a9efca77")
 		)
 		(pin "JP2_50"
-			(uuid "b3306cbd-d555-4730-af70-971980cdfeae")
+			(uuid "b3306cbd-d555-4730-af70-971980cdfeaf")
 		)
 		(pin "JP2_51"
-			(uuid "6bcdb1c0-5d3d-49df-b955-453610370f3a")
+			(uuid "6bcdb1c0-5d3d-49df-b955-453610370f3b")
 		)
 		(pin "JP2_52"
-			(uuid "16d46d76-6d4a-43c6-85c0-8678754d06dc")
+			(uuid "16d46d76-6d4a-43c6-85c0-8678754d06dd")
 		)
 		(pin "JP2_37"
-			(uuid "062c82d2-f05d-482f-b604-dadb8ee9b10c")
+			(uuid "062c82d2-f05d-482f-b604-dadb8ee9b10d")
 		)
 		(pin "JP2_39"
-			(uuid "64608626-c01b-4ba0-b28b-f4bb64bda739")
+			(uuid "64608626-c01b-4ba0-b28b-f4bb64bda73a")
 		)
 		(pin "JP2_40"
-			(uuid "9bbbd81b-d9ba-4103-8538-98a4dea16ea0")
+			(uuid "9bbbd81b-d9ba-4103-8538-98a4dea16ea1")
 		)
 		(pin "JP2_41"
-			(uuid "8d3bea77-24f2-4ee2-8906-1b69f789f958")
+			(uuid "8d3bea77-24f2-4ee2-8906-1b69f789f959")
 		)
 		(pin "JP2_38"
-			(uuid "e6446d0c-5269-4b8d-9c90-ddcc03b3aeff")
+			(uuid "e6446d0c-5269-4b8d-9c90-ddcc03b3af00")
 		)
 		(pin "JP2_29"
-			(uuid "75f1aa01-b73b-4a81-a367-5435a8fbd1f3")
+			(uuid "75f1aa01-b73b-4a81-a367-5435a8fbd1f4")
 		)
 		(pin "JP2_30"
-			(uuid "372313ca-dd12-4168-bf3f-0d5c45b30e98")
+			(uuid "372313ca-dd12-4168-bf3f-0d5c45b30e99")
 		)
 		(pin "JP2_31"
-			(uuid "29a0324f-e4ef-4feb-919f-1b850dd4b783")
+			(uuid "29a0324f-e4ef-4feb-919f-1b850dd4b784")
 		)
 		(pin "JP2_32"
-			(uuid "b836517a-a62f-4d16-b74b-0c1920e334e5")
+			(uuid "b836517a-a62f-4d16-b74b-0c1920e334e6")
 		)
 		(pin "JP2_33"
-			(uuid "5e8f1a5c-dd43-4940-973e-ab1b3b760329")
+			(uuid "5e8f1a5c-dd43-4940-973e-ab1b3b76032a")
 		)
 		(pin "JP2_34"
-			(uuid "f772aad4-33c3-4003-b088-7435c7581611")
+			(uuid "f772aad4-33c3-4003-b088-7435c7581612")
 		)
 		(pin "JP2_35"
-			(uuid "644943d8-8421-477e-9c62-9a6146c895e9")
+			(uuid "644943d8-8421-477e-9c62-9a6146c895ea")
 		)
 		(pin "JP2_36"
-			(uuid "cba40d80-7e55-4e85-9134-877fd6f8f9ec")
+			(uuid "cba40d80-7e55-4e85-9134-877fd6f8f9ed")
 		)
 		(pin "JP2_7"
-			(uuid "39445c16-a80c-488e-8db8-59a4420097ac")
+			(uuid "39445c16-a80c-488e-8db8-59a4420097ad")
 		)
 		(pin "JP2_6"
-			(uuid "24201610-f54a-4ee8-8772-22ec76355cf0")
+			(uuid "24201610-f54a-4ee8-8772-22ec76355cf1")
 		)
 		(pin "JP2_5"
-			(uuid "143b17fb-c9c7-4bee-9762-d2d1a3c842b5")
+			(uuid "143b17fb-c9c7-4bee-9762-d2d1a3c842b6")
 		)
 		(pin "JP2_8"
-			(uuid "3e4fabc3-b19a-4d6f-b375-9ff21b192a02")
+			(uuid "3e4fabc3-b19a-4d6f-b375-9ff21b192a03")
 		)
 		(pin "JP2_9"
-			(uuid "a13f31ee-3fa2-468e-b777-b9aebdde110f")
+			(uuid "a13f31ee-3fa2-468e-b777-b9aebdde1110")
 		)
 		(pin "JP2_10"
-			(uuid "b3538952-ecf8-467e-a37c-c9d030a7b52b")
+			(uuid "b3538952-ecf8-467e-a37c-c9d030a7b52c")
 		)
 		(pin "JP2_11"
-			(uuid "93433bcf-87ea-4bc0-92ec-17b9176093b6")
+			(uuid "93433bcf-87ea-4bc0-92ec-17b9176093b7")
 		)
 		(pin "JP2_12"
-			(uuid "29234bdd-730b-488d-87ea-2992a14e296b")
+			(uuid "29234bdd-730b-488d-87ea-2992a14e296c")
 		)
 		(pin "JP2_13"
-			(uuid "f7b749ef-7c59-4499-8d11-def9bddfe33c")
+			(uuid "f7b749ef-7c59-4499-8d11-def9bddfe33d")
 		)
 		(pin "JP2_14"
-			(uuid "e515c352-ea99-4d64-a4dd-2750aa826ef6")
+			(uuid "e515c352-ea99-4d64-a4dd-2750aa826ef7")
 		)
 		(pin "JP2_15"
-			(uuid "313aa5d5-9f1b-4df8-bf8b-0fe96f53a352")
+			(uuid "313aa5d5-9f1b-4df8-bf8b-0fe96f53a353")
 		)
 		(pin "JP2_16"
-			(uuid "eb839b75-6b44-426a-976c-90669b764641")
+			(uuid "eb839b75-6b44-426a-976c-90669b764642")
 		)
 		(pin "JP2_17"
-			(uuid "78bfe446-df5a-4f15-b559-2f0edb83ac84")
+			(uuid "78bfe446-df5a-4f15-b559-2f0edb83ac85")
 		)
 		(pin "JP2_18"
-			(uuid "d628618c-761b-421e-83fb-13122baff294")
+			(uuid "d628618c-761b-421e-83fb-13122baff295")
 		)
 		(pin "JP2_19"
-			(uuid "a182208b-4c30-46a7-bc98-0dff5fd11ea9")
+			(uuid "a182208b-4c30-46a7-bc98-0dff5fd11eaa")
 		)
 		(pin "JP2_20"
-			(uuid "34b89074-223e-4db2-97a0-c3ecbc9cd040")
+			(uuid "34b89074-223e-4db2-97a0-c3ecbc9cd041")
 		)
 		(pin "JP2_21"
-			(uuid "18b89dfb-f914-4dfd-94f9-6b7c3f6a85ce")
+			(uuid "18b89dfb-f914-4dfd-94f9-6b7c3f6a85cf")
 		)
 		(pin "JP2_22"
-			(uuid "a41a5441-cab9-4611-8c02-64b41ae513ee")
+			(uuid "a41a5441-cab9-4611-8c02-64b41ae513ef")
 		)
 		(pin "JP2_23"
-			(uuid "1ec39583-d4f7-46eb-8032-f02185b84b35")
+			(uuid "1ec39583-d4f7-46eb-8032-f02185b84b36")
 		)
 		(pin "JP2_24"
-			(uuid "f0f9ef89-404c-475e-b02a-46a166d36ddf")
+			(uuid "f0f9ef89-404c-475e-b02a-46a166d36de0")
 		)
 		(pin "JP2_25"
-			(uuid "f404c440-3bbc-4470-812d-dc4c6d12ea2c")
+			(uuid "f404c440-3bbc-4470-812d-dc4c6d12ea2d")
 		)
 		(pin "JP2_26"
-			(uuid "f7a45b64-4ee0-4e11-abd3-365aa6275f65")
+			(uuid "f7a45b64-4ee0-4e11-abd3-365aa6275f66")
 		)
 		(pin "JP2_27"
-			(uuid "79e5c8b3-82a7-4485-8edd-1ead30443b78")
+			(uuid "79e5c8b3-82a7-4485-8edd-1ead30443b79")
 		)
 		(pin "JP2_28"
-			(uuid "9d0d8693-a5ef-46b3-9cef-86fdd52e3f06")
+			(uuid "9d0d8693-a5ef-46b3-9cef-86fdd52e3f07")
 		)
 		(pin "JP3_21"
-			(uuid "cdd93d8f-22cb-4e9b-bee2-94daa47c3c86")
+			(uuid "cdd93d8f-22cb-4e9b-bee2-94daa47c3c87")
 		)
 		(pin "JP3_20"
-			(uuid "cf969163-4623-46ed-ba68-6449eb8f7e40")
+			(uuid "cf969163-4623-46ed-ba68-6449eb8f7e41")
 		)
 		(pin "JP3_19"
-			(uuid "f8e2eb3b-53ef-4810-8124-97d3502b85ec")
+			(uuid "f8e2eb3b-53ef-4810-8124-97d3502b85ed")
 		)
 		(pin "JP3_18"
-			(uuid "119018f1-1e10-4728-9300-caa413f5a994")
+			(uuid "119018f1-1e10-4728-9300-caa413f5a995")
 		)
 		(pin "JP3_17"
-			(uuid "9256485d-cba9-4e1d-945f-e525bf880569")
+			(uuid "9256485d-cba9-4e1d-945f-e525bf88056a")
 		)
 		(pin "JP3_16"
-			(uuid "bfb93201-bbac-4acb-aaf7-c25b0f39a97a")
+			(uuid "bfb93201-bbac-4acb-aaf7-c25b0f39a97b")
 		)
 		(pin "JP3_15"
-			(uuid "3c1aeb0a-4e01-48c1-a86e-a2cf0f1ccd3e")
+			(uuid "3c1aeb0a-4e01-48c1-a86e-a2cf0f1ccd3f")
 		)
 		(pin "JP3_14"
-			(uuid "3995f0e5-953b-4b3f-8120-3f60634bc1ff")
+			(uuid "3995f0e5-953b-4b3f-8120-3f60634bc200")
 		)
 		(pin "JP3_23"
-			(uuid "8964c973-7f6d-44e3-b331-ef1b180aa80c")
+			(uuid "8964c973-7f6d-44e3-b331-ef1b180aa80d")
 		)
 		(pin "JP3_24"
-			(uuid "d81ff0eb-ecce-43da-9fbe-3ea3428571d5")
+			(uuid "d81ff0eb-ecce-43da-9fbe-3ea3428571d6")
 		)
 		(pin "JP3_12"
-			(uuid "36eaa8c6-083c-4e1d-a3fa-5fd2448380ba")
+			(uuid "36eaa8c6-083c-4e1d-a3fa-5fd2448380bb")
 		)
 		(pin "JP3_13"
-			(uuid "6210508a-59d2-4fcc-b231-c7fd4641d389")
+			(uuid "6210508a-59d2-4fcc-b231-c7fd4641d38a")
 		)
 		(pin "JP3_11"
-			(uuid "39b824ff-a3a1-474d-b4df-4b4d6cd8d5ee")
+			(uuid "39b824ff-a3a1-474d-b4df-4b4d6cd8d5ef")
 		)
 		(pin "JP3_22"
-			(uuid "fc56b9f4-bae6-49a2-bf2a-2916e8e3b1b1")
+			(uuid "fc56b9f4-bae6-49a2-bf2a-2916e8e3b1b2")
 		)
 		(pin "JP3_5"
-			(uuid "6ad5dd36-b6a6-4991-bf00-5460abe3cf77")
+			(uuid "6ad5dd36-b6a6-4991-bf00-5460abe3cf78")
 		)
 		(pin "JP3_7"
-			(uuid "516c5ad4-75a0-44f6-b350-becba4f9194f")
+			(uuid "516c5ad4-75a0-44f6-b350-becba4f91950")
 		)
 		(pin "JP3_2"
-			(uuid "2d0a1caa-a736-4ea8-ae1d-11e36ba3cf96")
+			(uuid "2d0a1caa-a736-4ea8-ae1d-11e36ba3cf97")
 		)
 		(pin "JP3_3"
-			(uuid "2991e45f-d26f-4f46-98a7-26616242950e")
+			(uuid "2991e45f-d26f-4f46-98a7-26616242950f")
 		)
 		(pin "JP3_4"
-			(uuid "eafaed4e-6895-44c0-9b9c-020d2504261c")
+			(uuid "eafaed4e-6895-44c0-9b9c-020d2504261d")
 		)
 		(pin "JP3_6"
-			(uuid "d3f566e8-ff68-4380-b5af-192d3697324d")
+			(uuid "d3f566e8-ff68-4380-b5af-192d3697324e")
 		)
 		(pin "JP3_8"
-			(uuid "8a4d82a2-322a-4048-85e7-193b7b1abccb")
+			(uuid "8a4d82a2-322a-4048-85e7-193b7b1abccc")
 		)
 		(pin "JP3_10"
-			(uuid "9027e41b-c615-40f9-af34-c091ed8adf80")
+			(uuid "9027e41b-c615-40f9-af34-c091ed8adf81")
 		)
 		(pin "JP3_9"
-			(uuid "e81ccf02-2d62-4748-b33a-a6bbe962aef5")
+			(uuid "e81ccf02-2d62-4748-b33a-a6bbe962aef6")
 		)
 		(pin "JP2_93"
-			(uuid "7ddcf8c1-5765-43fb-9e4f-c5d010782e33")
+			(uuid "7ddcf8c1-5765-43fb-9e4f-c5d010782e34")
 		)
 		(pin "JP3_1"
-			(uuid "094620c6-f826-4908-b551-7e739738ed4b")
+			(uuid "094620c6-f826-4908-b551-7e739738ed4c")
 		)
 		(pin "JP2_100"
-			(uuid "7325c079-9b5f-4ad5-a565-b6c818cb5584")
+			(uuid "7325c079-9b5f-4ad5-a565-b6c818cb5585")
 		)
 		(pin "JP2_99"
-			(uuid "bfc32aff-ca41-4dd3-8cec-0afee78fd132")
+			(uuid "bfc32aff-ca41-4dd3-8cec-0afee78fd133")
 		)
 		(pin "JP2_98"
-			(uuid "da113582-d1c6-4d88-a6c0-f7cfafd50a72")
+			(uuid "da113582-d1c6-4d88-a6c0-f7cfafd50a73")
 		)
 		(pin "JP2_97"
-			(uuid "fe9fe5d4-81aa-4e3d-901c-fae461033afe")
+			(uuid "fe9fe5d4-81aa-4e3d-901c-fae461033aff")
 		)
 		(pin "JP2_96"
-			(uuid "e4eeaffd-2723-4c38-967f-b43e82f3f16e")
+			(uuid "e4eeaffd-2723-4c38-967f-b43e82f3f16f")
 		)
 		(pin "JP2_95"
-			(uuid "b82f01bf-3736-4068-81eb-a328bb4b8486")
+			(uuid "b82f01bf-3736-4068-81eb-a328bb4b8487")
 		)
 		(pin "JP2_94"
-			(uuid "d0700e82-9eb1-4dee-bcf7-ddd0cdaa77a3")
+			(uuid "d0700e82-9eb1-4dee-bcf7-ddd0cdaa77a4")
 		)
 		(pin "JP1_94"
-			(uuid "a1a229f7-feef-4b76-b836-f04ff5e0c488")
+			(uuid "a1a229f7-feef-4b76-b836-f04ff5e0c489")
 		)
 		(pin "JP1_95"
-			(uuid "7b694691-12b2-4bcf-aa8a-72283bdd190e")
+			(uuid "7b694691-12b2-4bcf-aa8a-72283bdd190f")
 		)
 		(pin "JP1_96"
-			(uuid "d15d62a6-fa91-42a7-8c77-1090f03cdea7")
+			(uuid "d15d62a6-fa91-42a7-8c77-1090f03cdea8")
 		)
 		(pin "JP1_97"
-			(uuid "789aa9e3-db06-4a31-9055-c166ea014779")
+			(uuid "789aa9e3-db06-4a31-9055-c166ea01477a")
 		)
 		(pin "JP1_98"
-			(uuid "ebe839aa-8419-4775-98ee-6392b6e50403")
+			(uuid "ebe839aa-8419-4775-98ee-6392b6e50404")
 		)
 		(pin "JP1_99"
-			(uuid "22533f78-9f1a-48b9-bd82-31ad5016f82b")
+			(uuid "22533f78-9f1a-48b9-bd82-31ad5016f82c")
 		)
 		(pin "JP1_100"
-			(uuid "ab65a46e-9dad-4d19-ad9a-343a78143e32")
+			(uuid "ab65a46e-9dad-4d19-ad9a-343a78143e33")
 		)
 		(pin "JP1_79"
-			(uuid "e71b5a74-e5f7-480f-ae89-3521811ddd73")
+			(uuid "e71b5a74-e5f7-480f-ae89-3521811ddd74")
 		)
 		(pin "JP1_80"
-			(uuid "fa8c359d-1132-4188-a071-c7e155da795a")
+			(uuid "fa8c359d-1132-4188-a071-c7e155da795b")
 		)
 		(pin "JP1_81"
-			(uuid "8126fbf9-3def-4ea5-9647-37c74878652c")
+			(uuid "8126fbf9-3def-4ea5-9647-37c74878652d")
 		)
 		(pin "JP1_82"
-			(uuid "009fd676-5f61-4406-ab9d-e306c5d41c0f")
+			(uuid "009fd676-5f61-4406-ab9d-e306c5d41c10")
 		)
 		(pin "JP1_83"
-			(uuid "dd8d2c9c-2a87-415d-81b1-22684939b33c")
+			(uuid "dd8d2c9c-2a87-415d-81b1-22684939b33d")
 		)
 		(pin "JP1_84"
-			(uuid "20ec5db3-e806-4213-98ac-b0df77ecb0b6")
+			(uuid "20ec5db3-e806-4213-98ac-b0df77ecb0b7")
 		)
 		(pin "JP1_85"
-			(uuid "b5e774e0-acad-43a1-b2e6-95fd38623794")
+			(uuid "b5e774e0-acad-43a1-b2e6-95fd38623795")
 		)
 		(pin "JP1_86"
-			(uuid "80bf4f7a-87db-4ffb-b17c-6872f638ec59")
+			(uuid "80bf4f7a-87db-4ffb-b17c-6872f638ec5a")
 		)
 		(pin "JP1_87"
-			(uuid "daaf25b7-3ff9-4fac-b0b1-6632e1e876b1")
+			(uuid "daaf25b7-3ff9-4fac-b0b1-6632e1e876b2")
 		)
 		(pin "JP1_92"
-			(uuid "faf498e6-4ed1-4b3b-8f6f-a2dd7dc7fb1d")
+			(uuid "faf498e6-4ed1-4b3b-8f6f-a2dd7dc7fb1e")
 		)
 		(pin "JP1_88"
-			(uuid "cf1ba74c-8629-403a-8aa9-2cbc0231c5a1")
+			(uuid "cf1ba74c-8629-403a-8aa9-2cbc0231c5a2")
 		)
 		(pin "JP1_90"
-			(uuid "d86a4cb2-3c68-4a93-a7de-c2ea66386262")
+			(uuid "d86a4cb2-3c68-4a93-a7de-c2ea66386263")
 		)
 		(pin "JP1_73"
-			(uuid "0b7b90da-c67a-4b65-92dd-2f1418dcb7ae")
+			(uuid "0b7b90da-c67a-4b65-92dd-2f1418dcb7af")
 		)
 		(pin "JP1_93"
-			(uuid "466284f8-14e2-461a-85cb-ecc27d349a2d")
+			(uuid "466284f8-14e2-461a-85cb-ecc27d349a2e")
 		)
 		(pin "JP1_89"
-			(uuid "c309870e-07ae-4448-a324-3429bc6e0d8d")
+			(uuid "c309870e-07ae-4448-a324-3429bc6e0d8e")
 		)
 		(pin "JP1_91"
-			(uuid "c0b64443-0d38-4a51-8ec1-e373d142ea6d")
+			(uuid "c0b64443-0d38-4a51-8ec1-e373d142ea6e")
 		)
 		(pin "JP1_78"
-			(uuid "d7e57982-d1fc-480f-ae77-b8b6b7f2afb2")
+			(uuid "d7e57982-d1fc-480f-ae77-b8b6b7f2afb3")
 		)
 		(pin "JP1_77"
-			(uuid "df26ac74-4bef-497c-90f3-ae72d7c6aab8")
+			(uuid "df26ac74-4bef-497c-90f3-ae72d7c6aab9")
 		)
 		(pin "JP1_76"
-			(uuid "797d0001-8e2f-49f9-a756-4fc0b481ff78")
+			(uuid "797d0001-8e2f-49f9-a756-4fc0b481ff79")
 		)
 		(pin "JP1_75"
-			(uuid "3da20bdd-41eb-40ae-8d3e-1365558b6b25")
+			(uuid "3da20bdd-41eb-40ae-8d3e-1365558b6b26")
 		)
 		(pin "JP1_74"
-			(uuid "b6c2890b-88a8-42cb-b0a2-62beb08d5ad6")
+			(uuid "b6c2890b-88a8-42cb-b0a2-62beb08d5ad7")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -8510,6 +7245,258 @@
 			(project "G-MuzikBox"
 				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 337.82 87.63)
+		(size 38.1 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a273aa0f-9f0c-4edc-9418-684a5d45e8a8")
+		(property "Sheetname" "Amp"
+			(at 337.82 86.9184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Amp.kicad_sch"
+			(at 337.82 144.0946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 392.43 233.68)
+		(size 25.4 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c02044be-2d71-4628-ad62-c5e3c99c4d1b")
+		(property "Sheetname" "DAC & opamp"
+			(at 392.43 232.9684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DAC.kicad_sch"
+			(at 392.43 286.3346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BICK" input
+			(at 392.43 245.11 180)
+			(uuid "8d331778-bbf9-4d12-a9af-e3c4c51e36d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DZF{slash}SMUTE" bidirectional
+			(at 392.43 275.59 180)
+			(uuid "a1987494-b848-4b1c-8e50-d2d016b11b3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "L1ch Out" input
+			(at 417.83 236.22 0)
+			(uuid "ffef79da-750e-43ed-8a4d-aad93bcfa8fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "L2ch Out" input
+			(at 417.83 245.11 0)
+			(uuid "aeb040b8-a403-4a9a-934d-a8c1f672cb0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "L3ch Out" input
+			(at 417.83 254 0)
+			(uuid "1e9d61b3-aee4-48e4-8fb6-097dbfbdd6a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "L4ch Out" input
+			(at 417.83 261.62 0)
+			(uuid "78ab52d0-99ba-4c1d-9497-5ea8008a1e0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LRCK" input
+			(at 392.43 248.92 180)
+			(uuid "21fa73d2-4461-4d5b-b697-58a26fab3ec9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCLK" input
+			(at 392.43 252.73 180)
+			(uuid "66a0638b-136c-4495-87c8-74fa123db060")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PDN" input
+			(at 392.43 273.05 180)
+			(uuid "33bf7962-e2b6-4827-9bd8-d27c2e46f0fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R1ch Out" input
+			(at 417.83 238.76 0)
+			(uuid "dd368701-c0a6-4fcd-97d3-f8dac7ec18d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "R2ch Out" input
+			(at 417.83 247.65 0)
+			(uuid "0af4a00d-9725-41d3-b76a-396fe0c3e698")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "R3ch Out" input
+			(at 417.83 256.54 0)
+			(uuid "3ba07ab0-902d-46a3-84e0-ede59937eba4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "R4ch Out" input
+			(at 417.83 264.16 0)
+			(uuid "f2a8bcea-b536-4d8d-9973-f760d5f4ab39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 392.43 264.16 180)
+			(uuid "14f3c4f7-0b43-45c0-9221-708b5d31e7e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 392.43 266.7 180)
+			(uuid "b564b2f5-62cf-4032-8b19-a2d58ab61484")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDTI1" input
+			(at 392.43 241.3 180)
+			(uuid "5874da82-2005-467c-862e-07394d4974db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "G-MuzikBox"
+				(path "/30d0fc86-2228-4f8d-9cf7-aef3e4b0153a"
+					(page "3")
 				)
 			)
 		)

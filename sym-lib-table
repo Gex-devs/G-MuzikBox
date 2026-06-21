@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "ORANGE_PI_CM4") (type "KiCad") (uri "${KIPRJMOD}/ORANGE_PI_CM4.kicad_sym") (options "") (descr ""))
 	(lib (name "AK4458VN") (type "KiCad") (uri "${KIPRJMOD}/AK4458VN.kicad_sym") (options "") (descr ""))
+	(lib (name "TPA3255DDVR") (type "KiCad") (uri "${KIPRJMOD}/TPA3255DDVR.kicad_sym") (options "") (descr ""))
 )
