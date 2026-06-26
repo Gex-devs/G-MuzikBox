@@ -3,4 +3,5 @@
 	(lib (name "ORANGE_PI_CM4") (type "KiCad") (uri "${KIPRJMOD}/ORANGE_PI_CM4.kicad_sym") (options "") (descr ""))
 	(lib (name "AK4458VN") (type "KiCad") (uri "${KIPRJMOD}/AK4458VN.kicad_sym") (options "") (descr ""))
 	(lib (name "LM5146RGYR") (type "KiCad") (uri "${KIPRJMOD}/LM5146RGYR.kicad_sym") (options "") (descr ""))
+	(lib (name "LM70880RRXR") (type "KiCad") (uri "${KIPRJMOD}/LM70880RRXR.kicad_sym") (options "") (descr ""))
 )
