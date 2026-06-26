@@ -1,0 +1,14 @@
+{
+ "meta": {
+     "version": 1.0
+ },
+ "name": "Part-DB library",
+ "description": "This KiCAD library fetches information externally from ",
+ "source": {
+     "type": "REST_API",
+     "api_version": "v1",
+     "root_url": "http://parts.lan/en/kicad-api/",
+     "token": "tcp_20a4882fd2a4491557b8137490d212cb4061f3d1c46e9825bce33ffd4a1df1d2"
+ }
+}    
+

@@ -2056,6 +2056,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "+12V should be a separate rail."
+		(exclude_from_sim no)
+		(at 143.764 245.364 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "fd6046cf-192d-4a24-9b66-cd7aa12ce410")
+	)
 	(junction
 		(at 173.99 189.23)
 		(diameter 0)
@@ -6630,7 +6640,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed583a8e-1501-4925-a50a-8f104fa09fa3")
+			(uuid "fdce87f6-dd3d-46f9-8afe-7eaa0f264073")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -6707,10 +6717,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "deb2bb80-15a8-4be0-81a1-1489d90d47e3")
+			(uuid "55820100-bbe6-44dc-b62f-c02fbf30b874")
 		)
 		(pin "2"
-			(uuid "dc587d1b-cf86-4468-a149-9ffaf34c47e3")
+			(uuid "0b7c8e66-01b4-4e20-9285-e515e5fc4fec")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -6789,10 +6799,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "213ce6ef-1272-4219-b37b-5a13f80fc8c3")
+			(uuid "6c99b45b-62fa-4246-903c-bf33a8f80c81")
 		)
 		(pin "1"
-			(uuid "db1078de-de78-4ae9-900b-c3039a599c48")
+			(uuid "6a8bf479-a21d-44f9-8302-bd099326a03a")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -6868,10 +6878,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b90beddd-0cd5-4fd3-83cb-3f6cedc58288")
+			(uuid "d3786279-407b-4a61-8f40-3754d2c337d9")
 		)
 		(pin "2"
-			(uuid "9fca7b7c-4a13-4f23-941d-43d6c2b816ac")
+			(uuid "ea40fd7e-c61d-405d-8eb0-bb7d024e9ed5")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -6950,10 +6960,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "629c4b5b-69b2-42a3-b749-80a9e6e8cee2")
+			(uuid "2d0ef07b-2519-4588-b6d5-e8abde5c69be")
 		)
 		(pin "1"
-			(uuid "652a8128-ab09-45e6-bfca-bddd1fc4e48b")
+			(uuid "ca932b69-3fcb-4e43-a4e0-c12ad529e0d8")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -7031,10 +7041,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4895c0d4-3d92-4799-90de-4330e21e3f84")
+			(uuid "4bf5c982-3ca1-4311-a1c1-730e54112c58")
 		)
 		(pin "1"
-			(uuid "2c9e6e73-2522-4245-ae09-da44cadd58c2")
+			(uuid "b477115d-ff15-4443-a37a-1b2c4959cea8")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -7112,7 +7122,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f97d6220-7e35-4ff4-bf85-3543a6908498")
+			(uuid "9df6b232-5d43-4769-83fe-8b8bfacdd4ae")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -7191,10 +7201,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "7c449802-7b3f-4929-b790-c9504f1f659f")
+			(uuid "353a2079-e7bc-464b-ad82-3720325f0d6d")
 		)
 		(pin "1"
-			(uuid "0e840218-80b0-409e-a1d6-f77093700474")
+			(uuid "634311ba-4b57-4af7-b481-2ea568fbd624")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -7271,10 +7281,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d52dbfa5-8098-469a-8804-8a202091eaea")
+			(uuid "02cb1ba3-724c-419e-85d4-0397b7f69605")
 		)
 		(pin "2"
-			(uuid "e638fc69-6753-4714-bbf7-8f1e78bdfa25")
+			(uuid "b27c4619-35e6-4905-9da2-d433b9ec606c")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -7351,10 +7361,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f3c246d1-f37c-4b88-af0f-be55bd7783fe")
+			(uuid "058fcaf8-a2c0-47a9-933e-705005cdafe5")
 		)
 		(pin "1"
-			(uuid "8d71803a-0718-4262-8767-b63fb58e829c")
+			(uuid "db34dba4-afab-4e33-bb36-a3bf28c21488")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -7432,7 +7442,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1ff09f54-5477-461a-a7d5-fb47e9b31814")
+			(uuid "6476af89-40eb-42a4-a074-29023854634e")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -7510,10 +7520,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "7c856fd2-f537-4c20-8214-feddb3646575")
+			(uuid "ff6b16f2-1f77-4601-a8d4-6ed1417feebe")
 		)
 		(pin "1"
-			(uuid "90112b3a-0e9c-40c2-afd6-8b8dbdfbc9ae")
+			(uuid "1104fd65-73cb-4485-80fc-53cfb87ca564")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -7591,7 +7601,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "33c9f126-e5ee-448f-84a5-2f9588bc6ce6")
+			(uuid "d6363cc7-610b-458c-adfc-4f9d11ee8233")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -7669,7 +7679,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "51fe1b2e-a0db-4f08-8af2-efabeec2f5ef")
+			(uuid "d2e1debf-ee08-46b3-984f-39eb88e37df6")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -7747,10 +7757,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "083b6d78-2980-4064-a2d4-273c5af2bbf2")
+			(uuid "097b34f5-7d90-4dca-9133-d717143dcd14")
 		)
 		(pin "1"
-			(uuid "71e11be8-f81b-4c40-bc04-92a73811d9cd")
+			(uuid "d1a6322c-296c-44c8-bcf5-61ab8bc51724")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -7828,10 +7838,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "79d862fb-d253-411c-8a13-f83d1a314b6c")
+			(uuid "90aaa4e4-dbd2-4692-b96a-caac86f6b4d1")
 		)
 		(pin "1"
-			(uuid "a737b81a-d84e-494c-9f46-5d2a23c90e40")
+			(uuid "052fe996-966b-4b4e-b07a-8cc55d47cc30")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -7910,10 +7920,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "37182396-3ebb-45ac-a691-ea413f42c9d8")
+			(uuid "b1233665-931a-4133-b743-ca2707b1a29f")
 		)
 		(pin "1"
-			(uuid "0ca02287-6adc-43ce-88cc-db57e1911fce")
+			(uuid "dedeb52f-c9f0-48cd-97c1-00bd070fe975")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -7992,10 +8002,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "fc3cc7bb-d732-4fb5-9fd8-2d1eafb91888")
+			(uuid "d1bd6f9e-9145-4155-b745-75b44d76c7d3")
 		)
 		(pin "1"
-			(uuid "3e8cd6e5-6da0-4d29-b5d5-807115f5d509")
+			(uuid "fc3cd2e8-2777-441e-8d07-638e37ac9add")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -8072,10 +8082,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "65e0f3ae-b216-4c0c-a6ff-33742786b582")
+			(uuid "4afe08a5-7f9b-4134-8566-c9daf938f3f7")
 		)
 		(pin "2"
-			(uuid "83f39d4d-cec5-415b-a32e-ce9e51f0539c")
+			(uuid "d49436ae-3582-4bd5-9688-838a0cd6d2ba")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -8154,10 +8164,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b503dc12-c3a8-4ad3-93ce-2c72979980fc")
+			(uuid "91e125f5-b98c-4903-b027-ac64f0010b52")
 		)
 		(pin "1"
-			(uuid "5d4f8690-1a72-4777-b58b-e063c275c8cf")
+			(uuid "fcd07211-ad9e-4937-9d3d-d09139528fcc")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -8235,7 +8245,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "91b8b6da-a7e1-4685-a275-d2f25ac39fd9")
+			(uuid "b5462801-8894-479d-a148-54d4a9944f9c")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -8314,10 +8324,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a3aaf08c-f580-4b0e-b0f8-0a0edc2d3d7f")
+			(uuid "38c3b77d-7cf7-417e-bdae-c88f55c5dee0")
 		)
 		(pin "2"
-			(uuid "168ed348-d701-437c-84c5-ab0dc4c464e7")
+			(uuid "9449246d-31af-440d-8613-b875904bd97e")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -8396,10 +8406,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ac07a234-8eb2-44a0-b2da-abc0f3f2a49f")
+			(uuid "22fefca0-40b5-4533-a097-e1a676bde84d")
 		)
 		(pin "1"
-			(uuid "b2a74b74-2bf7-485b-a42f-51401cbed62a")
+			(uuid "fcf15fb7-c058-459e-aec7-9e629c363c19")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -8476,10 +8486,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4fa57b14-89ae-45f3-84a9-9e3f01aae9c1")
+			(uuid "b0ed5004-e835-4537-92e4-d85324387797")
 		)
 		(pin "2"
-			(uuid "7ee42764-d24a-4dae-a24b-1850c8f7bf30")
+			(uuid "457a19c6-4203-4144-ab31-43163933c051")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -8555,10 +8565,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b25191c1-d21b-4cd9-8a17-cd5814d18609")
+			(uuid "1a9c7d11-0aba-4e1f-8bd9-75fce76c383b")
 		)
 		(pin "2"
-			(uuid "55b28655-5914-4fe0-af14-568d4be2a980")
+			(uuid "e1f7fec3-3fb8-4a00-8c5f-664f4273bccf")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -8636,7 +8646,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0507763e-6a37-4bcd-a6c2-0a0cba99a4e6")
+			(uuid "1d8a1f9d-2868-4d5e-b25b-d146c079e0b8")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -8715,10 +8725,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "01feec7a-587e-4b6d-91ec-968eb92708eb")
+			(uuid "410adcac-b772-414b-86b1-59fb2dbd11aa")
 		)
 		(pin "1"
-			(uuid "7b5fd5c0-2a91-4a8c-9b2a-04579693bd5e")
+			(uuid "f03f4a21-adcd-45b2-9426-42d914806d83")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -8795,10 +8805,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8d770787-6473-4a17-82ca-e7a758cbeb6a")
+			(uuid "530402c5-b55b-444f-9a6e-8a68f4cc8c2e")
 		)
 		(pin "1"
-			(uuid "a756c1b0-8bdf-451d-85f2-c207243aa448")
+			(uuid "72c698fe-9d28-4678-ac61-7dde45a0e4bb")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -8876,7 +8886,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "aecc80b8-0952-48d7-bae2-75f8e7fd3c35")
+			(uuid "4a70401a-6860-4f33-b48d-04b93d5668c9")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -8953,10 +8963,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6912706b-8ce0-4800-b7f0-0e9d98a543b2")
+			(uuid "7450c2ca-f455-4f54-9c4f-a9cde730bf0f")
 		)
 		(pin "1"
-			(uuid "515b146a-bf7e-4f8e-b301-c74118f2cb64")
+			(uuid "582be2f1-89bf-4a3c-b2b7-7541a89c7c42")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -9035,10 +9045,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "2e22e29d-8086-48e0-bb95-7b0c718eb183")
+			(uuid "4cb8496f-3e01-473c-b214-613b84b776a2")
 		)
 		(pin "1"
-			(uuid "7102343d-3980-4726-b3db-1596b168a9e1")
+			(uuid "24fb4b47-1224-46e3-883d-ca1e189cefa3")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -9117,10 +9127,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b475c888-89d4-4f37-a6bc-93c013cad149")
+			(uuid "1e2d8f70-1024-4ccd-a7a3-96c862d1c90c")
 		)
 		(pin "1"
-			(uuid "bc65110a-7d4f-4ea1-a7ec-fd5e7f71634a")
+			(uuid "e42d25de-006b-4d0f-b543-f6664234c269")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -9199,10 +9209,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8502e150-394d-482d-927c-f46ed9cd377b")
+			(uuid "0dbb5f3e-de1b-45a7-87be-3375eafc8a30")
 		)
 		(pin "1"
-			(uuid "35c2ec98-5abd-41e7-9629-185b8db8859c")
+			(uuid "61cc351e-6f64-4d58-9483-ff5b9f5b0c43")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -9281,10 +9291,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "84b3a1a1-7d35-4f10-ac57-aa6cb5ff5306")
+			(uuid "fb89dc7f-bf30-495e-869a-b9bf8acc43c8")
 		)
 		(pin "1"
-			(uuid "34a3afc9-9ce9-4e2d-bb55-b725fa13c5e1")
+			(uuid "55383073-1eba-487c-80ee-32eb0b53bb3b")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -9363,10 +9373,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fff496d8-8b59-4e60-b9da-b0fade63fea1")
+			(uuid "cd20c663-ae11-4849-8ef5-3c7634eedaf6")
 		)
 		(pin "2"
-			(uuid "11bd8f04-48f4-4526-acf0-00bd017d9eec")
+			(uuid "608c31a0-6b9c-476f-9e52-4555e3e48812")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -9443,10 +9453,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "269a7d5c-578e-4861-8095-23d76def41fc")
+			(uuid "9f02d3fd-e7cf-47d3-aa83-992763811303")
 		)
 		(pin "1"
-			(uuid "7bb6f809-ffcc-46a0-992a-d47f6e18aff6")
+			(uuid "53368a9a-30ee-4ace-bbd6-6358061ca3c7")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -9525,10 +9535,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "2bbbd95a-b23e-4b94-b7d0-82fc1cbf3b87")
+			(uuid "e0b7f298-b92e-447e-a603-9b0ee80d0a74")
 		)
 		(pin "1"
-			(uuid "2d37d1df-2500-44a6-b70e-332db8f55790")
+			(uuid "2c3c510c-8054-41d4-a8de-e2a79e72c99f")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -9607,10 +9617,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "7ecebdcf-a6c0-4a19-a1cd-cfdc761a75a7")
+			(uuid "976ada2b-d60a-4fc2-9ad8-cc469b0e71e7")
 		)
 		(pin "1"
-			(uuid "96de524a-be9d-4cde-8759-0fac09286c84")
+			(uuid "a9891f8c-a685-442a-81f2-ae5609efa3a0")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -9689,10 +9699,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "db34d5e1-4ea6-4e65-aff8-bf103a5c55f7")
+			(uuid "a4483961-f59f-42cb-b9b9-fc857b4a6a65")
 		)
 		(pin "1"
-			(uuid "cbb90e16-706a-45a6-93c2-c633e270ff2d")
+			(uuid "23d28b3e-1854-4eb1-971d-081b46fd87fe")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -9769,10 +9779,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3cb40115-08de-46d3-a511-9d3d0df42587")
+			(uuid "3649753a-e6b3-4079-9035-e25f71bceb60")
 		)
 		(pin "1"
-			(uuid "a848656f-6e68-4a9b-9daf-2c993ad36897")
+			(uuid "d8aa8ed6-1389-428d-b52e-c441df9d173a")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -9849,10 +9859,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "fd4c25a2-3b99-4ffc-9dd2-5a542314b7c0")
+			(uuid "d758114e-345f-4a93-bde7-52dd640e9039")
 		)
 		(pin "1"
-			(uuid "7814b61c-ff6a-408f-a325-76d7fab4c885")
+			(uuid "d09b4900-76ab-46d1-b938-0048b9bbcdca")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -9931,10 +9941,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "72449832-26b8-408d-bb44-70d189e03a05")
+			(uuid "e32ca7c0-60ef-4c7b-a74a-aaa55df4a535")
 		)
 		(pin "2"
-			(uuid "3d9a926b-55e6-4946-8eab-4b031997016a")
+			(uuid "4ab58570-4f53-4ff5-a017-e81df7a642a2")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -10013,10 +10023,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f68c2fc6-959a-4c5f-b49f-8ea655025076")
+			(uuid "87dcad4b-56f9-48a8-a686-8be784e9f60d")
 		)
 		(pin "2"
-			(uuid "3dec52ad-e139-447b-99ad-1f90e13eeb53")
+			(uuid "bf7ff2ce-208c-4669-b047-3728c163a47e")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -10094,7 +10104,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b63a863-b438-4539-b6a0-096908944a5e")
+			(uuid "d2426683-fdbd-413b-9fcb-c2940e056a21")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -10173,10 +10183,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "9eb6c566-c1c8-425c-98f6-81da2a5aab8c")
+			(uuid "4cb8b52d-48d2-49a7-a1bf-0316c5c2bdc3")
 		)
 		(pin "1"
-			(uuid "0766b4f7-af47-414b-b1ea-9c74246c895a")
+			(uuid "5c2d7f78-d4a2-4362-bf2c-13e5114e3253")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -10253,10 +10263,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "22942b89-0b17-49e9-91b6-8287b1e2d953")
+			(uuid "580777e4-0625-45f3-9e40-e7aa464d4efc")
 		)
 		(pin "1"
-			(uuid "968dae11-ddc1-439c-9438-519599110617")
+			(uuid "982539f6-4cbe-4822-9b33-7f34c6135d48")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -10333,10 +10343,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "2c30f461-cf7e-43f5-92bf-ca92d3b7f11b")
+			(uuid "db955f27-0517-45f1-bcea-3224ca2d9fd0")
 		)
 		(pin "1"
-			(uuid "efd8ea71-2187-46a4-afa1-b9f3a384d7bf")
+			(uuid "11fb7120-b6fb-4d85-a991-b2bdc070b1dc")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -10413,10 +10423,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "72ab6700-adfc-4c5e-a7dd-d58cc8da21e4")
+			(uuid "0ed6ac0f-d68e-4dba-af5c-a52f6a1c6867")
 		)
 		(pin "1"
-			(uuid "8484d5f6-4819-4d6a-b5df-fa03246ff3b4")
+			(uuid "f16417d2-0f05-498c-a5cd-b5f090dceebb")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -10493,10 +10503,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "62352ce6-a517-4b63-b545-c862d2bae4b4")
+			(uuid "2425a340-58e3-4b86-846e-a39cc80053e5")
 		)
 		(pin "1"
-			(uuid "dc748cdd-516a-4d9d-8f95-2ce961ed5593")
+			(uuid "9483bf90-e841-425f-9271-dbaa6ecf391b")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -10574,7 +10584,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "20cbbbea-fc26-41bd-a254-3ad2a7aeb470")
+			(uuid "eee47ec3-90ad-4274-a509-56613bf49fcd")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -10651,10 +10661,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "0a5788c5-a361-4901-86c8-ce0227789460")
+			(uuid "2eefb3a3-4871-4906-b97c-0396323e0cf9")
 		)
 		(pin "1"
-			(uuid "53a72ce8-b5a3-48e4-9e73-bc3c0877363f")
+			(uuid "755fae1b-2997-49d0-8164-4f350a202f9a")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -10730,10 +10740,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d19b186-fb0b-401b-8296-0897c791e7a8")
+			(uuid "626f22db-195b-449d-8fab-24b59eafec7d")
 		)
 		(pin "2"
-			(uuid "bbcfeab9-5202-47b9-9421-04993d6e55a6")
+			(uuid "f47d6e41-99d8-4185-8f99-95ccb873e42f")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -10812,10 +10822,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6d70f321-d22f-44ab-83d7-70f9210f81e6")
+			(uuid "acfba7d9-6ed9-4b6e-805a-5c0e9d6b5a7e")
 		)
 		(pin "2"
-			(uuid "17355695-5a38-41fb-9dad-c079a48f0058")
+			(uuid "53c57a36-f367-4c66-b35e-4c5edbfb6d88")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -10894,10 +10904,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "83e22002-bf89-4861-91aa-893cb3825289")
+			(uuid "6f8d88be-55e3-4cf4-be0b-f7d7f391bdf7")
 		)
 		(pin "1"
-			(uuid "ded88e32-546a-404d-837c-ad2aa6ee44c5")
+			(uuid "cc8ca8da-df82-400b-a2b9-f218320096d9")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -10973,10 +10983,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "69529cc5-d07b-4e73-9606-0245d443de32")
+			(uuid "1e40e551-fefe-46f6-b568-c604502c4202")
 		)
 		(pin "2"
-			(uuid "f5ec0128-fe4f-4677-b1eb-4d8203dd35fb")
+			(uuid "caeeea67-88e0-4023-9726-e4ff7f0d1bf4")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -11055,10 +11065,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "9aca7316-fca1-4a85-b991-cef8a097f7fc")
+			(uuid "0010b0ed-70db-438f-a0bc-865f07b21a03")
 		)
 		(pin "1"
-			(uuid "6371fdd0-0d31-4121-86f3-7ea8b26caada")
+			(uuid "c4f0ba2d-9813-4a7c-9859-cf887a4a0791")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -11135,10 +11145,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e92945d4-3014-4c31-91ff-da59ef4623f0")
+			(uuid "6503768e-21f7-442d-abc5-40bc244bd1af")
 		)
 		(pin "1"
-			(uuid "2cc29f43-77d7-4961-97e4-f2eb34bf1dee")
+			(uuid "2c78d99f-cdf1-45c9-af95-a1a746aed43c")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -11216,10 +11226,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ed84e4be-f285-470b-8526-d94d948c228b")
+			(uuid "ff6f465e-502d-4d9c-9760-75bdf738bf99")
 		)
 		(pin "1"
-			(uuid "ba83c27f-75e4-4cc0-ac5d-ec6dad5be230")
+			(uuid "ca23395d-0679-4e20-a9c2-129e0d2beae4")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -11298,10 +11308,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "13a5d231-1749-4b8b-95b1-5c61777c4f12")
+			(uuid "a7b01408-d45e-45e2-b966-2bcfa2accd7d")
 		)
 		(pin "1"
-			(uuid "e516d70a-a27a-47cd-a728-9bac97ba691a")
+			(uuid "85a260a9-74f1-4677-9745-088792929fa1")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -11380,10 +11390,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "032ccfb4-81b4-4d48-be3f-6344b5e22467")
+			(uuid "faf69aa7-fbe8-4278-9e55-e01307f78cfe")
 		)
 		(pin "1"
-			(uuid "cf26e6a2-72f1-4ce4-a7a6-124d1d16ab62")
+			(uuid "cb329958-2a6a-4ae9-99cb-3a79bfe586bb")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -11461,7 +11471,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f704dcb7-c86c-4b5c-8195-1078ac006da3")
+			(uuid "cb6d849a-052e-4f87-8b31-f32ee9dcb3b6")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -11537,10 +11547,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e19b771c-6bf8-452f-81dc-fce2bc9136cf")
+			(uuid "0daa2cf2-d39a-45f4-aa01-5cd92110381a")
 		)
 		(pin "2"
-			(uuid "a2b0af46-2a50-418b-a07d-031411d92ff8")
+			(uuid "8d8e8660-04bc-497d-b799-7bcccdb74df4")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -11617,10 +11627,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "94ed1b36-77c9-4863-9023-0b973c206de8")
+			(uuid "bda98d72-2953-44e7-b2d7-f3a29d9e0092")
 		)
 		(pin "1"
-			(uuid "0ea43c79-285b-4f26-b6bb-5a1c5f014c98")
+			(uuid "c966e28f-1546-4d5b-981b-a63bfe78e8bd")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -11698,7 +11708,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6eb2e67d-d5e8-45e4-b8bd-6fa2315ab4f3")
+			(uuid "48bfd0c8-16a7-4f3b-b915-809b61a6670d")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -11777,10 +11787,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "783fbed4-d189-47d1-a836-23574401a870")
+			(uuid "8700d05c-7190-4765-ac96-6cc64ab69e34")
 		)
 		(pin "1"
-			(uuid "9a1149d4-0045-4075-a56e-b1575ecd2b62")
+			(uuid "9d3be3be-a79c-44e6-84f3-697d2ddfc68c")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -11859,10 +11869,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "0a2df76b-3a4d-40eb-a1a1-3009026b0628")
+			(uuid "8b58dd6b-8b83-484e-ad86-a6ff99516ce0")
 		)
 		(pin "1"
-			(uuid "ba5dd287-2596-4268-924b-213462613742")
+			(uuid "e1f427ac-a3e2-40ce-a34f-7b6cf14eb4d4")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -11941,10 +11951,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "aa8fdb03-48fd-43f3-8d6f-65de5115019e")
+			(uuid "9e1c6279-8df8-4598-ba9a-d707f453d85c")
 		)
 		(pin "1"
-			(uuid "e9f1e228-7da7-467c-b011-959d7307fcf6")
+			(uuid "8e47b989-f5bd-4d18-ba74-fdf365f0f6ea")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -12021,10 +12031,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6761f03b-5c21-4f92-95bd-a58822280a9b")
+			(uuid "ecf614d3-35fc-4b56-9af3-06969b8c2c0a")
 		)
 		(pin "1"
-			(uuid "b7dbd7ee-4e50-4dc2-83bc-2f98771c8843")
+			(uuid "2974d881-63a3-407a-9f91-bbe864337a0f")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -12103,10 +12113,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f01d67d7-7bea-4e93-b1cd-70664e464f7a")
+			(uuid "982d68f4-9881-4e35-85ec-4c2aa40cfba6")
 		)
 		(pin "1"
-			(uuid "f8cf4a3c-3119-45b3-9747-dd24cd1b94ca")
+			(uuid "334a4feb-bef1-4db3-b0d1-c89a89ed5d76")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -12183,10 +12193,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c8136ce-42fc-421c-aaa9-6235814218ef")
+			(uuid "dd05feaf-8015-44d0-aa5b-ef8fae487b07")
 		)
 		(pin "2"
-			(uuid "118bcbee-8c3c-4462-b8e9-d58022dadfa7")
+			(uuid "e42e0d01-1541-4ef8-861b-9cdd171d1883")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -12265,10 +12275,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "bd77049e-24ed-4e13-8d05-2e91485b87e6")
+			(uuid "bcc3e60b-a9d0-4ccf-865c-7b3fd69652f6")
 		)
 		(pin "1"
-			(uuid "07c3f56b-c523-4852-8436-fcb660fc617b")
+			(uuid "08944f31-059b-4610-8c71-5df76a2b6076")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -12347,10 +12357,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "20b11a69-1ac8-442c-8eb8-f1468b0b5ec2")
+			(uuid "c8e38834-b1d6-4abc-b396-23fae2969901")
 		)
 		(pin "1"
-			(uuid "0a914002-2948-429d-aa70-e8caf5f10305")
+			(uuid "3903c9e1-28d1-4699-9d95-96fdf151de01")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -12429,10 +12439,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e133f8c2-8309-4a65-8738-a5afba22eaed")
+			(uuid "f176868b-64af-49da-b350-18215823fe65")
 		)
 		(pin "1"
-			(uuid "538317f6-80e2-4bb8-baca-a11d12368da7")
+			(uuid "2482e568-e715-4ffe-b687-88e8471b30f4")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -12509,10 +12519,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b288372-62ba-4ca0-b069-7cfcfce9c11b")
+			(uuid "fa4ec66c-b0f8-4acd-9811-918fd458e2e2")
 		)
 		(pin "2"
-			(uuid "29c6908e-176d-4a05-be35-3de4c06a1892")
+			(uuid "9f1539a1-0c12-42cb-baca-5b06db4f68b5")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -12589,10 +12599,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "28e12a74-38cb-4b7d-9c86-7ee2ddd89570")
+			(uuid "b0f5f80c-ec9c-45b7-b3c0-b7307a94894e")
 		)
 		(pin "1"
-			(uuid "287fc562-faaf-4687-bd01-5804c106f32d")
+			(uuid "0550696c-6abb-4f43-af14-70093009b021")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -12671,10 +12681,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "20cba6a3-6148-496d-b7b7-65072186bc3f")
+			(uuid "ec9e31c0-8e45-413c-802b-6099608c4ed4")
 		)
 		(pin "2"
-			(uuid "4e3d06f9-63c4-4040-bc86-6192711a3c01")
+			(uuid "02594270-8879-4fb9-9f68-6eaec0842168")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -12752,7 +12762,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "54ad07c3-7834-4106-a671-56ba8cb84134")
+			(uuid "a158b6c4-2f6d-46f7-b99c-7a481cc67a0c")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -12830,7 +12840,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "79a38272-dd81-4623-93eb-0f4636f76d7e")
+			(uuid "ae7e51ae-197c-41c2-9be5-1e216d0d86c6")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -13041,136 +13051,136 @@
 			)
 		)
 		(pin "15"
-			(uuid "408fcbfd-f3a6-4b08-baa4-2fa7d3933245")
+			(uuid "e28b3f38-587e-49f3-9f00-58f0a0dc8202")
 		)
 		(pin "14"
-			(uuid "605637ff-fe1a-4c3f-876a-bc1c3e4bc9db")
+			(uuid "d2be0ae4-8022-404e-83ca-66368c218c17")
 		)
 		(pin "6"
-			(uuid "04936b51-8fca-43e4-b879-044364631580")
+			(uuid "a3194bb0-0435-446b-bb63-bbdb77d14552")
 		)
 		(pin "1"
-			(uuid "b423bde5-3690-4a07-8f52-445d47a40d8f")
+			(uuid "c28640ee-1767-4703-b5d8-7e1d0c4f64d5")
 		)
 		(pin "12"
-			(uuid "31c63773-a276-423e-8e4d-ec073ca3a7c1")
+			(uuid "07690a47-1cfd-4963-ab94-0e53e3932ab6")
 		)
 		(pin "9"
-			(uuid "6664e70a-2baf-41b3-84d5-2dc07d6aeaeb")
+			(uuid "943bec2d-7b57-4bd8-81c4-28bd011cd774")
 		)
 		(pin "32"
-			(uuid "cfba5de3-a6f3-4172-aa9f-64337181bc82")
+			(uuid "468b4e9f-f935-4426-ae51-1f7aca88ceab")
 		)
 		(pin "22"
-			(uuid "ce2510e5-ffd0-42c7-8307-34321b607ad4")
+			(uuid "8ef97dc6-6549-4c96-b295-4533dac51e96")
 		)
 		(pin "40"
-			(uuid "0f01506f-25ec-41e8-bebd-e2dd36d4e0b0")
+			(uuid "4a78f408-582b-42cf-adfc-014e1537f271")
 		)
 		(pin "34"
-			(uuid "8da6e9e9-f46f-4bc5-8d4f-ec7a67cbb660")
+			(uuid "145fa401-7bc2-4bf9-a936-0c6db2838e12")
 		)
 		(pin "38"
-			(uuid "b0c7b237-0cf1-4883-a89d-78a0f3c62c8c")
+			(uuid "5226520f-1471-45c6-a6a3-d0d458007b9f")
 		)
 		(pin "10"
-			(uuid "77833c04-2339-4e43-a861-a45726034a2a")
+			(uuid "6ca78deb-5034-446b-9cd5-912aabbeac44")
 		)
 		(pin "2"
-			(uuid "ad3e837c-2d7f-421f-bba3-9778436b5a82")
+			(uuid "a34d8293-b15d-4cc5-be9b-11cee2fab036")
 		)
 		(pin "11"
-			(uuid "97449192-41d4-4933-92f9-d821d66037ab")
+			(uuid "1cfbfa17-e332-47c2-96de-65cb350b2f0e")
 		)
 		(pin "23"
-			(uuid "fee0c905-ef4f-4bc3-8c46-776858b5b0d3")
+			(uuid "4616bd9b-60f4-4527-adc0-88db7f42fc3d")
 		)
 		(pin "39"
-			(uuid "2b5f21f1-72f1-494f-83b0-9d00659f780f")
+			(uuid "e28f8a86-c21b-4113-8414-b1ba361d1d52")
 		)
 		(pin "44"
-			(uuid "4aef47b9-0b33-4796-9fc6-d25274741174")
+			(uuid "96b0d0c3-1a51-457e-b810-db58782d557f")
 		)
 		(pin "26"
-			(uuid "7b1e6098-7aa1-4901-832f-fff99df69d16")
+			(uuid "3cccc0db-13ae-4a7c-85e1-5e596020afca")
 		)
 		(pin "16"
-			(uuid "b4869722-26ca-41f5-a5b7-294e7ee84b6d")
+			(uuid "f1e6a58f-065d-4dbd-bf4c-6cfe91001839")
 		)
 		(pin "4"
-			(uuid "d4b73754-c112-4632-ac6d-613af4ad9359")
+			(uuid "99b8fde0-c72c-43bb-8d2b-411b008e3ad1")
 		)
 		(pin "17"
-			(uuid "739042fd-e90f-4015-bcea-33d40bdb1074")
+			(uuid "042ed5c3-2b0e-443a-8cbc-257a20ca9363")
 		)
 		(pin "21"
-			(uuid "f7942256-7bd4-4f95-b235-1dcd444682f4")
+			(uuid "2ae71ebb-c4e4-4d91-913a-2dc7e74f0034")
 		)
 		(pin "42"
-			(uuid "05245f3c-a438-4d48-8207-6042d71924bc")
+			(uuid "1ade124d-3b68-4fcc-9053-36fd517458f0")
 		)
 		(pin "8"
-			(uuid "c5e543e9-573b-449b-b958-1ec1174e1fff")
+			(uuid "24657d22-ce27-4240-a107-8331778b8a88")
 		)
 		(pin "13"
-			(uuid "f891c7b4-847b-4a6f-80eb-2dd3f1f6c7e7")
+			(uuid "1c6ad16e-18fb-43e8-89d7-2b367efd698c")
 		)
 		(pin "5"
-			(uuid "b23a289c-f772-47c5-81b8-8ff8e6c15df8")
+			(uuid "27f5fe1b-5c58-4cbb-b0a9-b45a16a28cef")
 		)
 		(pin "7"
-			(uuid "60b517bb-7d51-4e99-b638-3db4f2da9555")
+			(uuid "4aa5fad1-6fa5-4bf1-9f31-aefdac152b9b")
 		)
 		(pin "3"
-			(uuid "67c901c6-60e0-4f10-a365-040545f8ca76")
+			(uuid "9293a352-b03a-4e85-a022-5d1dbf1ce7cd")
 		)
 		(pin "30"
-			(uuid "f4ab01ba-7c95-4d57-b7f7-9d0919fb4c51")
+			(uuid "bfe962a8-6c04-4220-af80-f1fe202bf907")
 		)
 		(pin "31"
-			(uuid "3d48a2a6-3208-4a8f-b570-37d76eddf5b6")
+			(uuid "fcd37481-5f89-4a59-a49f-b8920c066880")
 		)
 		(pin "33"
-			(uuid "8d00c8e0-029e-4540-ab31-0362d8266f37")
+			(uuid "e59b600d-8f2a-41bc-9dc1-7702b406942e")
 		)
 		(pin "27"
-			(uuid "607cbc54-54d9-4a1f-a274-1e63aefebb2b")
+			(uuid "2b75446e-f2b2-48f9-9e7e-b68cdc6ba7b6")
 		)
 		(pin "28"
-			(uuid "a733f82c-d402-40d4-8bec-aa4caa94d1f4")
+			(uuid "cc622c59-7f20-4093-9cf9-d11fbb0340c1")
 		)
 		(pin "25"
-			(uuid "8c6b52a1-8422-4d3e-92a3-d31d1e40c636")
+			(uuid "4c53f98a-cdc6-4333-ad43-53cd053cb404")
 		)
 		(pin "20"
-			(uuid "ec8f6069-f646-49b1-92e8-76a8f77d4730")
+			(uuid "2be280ce-0f8d-436d-9c8e-b9ffc4aea5f8")
 		)
 		(pin "29"
-			(uuid "818d2535-75ba-4b64-9b4f-f1bb277d3eec")
+			(uuid "c4eddb66-7f88-4884-a294-f7f8bb90239c")
 		)
 		(pin "19"
-			(uuid "09fa2557-67cd-4bd5-a988-621d7f9e6152")
+			(uuid "4286009f-ca50-4dd9-a1da-56f6c7c37f10")
 		)
 		(pin "24"
-			(uuid "8cc2e3b7-622b-476c-85cb-5cc3edc7d5d0")
+			(uuid "f1f3e775-ea39-4a88-bfb2-1346e6a84398")
 		)
 		(pin "18"
-			(uuid "c54e9a04-f96e-4fd3-a43d-0456972d4fde")
+			(uuid "a9083d17-8ffd-42be-adaf-5029aa743607")
 		)
 		(pin "35"
-			(uuid "2135ca35-485d-4720-b4ae-b3db1c30b9f5")
+			(uuid "ed5b7ca1-fa16-4f76-8275-ac5c1c7383d7")
 		)
 		(pin "37"
-			(uuid "86439c0e-1d1f-44c2-96a7-7b74bd617683")
+			(uuid "c661103d-6ac3-4ab1-aa22-489e1446a1e5")
 		)
 		(pin "41"
-			(uuid "5321d5a6-d258-4200-b6d5-6f4037fbb3bc")
+			(uuid "6929ca11-7e38-4c50-9e87-82223854bf05")
 		)
 		(pin "36"
-			(uuid "f4fff694-d000-4b90-adec-7f68246e246a")
+			(uuid "2cb3861b-ad0a-4829-9d50-3c2dd98da843")
 		)
 		(pin "43"
-			(uuid "428b25a3-6d09-4bf2-ace8-b7b2e3b8a97e")
+			(uuid "49723030-66e1-417f-8f0a-68d348838649")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -13248,7 +13258,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d28f7258-5b36-48e9-9761-3f6a680f52ab")
+			(uuid "cc8a0646-a623-48ab-b827-22b98fc3036b")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -13327,10 +13337,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "fe711e8b-5c9c-450c-9eee-e212e45d72c2")
+			(uuid "ac1f3bf6-e69f-47d0-bd92-5b53ed07d8e3")
 		)
 		(pin "1"
-			(uuid "45d3b146-1400-4e6f-a3e7-fd7b0a839932")
+			(uuid "865bac45-f3e8-46e9-a5b2-b8f6f883fade")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -13407,10 +13417,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "7110170e-4a5b-498f-9f41-2f7c53e00164")
+			(uuid "ad83b54b-2933-4f97-b4ff-984cda4ebb00")
 		)
 		(pin "1"
-			(uuid "9047b388-5917-4a5b-9af2-bb12842e784a")
+			(uuid "c9265b34-a3e0-4c4e-bbd4-3bdc696247d2")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -13487,10 +13497,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "62131a21-041b-4326-845f-6b6b1f805e7f")
+			(uuid "fdac2b95-d70f-45f7-82e4-5bf9eb716568")
 		)
 		(pin "1"
-			(uuid "53987933-e7bb-410c-94aa-69065aa319b4")
+			(uuid "bb966411-2f30-40c0-87b3-48d37e38ad27")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -13566,10 +13576,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "339ba86b-7fa3-42d4-bd60-395f74e52b7c")
+			(uuid "c50e5ac6-1675-4bc2-ab09-6a9f9135cbc1")
 		)
 		(pin "2"
-			(uuid "dcaad9a6-a8af-4f8d-b50f-ea7c597315d9")
+			(uuid "56e39bbf-b243-4885-99e6-5afcc80b915c")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -13647,10 +13657,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "694d199d-9158-4b4d-a227-7bf855129dcf")
+			(uuid "946766e3-db36-41bf-97a0-8be7530e8e88")
 		)
 		(pin "1"
-			(uuid "8c6a5510-75a5-43fb-ae8e-c3b682f39454")
+			(uuid "db4c4f92-28d3-4aed-b6d2-dbf5a08428b1")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -13728,7 +13738,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "05de2501-8be1-46d7-82c4-c582f7f268cb")
+			(uuid "1b8f4954-b414-4dab-8748-93d4ea172b86")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -13805,10 +13815,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "dad8be24-a2b5-4be9-91c3-5e5342aadc6f")
+			(uuid "9db1c634-33d8-4dd3-9b5f-25c043b8bbaa")
 		)
 		(pin "2"
-			(uuid "9f8e31e8-6f27-4241-b516-048782e8c260")
+			(uuid "a4538a32-ecf3-4fa6-bfac-0e7bbcd14993")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -13887,10 +13897,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "afe12280-2633-43ec-9f1b-a0d2b58db9c3")
+			(uuid "ded19a8b-86d3-41a5-96d3-495b7e36c0b1")
 		)
 		(pin "1"
-			(uuid "46460dbc-a304-4046-9c0b-42ed0f1535fd")
+			(uuid "868ef6fb-22c5-460b-8f05-b677fde06cf8")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -13969,10 +13979,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "96b6282f-6237-4272-9d81-3fc49d30b7a9")
+			(uuid "ad043db7-cb37-4cc8-a47e-3e0733a3c659")
 		)
 		(pin "1"
-			(uuid "f04fa926-cc77-460e-bc36-f7e4d40ab1d7")
+			(uuid "ff779e26-642c-43f6-b61a-2d5336da9313")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -14051,10 +14061,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "df22539f-f8ef-4756-b640-db82fda2f998")
+			(uuid "964e1dec-db28-49aa-958d-71e843fdae76")
 		)
 		(pin "1"
-			(uuid "54fc7fd0-5035-45ac-93a2-1367d3d8fb74")
+			(uuid "da5ed986-9d2f-4e62-8758-e6b0db99b894")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -14131,10 +14141,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "97e4dff1-88bb-4d04-b489-4a55add30d5c")
+			(uuid "fe41dba6-dbc5-4397-9382-35a9aadceb93")
 		)
 		(pin "2"
-			(uuid "ae6b672a-4446-44cf-9754-30cd561ca4a7")
+			(uuid "79719c6b-0800-41cf-8df0-34672a98ea7b")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -14212,10 +14222,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a75c4235-9b4b-49ef-b2de-3a15013a2e0b")
+			(uuid "99eeb81c-d39b-4e28-8190-56af1e5bfc94")
 		)
 		(pin "1"
-			(uuid "75b7cea7-bbf0-478f-99e9-f61e19e3a38f")
+			(uuid "821cf8e5-45eb-4eac-8731-231bb93fc32f")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -14292,10 +14302,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e94ed2e4-d3f2-499e-88ef-bb924b053219")
+			(uuid "20cbebec-8ff0-4d46-9440-7dda74ae1378")
 		)
 		(pin "2"
-			(uuid "ddaa3b20-54d7-467c-bba9-8f57de9b67a9")
+			(uuid "f01a23f1-1843-4992-bd56-fc47ea3023dc")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -14372,10 +14382,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b9efabf7-8761-403b-8f5c-47e2ac78ecc6")
+			(uuid "eb627547-d89a-4e7f-b5ab-08423cd9a994")
 		)
 		(pin "1"
-			(uuid "e27e83a8-9588-447c-bb48-aff570ec7aab")
+			(uuid "028deb14-ed71-4732-a666-971987c60f32")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -14586,136 +14596,136 @@
 			)
 		)
 		(pin "15"
-			(uuid "4f4be064-6163-4703-9b27-c50873f62fd8")
+			(uuid "628b1078-6b4f-451e-aa02-84ec2413a567")
 		)
 		(pin "14"
-			(uuid "40d56e24-4a47-4b09-ac38-25b5cb8331e1")
+			(uuid "b37076ae-581e-4534-b1f3-17ba6eec4efc")
 		)
 		(pin "6"
-			(uuid "b743768f-2a2b-4204-a10c-58b9f98c7b00")
+			(uuid "291696c2-2474-443b-a624-c127926091db")
 		)
 		(pin "1"
-			(uuid "88bdab7b-566a-4cc6-b4c5-76d085ba6b0c")
+			(uuid "9a5a0b5a-719e-40aa-a934-4782e04e7ff4")
 		)
 		(pin "12"
-			(uuid "e2a3c8fb-78cd-496f-bdeb-40a0be66191e")
+			(uuid "7313c409-9e6b-43e9-974f-ee8a78fe5c6b")
 		)
 		(pin "9"
-			(uuid "3ba1690b-8c0a-4aec-a99b-3ebc4093402a")
+			(uuid "f6903beb-9d5a-4487-a2c1-970c11ffc8a3")
 		)
 		(pin "32"
-			(uuid "38f2f053-59fd-44fc-a7c5-cc38cf1a37ac")
+			(uuid "b8743412-44fa-40a4-9837-e81d230a7704")
 		)
 		(pin "22"
-			(uuid "14231c54-b832-4cb3-bd01-880217675635")
+			(uuid "51de5c28-7f8d-4a50-8ade-564ad24514db")
 		)
 		(pin "40"
-			(uuid "3208a5a9-1be3-4bbb-b3ca-9894369355a3")
+			(uuid "23e613df-5cad-4290-82da-1d25cf648144")
 		)
 		(pin "34"
-			(uuid "4fbc79d2-85bf-4be7-beda-ce72e2706d72")
+			(uuid "399de680-2d87-4455-8a06-9a5a9bb2db5e")
 		)
 		(pin "38"
-			(uuid "e2e5e253-e068-49f2-b6c4-9bad70f85a41")
+			(uuid "86cf7be5-ad38-4f5b-843a-6f7de1a8713d")
 		)
 		(pin "10"
-			(uuid "68e6f753-c088-43fe-b40e-e961aa4fd0f4")
+			(uuid "e1f541bf-9fac-4cb1-8d17-d1b8a179b1cf")
 		)
 		(pin "2"
-			(uuid "f79bbfb6-b48f-4f7a-9caf-da011e69806d")
+			(uuid "78fa4376-989c-44a4-b10b-56bab0efa504")
 		)
 		(pin "11"
-			(uuid "feb2f5ad-f4e6-4f4d-9425-04275425e1f4")
+			(uuid "da576569-dd6d-454b-89f8-b5d8804603ed")
 		)
 		(pin "23"
-			(uuid "4ded9e9f-1511-4cdd-a434-7fcb15adef34")
+			(uuid "f94c136b-21d6-4522-bdc8-84dd9f9bea98")
 		)
 		(pin "39"
-			(uuid "2bc88b9d-c572-4f6d-84bd-bed3e7fc38cd")
+			(uuid "c3dbf18a-a520-4585-ba23-a095c173ef64")
 		)
 		(pin "44"
-			(uuid "7ac3389c-16dc-412f-8fb3-309ec1c8d061")
+			(uuid "c248b6c3-0ae2-404b-840d-918816af89b9")
 		)
 		(pin "26"
-			(uuid "c7effb5e-36e0-4536-a7c6-451acf734482")
+			(uuid "6c17fecd-0e9d-427b-b711-5bc7c06fe307")
 		)
 		(pin "16"
-			(uuid "7e5ad73e-a29a-46fe-ab35-73fcbfd60b3a")
+			(uuid "6b5c6d34-9f09-4021-bded-fb2e870da136")
 		)
 		(pin "4"
-			(uuid "ef2da2a1-74cb-4ce3-a4e0-093d36e1ecb0")
+			(uuid "0a13185a-3128-42f6-b86c-edb9b96e387d")
 		)
 		(pin "17"
-			(uuid "8f324a54-1bd7-42fe-a58f-658559ad238b")
+			(uuid "ef0ec7dd-a13e-4e87-a001-672215ba1ff7")
 		)
 		(pin "21"
-			(uuid "11822579-a427-44b2-b26c-efb327339dc3")
+			(uuid "ae150b60-1a12-4a63-9c0c-0d9eb194b699")
 		)
 		(pin "42"
-			(uuid "ca50c982-02f2-4e58-b553-3639bfe77b20")
+			(uuid "f20b65eb-fa74-4f27-ac90-426b56f80523")
 		)
 		(pin "8"
-			(uuid "8e980fcc-05d3-4298-b3a5-af7e26e47b58")
+			(uuid "2622b3ef-04e9-4796-af7d-897c485c5fe7")
 		)
 		(pin "13"
-			(uuid "8c63090c-e097-4157-9a1e-b8d726f00161")
+			(uuid "49acb56b-9fd3-4d2c-93ea-b491cf45c3f0")
 		)
 		(pin "5"
-			(uuid "40ceeab8-969d-40a9-b23e-e82c1c3c17ab")
+			(uuid "0dc91118-ac22-4b74-9bb7-a6a06f4236db")
 		)
 		(pin "7"
-			(uuid "82c3c668-bc58-40de-80ac-40fd43610952")
+			(uuid "10d91a91-c7a3-4e48-8c8d-4b8d3b1a97a3")
 		)
 		(pin "3"
-			(uuid "773a37e7-68a4-40be-8aca-da48aac83730")
+			(uuid "16db410a-a426-48fe-98eb-d5dff8d48c8b")
 		)
 		(pin "30"
-			(uuid "b58417e6-a47a-4bf9-9f8d-6bf1735ab89b")
+			(uuid "629b6049-d91d-4fdd-8121-e074a0a8d08c")
 		)
 		(pin "31"
-			(uuid "fc873181-9e1d-4b10-9ee4-a37284b7cc49")
+			(uuid "3f8de1bb-f332-4104-9ed1-45881f0b6e8b")
 		)
 		(pin "33"
-			(uuid "8a818a2f-d429-481e-ba96-1bca986c666c")
+			(uuid "ca3f7976-44c3-438f-ac91-9e56e5628b2a")
 		)
 		(pin "27"
-			(uuid "21e259f9-4b81-4877-b7ac-9e45343c2901")
+			(uuid "6d5d7d41-cb21-4271-bee5-4130f0bd1071")
 		)
 		(pin "28"
-			(uuid "7ccfd3d1-ff91-4f86-8304-091c8e9feebe")
+			(uuid "4912fda3-c004-4b11-b8d8-596e8375aa93")
 		)
 		(pin "25"
-			(uuid "1d365149-24ce-4a7f-aa22-5654485941a7")
+			(uuid "83802568-8734-44e0-bb84-37b8f611c181")
 		)
 		(pin "20"
-			(uuid "f36ef0c8-77ef-4a7a-b389-6d985d7efafe")
+			(uuid "cc7a7d4d-0239-41dd-ba84-a0a81c5e33a9")
 		)
 		(pin "29"
-			(uuid "e984d167-1a1b-42a1-ab0f-1831add62fda")
+			(uuid "ef6516d3-0cb5-4184-a943-17210cd863c4")
 		)
 		(pin "19"
-			(uuid "c54da174-d310-461c-892d-7edba1c29460")
+			(uuid "62470eaa-ab4e-4304-8268-409f0913ff2d")
 		)
 		(pin "24"
-			(uuid "86e1e9bb-f112-4bd6-9700-ed66f40f3a75")
+			(uuid "f5278ddc-2355-4223-93f1-4d427d57d474")
 		)
 		(pin "18"
-			(uuid "fe7ead4b-01ba-460b-90c9-78066ba0af7f")
+			(uuid "1fba08d6-0a07-4b57-9c2c-0b1e58ad094e")
 		)
 		(pin "35"
-			(uuid "814639fe-d365-4bc3-b370-c66d4b2e21b6")
+			(uuid "acbd1048-a45c-426f-9e11-ba10b6f943a4")
 		)
 		(pin "37"
-			(uuid "273d106a-9a45-4c5e-95c0-82a3597c918b")
+			(uuid "b320dbcf-a97b-4aa8-9090-3616ab720a58")
 		)
 		(pin "41"
-			(uuid "35a13ce9-37cc-4519-9d78-68258ee7d974")
+			(uuid "02418ca5-8d8c-4197-b70d-5b3c854e9eb4")
 		)
 		(pin "36"
-			(uuid "d2e03750-897c-48aa-a934-328c83184ec5")
+			(uuid "028b117f-5451-4adf-b54c-2a8b381193c4")
 		)
 		(pin "43"
-			(uuid "7e517488-4da4-4ac5-ba8c-a2cf7eb1e1af")
+			(uuid "d48a3c40-aa47-4d7c-82af-d88b8040372e")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -14792,10 +14802,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b2c6a1e2-2738-477a-b6ed-9d74c21b3e96")
+			(uuid "ed61aafa-3061-4992-b513-6cd71bc9a13f")
 		)
 		(pin "1"
-			(uuid "06c1757f-8307-4697-8fb6-b6eebefc8226")
+			(uuid "f63fcb79-54f0-4967-81f4-5b31a9baa037")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -14872,10 +14882,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "46a8afcd-971b-4c1a-91aa-e684cdf6bbf3")
+			(uuid "87bbb55a-2501-4442-b3b1-600d48de8734")
 		)
 		(pin "1"
-			(uuid "0386f45e-0f2f-47db-91c0-f19d593d4ae4")
+			(uuid "31744950-bacf-4afd-a362-bdd28c3e2a63")
 		)
 		(instances
 			(project "G-MuzikBox"
@@ -14953,7 +14963,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "bef99136-e2e0-49fd-9e62-5df08da3933c")
+			(uuid "068e9439-968a-49e3-ae6a-ce90f7d6d727")
 		)
 		(instances
 			(project "G-MuzikBox"

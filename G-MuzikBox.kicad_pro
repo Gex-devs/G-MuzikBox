@@ -648,7 +648,7 @@
         "uuid": "30d0fc86-2228-4f8d-9cf7-aef3e4b0153a"
       }
     ],
-    "used_designators": "#PWR40,C92-93,C96-97,C102,R65",
+    "used_designators": "F1,U4,U7-8,L7-14,R63-82,C71,C73,C90,C92-93,C96-97,C100-157,#PWR40,#PWR46-84,J2",
     "variants": []
   },
   "sheets": [
@@ -670,7 +670,15 @@
     ],
     [
       "a273aa0f-9f0c-4edc-9418-684a5d45e8a8",
-      "Amp"
+      "Amp1"
+    ],
+    [
+      "f390eb6f-47a4-4387-ab0d-4cfe25bdc411",
+      "Amp2"
+    ],
+    [
+      "fbc3444b-539e-42d5-ae09-c898ff008d04",
+      "Power"
     ]
   ],
   "text_variables": {},
